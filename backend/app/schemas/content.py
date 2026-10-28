@@ -296,10 +296,52 @@ class StateStepsConfig(StrictModel):
     steps: list[StepItem]
 
 
+class MapNarrative(StrictModel):
+    stateId: str
+    title: str
+    text: str
+
+
 class TerritoryMapConfig(StrictModel):
     datasetId: Literal["mediterranean-reconstructions-v1"]
     stateIds: list[str]
     focusNames: list[str]
+    narratives: list[MapNarrative]
+
+
+class ArrayGridConfig(StrictModel):
+    allowedRows: list[int]
+    allowedColumns: list[int]
+    initialRows: int
+    initialColumns: int
+
+    @model_validator(mode="after")
+    def factors(self) -> "ArrayGridConfig":
+        if self.initialRows not in self.allowedRows or self.initialColumns not in self.allowedColumns:
+            raise ValueError("Initial array size must be one of the allowed factors.")
+        if any(value < 1 for value in [*self.allowedRows, *self.allowedColumns]):
+            raise ValueError("Array factors must be positive.")
+        return self
+
+
+class RecordField(StrictModel):
+    id: str
+    label: str
+    value: str
+
+
+class FieldRecordConfig(StrictModel):
+    prompt: str
+    targetFieldId: str
+    fields: list[RecordField]
+    feedbackCorrect: str
+    feedbackIncorrect: str
+
+    @model_validator(mode="after")
+    def target_exists(self) -> "FieldRecordConfig":
+        if self.targetFieldId not in {field.id for field in self.fields}:
+            raise ValueError("targetFieldId must match a field.")
+        return self
 
 
 class VisualizationBlock(StrictModel):
@@ -313,6 +355,8 @@ class VisualizationBlock(StrictModel):
         "bar-compare",
         "state-steps",
         "territory-map",
+        "array-grid",
+        "field-record",
     ]
     title: str
     description: str
@@ -329,6 +373,8 @@ class VisualizationBlock(StrictModel):
             "bar-compare": BarCompareConfig,
             "state-steps": StateStepsConfig,
             "territory-map": TerritoryMapConfig,
+            "array-grid": ArrayGridConfig,
+            "field-record": FieldRecordConfig,
         }
         models[self.component].model_validate(self.config)
         return self

@@ -34,6 +34,26 @@ git switch <branch-name>
 
 Do not copy files over the folder by hand. Pull the branch you want. If `git status` shows local work, commit or stash it before switching branches.
 
+## Web
+
+Start the API first. Then:
+
+```bash
+cd apps/web
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:3000`. Learner-facing pages are in Brazilian Portuguese and read `NEXT_PUBLIC_API_URL`, which defaults to `http://127.0.0.1:8000`.
+
+Frontend checks:
+
+```bash
+cd apps/web
+npm test
+npx tsc --noEmit
+```
+
 ## API
 
 ```bash
@@ -74,6 +94,10 @@ Run those three from the `backend` directory, or set `PYTHONPATH`.
 - `data/sources/` — pinned BNCC snapshot and attribution.
 - `content/maps/mediterranean/` — approximate historical GeoJSON and its GPL-3.0 notice.
 - `docs/` — architecture, status, and curriculum notes.
+
+## Agents and automation
+
+`docs/agents/roles.md` says which roles actually run. Only the packet pipeline runs. `docs/automation.md` lists the commands. Monthly unattended generation is not operational.
 
 ## Contributing
 

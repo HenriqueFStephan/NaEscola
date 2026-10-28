@@ -13,3 +13,4 @@ data/runtime/
 coverage/
 playwright-report/
 test-results/
+*.tsbuildinfo
