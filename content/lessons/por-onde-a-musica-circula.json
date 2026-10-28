@@ -1,0 +1,55 @@
+{
+  "id": "lesson-ef69ar17",
+  "slug": "por-onde-a-musica-circula",
+  "title": "Por onde a música circula",
+  "language": "pt-BR",
+  "gradeId": "ef-6",
+  "subjectId": "ef-6-ar",
+  "unitId": "ef-6-ar-ef-comp-ar-ut-musica",
+  "topicId": "ef-6-ar-ef69ar17",
+  "learningObjectives": [
+    "Explorar e analisar, criticamente, diferentes meios e equipamentos culturais de circulação da música e do conhecimento musical."
+  ],
+  "bnccSkillCodes": ["EF69AR17"],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {"type": "callout", "tone": "objective", "title": "Recorte oficial e recorte desta aula", "text": "EF69AR17 vale, no documento, para o 6º, o 7º, o 8º e o 9º anos. Esta aula é uma entrada no 6º ano. Ela não esgota o código."},
+    {"type": "paragraph", "text": "Uma música não fica só na cabeça de quem a fez. Ela circula: alguém canta ao vivo, uma rádio toca uma gravação, um arquivo digital é copiado, uma festa de bairro repete um repertório. O meio muda o que o ouvinte pode fazer com a música."},
+    {"type": "paragraph", "text": "Analisar o meio, nesta aula, é responder a quatro perguntas sem transformar a resposta em ranking. Quem escolheu o que será ouvido? Dá para ouvir de novo do mesmo jeito? Alguém paga, e para quem? Quem está no mesmo lugar de quem toca?"},
+    {"type": "visualization", "component": "state-steps", "title": "Quatro meios, quatro perguntas", "description": "Quatro cartões sobre circulação da música. Cada cartão descreve um meio e o que muda para quem ouve. Não há números de audiência.", "config": {"steps": [{"id": "ao-vivo", "title": "Apresentação ao vivo", "text": "Quem canta e quem ouve dividem o mesmo tempo. Um erro ou um improviso acontece uma vez. O equipamento pode ser a voz e um instrumento, ou também microfone e caixa de som."}, {"id": "radio", "title": "Rádio", "text": "A escolha do que toca passa por quem programa a estação. Quem ouve pode estar longe e não vê os músicos. Ouvir de novo depende de a emissora repetir ou de a pessoa ter gravado."}, {"id": "arquivo", "title": "Arquivo gravado", "text": "A gravação pode ser repetida. O ouvinte escolhe o momento, mas não o instante em que a música foi tocada. O equipamento é o que guarda e o que reproduz o arquivo."}, {"id": "festa", "title": "Festa da comunidade", "text": "O repertório costuma ser conhecido do grupo. A circulação acontece no encontro, não só num aparelho. Quem conduz a música pode ser alguém da própria comunidade."}]}},
+    {"type": "paragraph", "text": "Nenhum desses meios é, por si, mais musical. Um arquivo deixa repetir um detalhe para estudar. Uma roda ao vivo deixa responder na hora. A crítica começa quando percebemos quem decide e o que fica de fora."},
+    {"type": "callout", "tone": "uncertainty", "title": "O que esta aula não mede", "text": "Não há aqui quantas pessoas ouvem rádio ou usam um aplicativo. Esses números mudam e pediriam uma pesquisa citada. A aula compara possibilidades, não audiências."},
+    {"type": "knowledge-check", "id": "check-meio", "prompt": "O que uma gravação permite e uma apresentação ao vivo, do mesmo jeito, não garante?", "choices": [{"id": "repetir", "text": "Ouvir de novo exatamente aquela execução, em outro momento"}, {"id": "gente", "text": "Ter sempre mais ouvintes do que o show"}, {"id": "melhor", "text": "Ser automaticamente uma música melhor"}], "correctChoiceId": "repetir", "feedbackCorrect": "A gravação fixa uma execução e pode ser reproduzida. O ao vivo acontece naquele tempo.", "feedbackIncorrect": "Quantidade de público e qualidade musical não saem do tipo de meio. A diferença segura, aqui, é poder repetir aquela execução."},
+    {"type": "summary", "points": ["Música circula por pessoas, aparelhos e encontros.", "O meio muda a escolha, a repetição e a distância entre quem toca e quem ouve.", "Analisar não é eleger um meio vencedor.", "O código EF69AR17 continua oficialmente até o 9º ano."]}
+  ],
+  "references": [
+    {
+      "id": "bncc-ef69ar17",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF69AR17",
+      "publicationDate": "2017-12-22",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": ["A habilidade pede análise de meios e equipamentos de circulação da música e vale para os anos 6 a 9."],
+      "reliabilityNote": "Localizador do dataset: página PDF 211.",
+      "license": "Ato oficial."
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-28T21:16:00+00:00",
+  "updatedAt": "2026-10-28T21:16:00+00:00",
+  "sequenceNote": "A NaEscola coloca esta aula no 6º ano porque o código oficial inclui esse ano. Isso não cria uma ordem obrigatória dentro de Arte.",
+  "uncertaintyNotes": ["Os quatro meios são categorias de trabalho da aula, não uma classificação oficial da BNCC."],
+  "reviews": [
+    {
+      "id": "review-ef69ar17",
+      "method": "authoring-checked-against-cited-sources-and-deterministic-gates",
+      "decision": "approve",
+      "notes": "Nenhuma estatística de audiência foi inventada. O enunciado oficial foi preservado. Não houve revisão por um segundo agente autônomo.",
+      "createdAt": "2026-10-28T21:16:00+00:00"
+    }
+  ]
+}

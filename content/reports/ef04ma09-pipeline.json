@@ -1,0 +1,19 @@
+{
+  "task": {
+    "id": "task-ef-4-ma-ef04ma09:3af3ae34f61f203e",
+    "idempotencyKey": "ef-4-ma-ef04ma09:3af3ae34f61f203e",
+    "topicId": "ef-4-ma-ef04ma09",
+    "state": "published",
+    "attempts": 1,
+    "message": "Publicada depois que os portões de validação passaram.",
+    "lessonSlug": "fracoes-unitarias-na-reta",
+    "createdAt": "2026-10-28T20:44:46+00:00",
+    "updatedAt": "2026-10-28T20:44:46+00:00"
+  },
+  "idempotent": false,
+  "report": {
+    "lessonId": "lesson-ef04ma09",
+    "publishable": true,
+    "issues": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "lesson-ef04co02",
+  "slug": "registros-com-nomes",
+  "title": "Cada informação com o seu nome",
+  "language": "pt-BR",
+  "gradeId": "ef-4",
+  "subjectId": "ef-4-co",
+  "unitId": "ef-4-co-co-eixo-pensamento-computacional",
+  "topicId": "ef-4-co-ef04co02",
+  "learningObjectives": [
+    "Reconhecer objetos do mundo real e/ou digital que podem ser representados através de registros que estabelecem uma organização na qual cada componente é identificado por um nome, fazendo manipulações sobre estas representações."
+  ],
+  "bnccSkillCodes": ["EF04CO02"],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {"type": "callout", "tone": "uncertainty", "title": "Isto não é uma habilidade da BNCC de 2018", "text": "EF04CO02 pertence ao complemento de Computação do Parecer CNE/CEB nº 2/2022. A NaEscola o mostra separado das habilidades homologadas em 2017."},
+    {"type": "paragraph", "text": "Um livro da biblioteca da escola não é só uma pilha de palavras. Para achá-lo de novo, separamos o que cada parte significa: título, quem escreveu, ano e lugar. Cada parte tem um nome. O conjunto desses nomes e valores é um registro."},
+    {"type": "paragraph", "text": "Sem os nomes, a lista 2026, biblioteca, O rio da escola, turma do 4º ano pode ser lida de vários jeitos. O número 2026 poderia parecer um código da estante. Com nomes, o 2026 fica preso ao campo ano."},
+    {"type": "worked-example", "title": "Dois registros, o mesmo tipo", "prompt": "A turma guarda fichas de livros feitos na escola.", "steps": ["Toda ficha usa os mesmos nomes de campo: titulo, autores, ano, lugar.", "Os valores mudam de um livro para outro.", "Para achar os livros de 2026, olhamos só o campo ano.", "Não precisamos reler o título para decidir se o ano combina."], "conclusion": "Manipular o registro, aqui, é escolher um campo pelo nome e comparar o valor."},
+    {"type": "visualization", "component": "field-record", "title": "A ficha do livro", "description": "Uma ficha com quatro campos nomeados. A tarefa é escolher o campo que guarda o ano.", "config": {"prompt": "Qual campo guarda o ano do livro?", "targetFieldId": "ano", "fields": [{"id": "titulo", "label": "titulo", "value": "O rio da escola"}, {"id": "autores", "label": "autores", "value": "turma do 4º ano"}, {"id": "ano", "label": "ano", "value": "2026"}, {"id": "lugar", "label": "lugar", "value": "biblioteca"}], "feedbackCorrect": "O campo ano vale 2026. O nome do campo diz o que o valor significa.", "feedbackIncorrect": "Olhe o nome do campo, não só um número ou uma palavra familiar. O ano está no campo chamado ano."}},
+    {"type": "callout", "tone": "misconception", "title": "Ordem não substitui nome", "text": "Combinar que o ano é sempre o terceiro valor ajuda só enquanto ninguém muda a ordem. Um nome de campo continua válido mesmo se a ficha for reorganizada."},
+    {"type": "knowledge-check", "id": "check-campo", "prompt": "Uma ficha de planta tem os campos nome, agua e luz. O que permite saber que \"pouca\" se refere à água?", "choices": [{"id": "nome-do-campo", "text": "O valor \"pouca\" estar no campo agua"}, {"id": "tamanho", "text": "A palavra \"pouca\" ser mais curta que o nome da planta"}, {"id": "cor", "text": "A ficha estar escrita em verde"}], "correctChoiceId": "nome-do-campo", "feedbackCorrect": "O nome do campo agua diz como ler o valor. A cor da ficha não faz esse trabalho.", "feedbackIncorrect": "O tamanho da palavra não explica o significado. O campo se chama agua, e é esse nome que prende o valor."},
+    {"type": "summary", "points": ["Um registro junta valores que descrevem um mesmo objeto.", "Cada valor fica identificado por um nome de campo.", "Dá para procurar ou comparar usando o nome, sem reler o registro inteiro.", "Esta habilidade é do complemento de 2022, não do texto da BNCC de 2018."]}
+  ],
+  "references": [
+    {
+      "id": "computacao-ef04co02",
+      "title": "Parecer CNE/CEB nº 2/2022 — anexo de Computação na educação básica",
+      "authorOrInstitution": "Conselho Nacional de Educação / Ministério da Educação",
+      "url": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/fontes/anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+      "identifier": "EF04CO02",
+      "publicationDate": "2022",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": ["A habilidade pede registros em que cada componente é identificado por um nome."],
+      "reliabilityNote": "Cópia arquivada do anexo no commit do dataset bncc-dados. Localizador do dataset: página PDF 28.",
+      "license": "Ato oficial."
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-28T21:12:00+00:00",
+  "updatedAt": "2026-10-28T21:12:00+00:00",
+  "sequenceNote": "A ordem desta aula no 4º ano é uma proposta da NaEscola. O complemento de Computação não está sendo apresentado como se fosse uma habilidade da BNCC de 2018.",
+  "uncertaintyNotes": ["O exemplo do livro é inventado para a aula. Não descreve um acervo real."],
+  "reviews": [
+    {
+      "id": "review-ef04co02",
+      "method": "authoring-checked-against-cited-sources-and-deterministic-gates",
+      "decision": "approve",
+      "notes": "O enunciado oficial do complemento foi mantido e o componente foi rotulado como complemento de 2022. Não houve revisão por um segundo agente autônomo.",
+      "createdAt": "2026-10-28T21:12:00+00:00"
+    }
+  ]
+}
