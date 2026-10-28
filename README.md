@@ -34,6 +34,26 @@ git switch <branch-name>
 
 Do not copy files over the folder by hand. Pull the branch you want. If `git status` shows local work, commit or stash it before switching branches.
 
+## Web
+
+Start the API first. Then:
+
+```bash
+cd apps/web
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:3000`. Learner-facing pages are in Brazilian Portuguese and read `NEXT_PUBLIC_API_URL`, which defaults to `http://127.0.0.1:8000`.
+
+Frontend checks:
+
+```bash
+cd apps/web
+npm test
+npx tsc --noEmit
+```
+
 ## API
 
 ```bash

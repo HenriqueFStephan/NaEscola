@@ -1,0 +1,57 @@
+{
+  "id": "lesson-ef03ma07",
+  "slug": "multiplicacao-grupos-e-retangulos",
+  "title": "Multiplicação: grupos iguais e retângulos",
+  "language": "pt-BR",
+  "gradeId": "ef-3",
+  "subjectId": "ef-3-ma",
+  "unitId": "ef-3-ma-ef-comp-ma-ut-numeros",
+  "topicId": "ef-3-ma-ef03ma07",
+  "learningObjectives": [
+    "Resolver e elaborar problemas de multiplicação (por 2, 3, 4, 5 e 10) com os significados de adição de parcelas iguais e elementos apresentados em disposição retangular, utilizando diferentes estratégias de cálculo e registros."
+  ],
+  "bnccSkillCodes": ["EF03MA07"],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {"type": "heading", "level": 2, "text": "O que esta aula ensina"},
+    {"type": "callout", "tone": "objective", "title": "Habilidade oficial", "text": "EF03MA07 pede problemas de multiplicação por 2, 3, 4, 5 e 10. Dois significados entram aqui: parcelas iguais e disposição retangular. O objeto de conhecimento da BNCC também fala em divisão, mas a divisão é a habilidade EF03MA08. Esta aula não a substitui."},
+    {"type": "paragraph", "text": "Multiplicar, neste momento, é um jeito curto de escrever uma soma de grupos iguais. Três grupos de 4 lápis são 4 + 4 + 4. O registro 3 × 4 guarda essa soma. O 3 diz quantos grupos há. O 4 diz quantos objetos há em cada grupo."},
+    {"type": "paragraph", "text": "O mesmo total pode aparecer em fileiras. Três fileiras com 4 cadeiras formam um retângulo. Contar de um em um ainda funciona. A multiplicação evita recomeçar a contagem quando os grupos são iguais."},
+    {"type": "worked-example", "title": "Caixas de lápis", "prompt": "Há 4 caixas e cada caixa tem 5 lápis. Quantos lápis há ao todo?", "steps": ["Há 4 grupos iguais.", "Cada grupo tem 5 lápis.", "5 + 5 + 5 + 5 = 20.", "O registro curto é 4 × 5 = 20."], "conclusion": "Vinte lápis. Não são 4 + 5, porque 4 + 5 junta as duas informações em vez de repetir o tamanho do grupo."},
+    {"type": "callout", "tone": "misconception", "title": "Um engano comum", "text": "3 × 4 não é 3 + 4. A soma 3 + 4 vale 7. A multiplicação 3 × 4 repete o 4 três vezes e vale 12."},
+    {"type": "visualization", "component": "array-grid", "title": "Monte um retângulo", "description": "Uma grade de pontos. Você escolhe o número de fileiras e o número de pontos em cada fileira, somente entre 2, 3, 4, 5 e 10. O total é fileiras vezes pontos por fileira.", "config": {"allowedRows": [2, 3, 4, 5, 10], "allowedColumns": [2, 3, 4, 5, 10], "initialRows": 3, "initialColumns": 4}},
+    {"type": "paragraph", "text": "Mude as fileiras e as colunas. Leia o total em voz alta como uma soma de parcelas iguais e também como uma multiplicação. Se fizer 10 fileiras de 10, o total é 100. Esse é o maior caso desta aula, de propósito: a habilidade para no fator 10."},
+    {"type": "knowledge-check", "id": "check-produto", "prompt": "Uma horta tem 5 fileiras com 4 alfaces em cada fileira. Quantas alfaces há?", "choices": [{"id": "vinte", "text": "20, porque 4 + 4 + 4 + 4 + 4 = 20"}, {"id": "nove", "text": "9, porque 5 + 4 = 9"}, {"id": "cinco", "text": "5, porque há 5 fileiras"}], "correctChoiceId": "vinte", "feedbackCorrect": "Certo. São cinco parcelas iguais a 4. O registro 5 × 4 = 20.", "feedbackIncorrect": "Conte uma fileira de cada vez: 4, 8, 12, 16, 20. Somar 5 + 4 mistura o número de fileiras com o tamanho da fileira."},
+    {"type": "summary", "points": ["3 × 4 significa três grupos de 4, ou seja, 4 + 4 + 4.", "Um retângulo de fileiras iguais mostra o mesmo total.", "Nesta aula os fatores são 2, 3, 4, 5 e 10.", "A divisão fica para a habilidade seguinte, EF03MA08."]}
+  ],
+  "references": [
+    {
+      "id": "bncc-ef03ma07",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF03MA07",
+      "publicationDate": "2017-12-22",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": ["A habilidade pede multiplicação por 2, 3, 4, 5 e 10 com parcelas iguais e disposição retangular."],
+      "reliabilityNote": "Localizador do dataset: página PDF 289. O PDF oficial respondeu HTTP 200 em 2026-10-28.",
+      "license": "Ato oficial."
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-28T21:10:00+00:00",
+  "updatedAt": "2026-10-28T21:10:00+00:00",
+  "sequenceNote": "A posição desta aula na linha do tempo é uma proposta da NaEscola. A BNCC não transforma EF03MA07 em uma ordem obrigatória de aula.",
+  "uncertaintyNotes": [],
+  "reviews": [
+    {
+      "id": "review-ef03ma07",
+      "method": "authoring-checked-against-cited-sources-and-deterministic-gates",
+      "decision": "approve",
+      "notes": "O enunciado oficial foi mantido. Os exemplos numéricos são originais e usam só os fatores da habilidade. Não houve revisão por um segundo agente autônomo.",
+      "createdAt": "2026-10-28T21:10:00+00:00"
+    }
+  ]
+}
