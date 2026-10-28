@@ -1,0 +1,49 @@
+{
+  "datasetId": "mediterranean-reconstructions-v1",
+  "sourceCommit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "license": "GPL-3.0",
+  "states": [
+    {
+      "id": "bc323",
+      "label": "323 AEC",
+      "sort": -323,
+      "featureCount": 20,
+      "file": "bc323.geojson"
+    },
+    {
+      "id": "bc200",
+      "label": "200 AEC",
+      "sort": -200,
+      "featureCount": 24,
+      "file": "bc200.geojson"
+    },
+    {
+      "id": "bc100",
+      "label": "100 AEC",
+      "sort": -100,
+      "featureCount": 20,
+      "file": "bc100.geojson"
+    },
+    {
+      "id": "ce100",
+      "label": "100 EC",
+      "sort": 100,
+      "featureCount": 16,
+      "file": "ce100.geojson"
+    },
+    {
+      "id": "ce200",
+      "label": "200 EC",
+      "sort": 200,
+      "featureCount": 5,
+      "file": "ce200.geojson"
+    },
+    {
+      "id": "ce400",
+      "label": "400 EC",
+      "sort": 400,
+      "featureCount": 14,
+      "file": "ce400.geojson"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetCommit": "9c268978efa2aa250834c6a9edb6074432752838",
+  "datasetVersion": "dados-2026.07.1",
+  "sourceSha256": {
+    "ensino-fundamental.json": "bdc84d6bb6f4b38ca1331b0319cb04ea8f9240d076d3097928124c0b9ba38c0b",
+    "estrutura.json": "bb909eb1c9e41f37e0703b38b36d3a77dbc01cb28614aadf144d339bf258612e",
+    "computacao.json": "6192c381961c55abfc886415e8ae60cc5e16ed783496c63d09bef9c6302b4f69"
+  },
+  "grades": {
+    "3": 203,
+    "4": 203,
+    "5": 206,
+    "6": 297
+  },
+  "uniqueSkills": 709,
+  "placements": 909,
+  "generalCompetencies": 10,
+  "specificCompetencies": 84,
+  "conceptualEdgesResolved": 61,
+  "continuityEdges": 200,
+  "cycles": 0,
+  "brokenReferences": 0,
+  "duplicateIds": 0,
+  "mapDatasetCommitNotUsedHere": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
+}
