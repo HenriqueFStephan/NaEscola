@@ -95,6 +95,10 @@ Run those three from the `backend` directory, or set `PYTHONPATH`.
 - `content/maps/mediterranean/` — approximate historical GeoJSON and its GPL-3.0 notice.
 - `docs/` — architecture, status, and curriculum notes.
 
+## Agents and automation
+
+`docs/agents/roles.md` says which roles actually run. Only the packet pipeline runs. `docs/automation.md` lists the commands. Monthly unattended generation is not operational.
+
 ## Contributing
 
 Work on a branch. Open a pull request. Do not treat an open pull request as merged.

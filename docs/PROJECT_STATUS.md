@@ -43,7 +43,7 @@ cd apps/web && npm test && npx tsc --noEmit
 ## Not operational
 
 - No language-model provider is configured. Commands without a research packet refuse to invent lesson text.
-- The GitHub Actions scheduler has not been observed running, and no provider secret exists. Unattended generation on days 1–3 is not operational.
+- `.github/workflows/validation.yml` only runs tests, `window-check`, and `dry-run`. It has not been observed executing on GitHub. It does not publish lessons. Unattended generation on days 1–3 is not operational.
 - Agent roles other than the deterministic pipeline are specifications, not autonomous workers.
 - Grades 1, 2, 7, 8, and 9, Educação Infantil, Ensino Médio, and Ensino Superior have no curriculum payload.
 - State and municipal curricula were not compared one by one.
