@@ -1,0 +1,1 @@
+"""NaEscola FastAPI application."""

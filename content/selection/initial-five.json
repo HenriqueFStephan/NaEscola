@@ -1,0 +1,64 @@
+{
+  "seed": 20261028,
+  "generator": "random.Random(20261028) from CPython 3.12.3",
+  "selectionDate": "2026-10-28",
+  "eligibleCount": 881,
+  "exclusions": [
+    {
+      "topicId": "ef-6-hi-ef06hi13",
+      "reason": "Reservado para a aula de História com mapa de territórios. Não entra no sorteio dos cinco."
+    },
+    {
+      "component": "Ensino Religioso",
+      "reason": "Fora do sorteio inicial. A matrícula é facultativa e a aula não deve inventar conteúdo confessional. As habilidades permanecem no currículo."
+    }
+  ],
+  "selected": [
+    {
+      "topicId": "ef-3-ma-ef03ma07",
+      "grade": 3,
+      "subjectId": "ef-3-ma",
+      "subject": "Matemática",
+      "sigla": "MA",
+      "name": "Problemas envolvendo diferentes significados da multiplicação e da divisão: adição de parcelas iguais, configuração retangular, repartição em partes iguais e medida",
+      "code": "EF03MA07"
+    },
+    {
+      "topicId": "ef-4-co-ef04co02",
+      "grade": 4,
+      "subjectId": "ef-4-co",
+      "subject": "Computação",
+      "sigla": "CO",
+      "name": "Matrizes e registros",
+      "code": "EF04CO02"
+    },
+    {
+      "topicId": "ef-5-lp-ef05lp26",
+      "grade": 5,
+      "subjectId": "ef-5-lp",
+      "subject": "Língua Portuguesa",
+      "sigla": "LP",
+      "name": "Forma de composição dos textos · Adequação do texto às normas de escrita",
+      "code": "EF05LP26"
+    },
+    {
+      "topicId": "ef-6-ar-ef69ar17",
+      "grade": 6,
+      "subjectId": "ef-6-ar",
+      "subject": "Arte",
+      "sigla": "AR",
+      "name": "Contextos e práticas",
+      "code": "EF69AR17"
+    },
+    {
+      "topicId": "ef-3-ef-ef35ef15",
+      "grade": 3,
+      "subjectId": "ef-3-ef",
+      "subject": "Educação Física",
+      "sigla": "EF",
+      "name": "Lutas do contexto comunitário e regional · Lutas de matriz indígena e africana",
+      "code": "EF35EF15"
+    }
+  ],
+  "reservedHistoryMapTopicId": "ef-6-hi-ef06hi13"
+}

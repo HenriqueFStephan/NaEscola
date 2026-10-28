@@ -1,0 +1,28 @@
+{
+  "note": "Portuguese glosses reviewed for labels used in the lesson. Names absent from this file stay in the dataset language. These glosses are not official translations of the dataset.",
+  "labels": {
+    "Rome": "Roma",
+    "Roman Republic": "República Romana",
+    "Roman Empire": "Império Romano",
+    "Western Roman Empire": "Império Romano do Ocidente",
+    "Eastern Roman Empire": "Império Romano do Oriente",
+    "Empire of Alexander": "Império de Alexandre",
+    "Greek city-states": "Cidades-estado gregas",
+    "Carthaginian Empire": "Império Cartaginês",
+    "Carthage": "Cartago",
+    "Ptolemaic Kingdom": "Reino Ptolemaico",
+    "Seleucid Kingdom": "Reino Selêucida",
+    "Macedon and Hellenic League": "Macedônia e Liga Helênica",
+    "Parthia": "Pártia",
+    "Parthian Empire": "Império Parto",
+    "Numidia": "Numídia",
+    "Mauretania": "Mauritânia antiga",
+    "Nabatean Kingdom": "Reino Nabateu",
+    "Armenia": "Armênia",
+    "Celts": "Celtas",
+    "Egypt": "Egito",
+    "Bosporian Kingdom": "Reino do Bósforo",
+    "Hunnic Empire": "Império Huno",
+    "Persia": "Pérsia"
+  }
+}
