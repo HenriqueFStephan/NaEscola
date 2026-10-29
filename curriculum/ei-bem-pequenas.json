@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": "1.0.0",
+  "gradeId": "ei-bem-pequenas",
+  "gradeNumber": 2,
+  "gradeLabel": "Crianças bem pequenas",
+  "stageId": "educacao-infantil",
+  "stageLabel": "Educação Infantil",
+  "nomenclatureNote": "Grupo etário da BNCC, não um ano escolar. A faixa vai de 1 ano e 7 meses a 3 anos e 11 meses.",
+  "segmentKind": "grupo-etario",
+  "skillPlacement": "official-age-group",
+  "officialSkillCatalogId": null,
+  "subjects": [
+    {
+      "id": "ei-bem-pequenas-eo",
+      "slug": "o-eu-o-outro-e-o-n-s",
+      "name": "O eu, o outro e o nós",
+      "componentId": "ei-campo-eo",
+      "codeSigla": "EO",
+      "areaId": "educacao-infantil",
+      "areaName": "Educação Infantil",
+      "description": "Campo de experiências da BNCC. Os objetivos abaixo são oficiais; a ordem é proposta da NaEscola.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": null,
+      "units": [
+        {
+          "id": "ei-bem-pequenas-eo-objetivos",
+          "sourceId": "ei-campo-eo",
+          "name": "O eu, o outro e o nós",
+          "kind": "campo-de-experiencia",
+          "official": true,
+          "sequenceKind": "document-order-adopted-as-naescola-proposal",
+          "officialText": null,
+          "topics": [
+            {
+              "id": "ei-bem-pequenas-ei02eo01",
+              "slug": "ei-bem-pequenas-ei02eo01",
+              "name": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.",
+              "summary": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO01"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO01",
+                  "text": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 47",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 1,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo01",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo02",
+              "slug": "ei-bem-pequenas-ei02eo02",
+              "name": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.",
+              "summary": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO02"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO02",
+                  "text": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 47",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 2,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo02",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo01",
+                "ei-bem-pequenas-ei02eo03"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo03",
+              "slug": "ei-bem-pequenas-ei02eo03",
+              "name": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.",
+              "summary": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO03"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO03",
+                  "text": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 47",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 3,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo03",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo02",
+                "ei-bem-pequenas-ei02eo04"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo04",
+              "slug": "ei-bem-pequenas-ei02eo04",
+              "name": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.",
+              "summary": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO04"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO04",
+                  "text": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 47",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 4,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo04",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo03",
+                "ei-bem-pequenas-ei02eo05"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo05",
+              "slug": "ei-bem-pequenas-ei02eo05",
+              "name": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.",
+              "summary": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO05"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO05",
+                  "text": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 47",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 5,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo05",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo04",
+                "ei-bem-pequenas-ei02eo06"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo06",
+              "slug": "ei-bem-pequenas-ei02eo06",
+              "name": "Respeitar regras básicas de convívio social nas interações e brincadeiras.",
+              "summary": "Respeitar regras básicas de convívio social nas interações e brincadeiras.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO06"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO06",
+                  "text": "Respeitar regras básicas de convívio social nas interações e brincadeiras.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 48",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Respeitar regras básicas de convívio social nas interações e brincadeiras."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 6,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01eo06",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo05",
+                "ei-bem-pequenas-ei02eo07"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02eo07",
+              "slug": "ei-bem-pequenas-ei02eo07",
+              "name": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.",
+              "summary": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EO07"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EO07",
+                  "text": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-eo",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 48",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 7,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02eo06"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "O eu, o outro e o nós"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei-bem-pequenas-cg",
+      "slug": "corpo-gestos-e-movimentos",
+      "name": "Corpo, gestos e movimentos",
+      "componentId": "ei-campo-cg",
+      "codeSigla": "CG",
+      "areaId": "educacao-infantil",
+      "areaName": "Educação Infantil",
+      "description": "Campo de experiências da BNCC. Os objetivos abaixo são oficiais; a ordem é proposta da NaEscola.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": null,
+      "units": [
+        {
+          "id": "ei-bem-pequenas-cg-objetivos",
+          "sourceId": "ei-campo-cg",
+          "name": "Corpo, gestos e movimentos",
+          "kind": "campo-de-experiencia",
+          "official": true,
+          "sequenceKind": "document-order-adopted-as-naescola-proposal",
+          "officialText": null,
+          "topics": [
+            {
+              "id": "ei-bem-pequenas-ei02cg01",
+              "slug": "ei-bem-pequenas-ei02cg01",
+              "name": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.",
+              "summary": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02CG01"
+              ],
+              "skills": [
+                {
+                  "code": "EI02CG01",
+                  "text": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-cg",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 49",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 1,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01cg01",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02cg02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Corpo, gestos e movimentos"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02cg02",
+              "slug": "ei-bem-pequenas-ei02cg02",
+              "name": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes natu...",
+              "summary": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02CG02"
+              ],
+              "skills": [
+                {
+                  "code": "EI02CG02",
+                  "text": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-cg",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 49",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 2,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01cg02",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02cg01",
+                "ei-bem-pequenas-ei02cg03"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial",
+                "rotulo-abreviado-do-enunciado-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Corpo, gestos e movimentos"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02cg03",
+              "slug": "ei-bem-pequenas-ei02cg03",
+              "name": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+              "summary": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02CG03"
+              ],
+              "skills": [
+                {
+                  "code": "EI02CG03",
+                  "text": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-cg",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 49",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 3,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01cg03",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02cg02",
+                "ei-bem-pequenas-ei02cg04"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Corpo, gestos e movimentos"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02cg04",
+              "slug": "ei-bem-pequenas-ei02cg04",
+              "name": "Demonstrar progressiva independência no cuidado do seu corpo.",
+              "summary": "Demonstrar progressiva independência no cuidado do seu corpo.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02CG04"
+              ],
+              "skills": [
+                {
+                  "code": "EI02CG04",
+                  "text": "Demonstrar progressiva independência no cuidado do seu corpo.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-cg",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 49",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Demonstrar progressiva independência no cuidado do seu corpo."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 4,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01cg04",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02cg03",
+                "ei-bem-pequenas-ei02cg05"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Corpo, gestos e movimentos"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02cg05",
+              "slug": "ei-bem-pequenas-ei02cg05",
+              "name": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.",
+              "summary": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02CG05"
+              ],
+              "skills": [
+                {
+                  "code": "EI02CG05",
+                  "text": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-cg",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 49",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 5,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01cg05",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02cg04"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Corpo, gestos e movimentos"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei-bem-pequenas-ts",
+      "slug": "tra-os-sons-cores-e-formas",
+      "name": "Traços, sons, cores e formas",
+      "componentId": "ei-campo-ts",
+      "codeSigla": "TS",
+      "areaId": "educacao-infantil",
+      "areaName": "Educação Infantil",
+      "description": "Campo de experiências da BNCC. Os objetivos abaixo são oficiais; a ordem é proposta da NaEscola.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": null,
+      "units": [
+        {
+          "id": "ei-bem-pequenas-ts-objetivos",
+          "sourceId": "ei-campo-ts",
+          "name": "Traços, sons, cores e formas",
+          "kind": "campo-de-experiencia",
+          "official": true,
+          "sequenceKind": "document-order-adopted-as-naescola-proposal",
+          "officialText": null,
+          "topics": [
+            {
+              "id": "ei-bem-pequenas-ei02ts01",
+              "slug": "ei-bem-pequenas-ei02ts01",
+              "name": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+              "summary": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02TS01"
+              ],
+              "skills": [
+                {
+                  "code": "EI02TS01",
+                  "text": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ts",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 50",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 1,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "apreciacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ts01",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ts02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Traços, sons, cores e formas"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ts02",
+              "slug": "ei-bem-pequenas-ei02ts02",
+              "name": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos trid...",
+              "summary": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02TS02"
+              ],
+              "skills": [
+                {
+                  "code": "EI02TS02",
+                  "text": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ts",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 50",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 2,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "apreciacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ts02",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ts01",
+                "ei-bem-pequenas-ei02ts03"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial",
+                "rotulo-abreviado-do-enunciado-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Traços, sons, cores e formas"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ts03",
+              "slug": "ei-bem-pequenas-ei02ts03",
+              "name": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+              "summary": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02TS03"
+              ],
+              "skills": [
+                {
+                  "code": "EI02TS03",
+                  "text": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ts",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 50",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 3,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "apreciacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ts03",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ts02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Traços, sons, cores e formas"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei-bem-pequenas-ef",
+      "slug": "escuta-fala-pensamento-e-imagina-o",
+      "name": "Escuta, fala, pensamento e imaginação",
+      "componentId": "ei-campo-ef",
+      "codeSigla": "EF",
+      "areaId": "educacao-infantil",
+      "areaName": "Educação Infantil",
+      "description": "Campo de experiências da BNCC. Os objetivos abaixo são oficiais; a ordem é proposta da NaEscola.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": null,
+      "units": [
+        {
+          "id": "ei-bem-pequenas-ef-objetivos",
+          "sourceId": "ei-campo-ef",
+          "name": "Escuta, fala, pensamento e imaginação",
+          "kind": "campo-de-experiencia",
+          "official": true,
+          "sequenceKind": "document-order-adopted-as-naescola-proposal",
+          "officialText": null,
+          "topics": [
+            {
+              "id": "ei-bem-pequenas-ei02ef01",
+              "slug": "ei-bem-pequenas-ei02ef01",
+              "name": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.",
+              "summary": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF01"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF01",
+                  "text": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 51",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 1,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef01",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef02",
+              "slug": "ei-bem-pequenas-ei02ef02",
+              "name": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+              "summary": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF02"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF02",
+                  "text": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 51",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 2,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef02",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef01",
+                "ei-bem-pequenas-ei02ef03"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef03",
+              "slug": "ei-bem-pequenas-ei02ef03",
+              "name": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção ...",
+              "summary": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF03"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF03",
+                  "text": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 51",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 3,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef03",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef02",
+                "ei-bem-pequenas-ei02ef04"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial",
+                "rotulo-abreviado-do-enunciado-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef04",
+              "slug": "ei-bem-pequenas-ei02ef04",
+              "name": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.",
+              "summary": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF04"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF04",
+                  "text": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 51",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 4,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef04",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef03",
+                "ei-bem-pequenas-ei02ef05"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef05",
+              "slug": "ei-bem-pequenas-ei02ef05",
+              "name": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.",
+              "summary": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF05"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF05",
+                  "text": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 51",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 5,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef05",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef04",
+                "ei-bem-pequenas-ei02ef06"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef06",
+              "slug": "ei-bem-pequenas-ei02ef06",
+              "name": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.",
+              "summary": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF06"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF06",
+                  "text": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 52",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 6,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef06",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef05",
+                "ei-bem-pequenas-ei02ef07"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef07",
+              "slug": "ei-bem-pequenas-ei02ef07",
+              "name": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+              "summary": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF07"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF07",
+                  "text": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 52",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 7,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef07",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef06",
+                "ei-bem-pequenas-ei02ef08"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef08",
+              "slug": "ei-bem-pequenas-ei02ef08",
+              "name": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, card...",
+              "summary": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF08"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF08",
+                  "text": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 52",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 8,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef08",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef07",
+                "ei-bem-pequenas-ei02ef09"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial",
+                "rotulo-abreviado-do-enunciado-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02ef09",
+              "slug": "ei-bem-pequenas-ei02ef09",
+              "name": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.",
+              "summary": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02EF09"
+              ],
+              "skills": [
+                {
+                  "code": "EI02EF09",
+                  "text": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-ef",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 52",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 9,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "brincadeira"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01ef09",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02ef08"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Escuta, fala, pensamento e imaginação"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei-bem-pequenas-et",
+      "slug": "espa-os-tempos-quantidades-rela-es-e-transforma-es",
+      "name": "Espaços, tempos, quantidades, relações e transformações",
+      "componentId": "ei-campo-et",
+      "codeSigla": "ET",
+      "areaId": "educacao-infantil",
+      "areaName": "Educação Infantil",
+      "description": "Campo de experiências da BNCC. Os objetivos abaixo são oficiais; a ordem é proposta da NaEscola.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": null,
+      "units": [
+        {
+          "id": "ei-bem-pequenas-et-objetivos",
+          "sourceId": "ei-campo-et",
+          "name": "Espaços, tempos, quantidades, relações e transformações",
+          "kind": "campo-de-experiencia",
+          "official": true,
+          "sequenceKind": "document-order-adopted-as-naescola-proposal",
+          "officialText": null,
+          "topics": [
+            {
+              "id": "ei-bem-pequenas-ei02et01",
+              "slug": "ei-bem-pequenas-ei02et01",
+              "name": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).",
+              "summary": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET01"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET01",
+                  "text": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 1,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et01",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et02"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et02",
+              "slug": "ei-bem-pequenas-ei02et02",
+              "name": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).",
+              "summary": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET02"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET02",
+                  "text": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 2,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et02",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et01",
+                "ei-bem-pequenas-ei02et03"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et03",
+              "slug": "ei-bem-pequenas-ei02et03",
+              "name": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.",
+              "summary": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET03"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET03",
+                  "text": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 3,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "introducao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et03",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et02",
+                "ei-bem-pequenas-ei02et04"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et04",
+              "slug": "ei-bem-pequenas-ei02et04",
+              "name": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).",
+              "summary": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET04"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET04",
+                  "text": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 4,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et04",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et03",
+                "ei-bem-pequenas-ei02et05"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et05",
+              "slug": "ei-bem-pequenas-ei02et05",
+              "name": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).",
+              "summary": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET05"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET05",
+                  "text": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 5,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "desenvolvimento",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et05",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et04",
+                "ei-bem-pequenas-ei02et06"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et06",
+              "slug": "ei-bem-pequenas-ei02et06",
+              "name": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).",
+              "summary": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET06"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET06",
+                  "text": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 53",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 6,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [
+                {
+                  "topicId": "ei-bebes-ei01et06",
+                  "kind": "same-objective-previous-age-group",
+                  "note": "A BNCC apresenta estes objetivos na mesma linha do quadro, em faixas etárias sucessivas. A NaEscola trata a faixa anterior como pré-requisito proposto. Isso não é uma ordem obrigatória de aulas."
+                }
+              ],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et05",
+                "ei-bem-pequenas-ei02et07"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et07",
+              "slug": "ei-bem-pequenas-ei02et07",
+              "name": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos.",
+              "summary": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos.",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET07"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET07",
+                  "text": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos.",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 54",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Contar oralmente objetos, pessoas, livros etc., em contextos diversos."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 7,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et06",
+                "ei-bem-pequenas-ei02et08"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            },
+            {
+              "id": "ei-bem-pequenas-ei02et08",
+              "slug": "ei-bem-pequenas-ei02et08",
+              "name": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).",
+              "summary": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).",
+              "subtopics": [],
+              "bnccSkillCodes": [
+                "EI02ET08"
+              ],
+              "skills": [
+                {
+                  "code": "EI02ET08",
+                  "text": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).",
+                  "officialYears": [
+                    2
+                  ],
+                  "placedOnGrade": 2,
+                  "componentId": "ei-campo-et",
+                  "documentId": "bncc-2018",
+                  "sourceId": "bncc-2018-pdf-completo",
+                  "sourceLocator": "página PDF 54",
+                  "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+                  "officialSpanLabel": "Crianças bem pequenas (1a7m–3a11m)"
+                }
+              ],
+              "learningObjectives": [
+                "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.)."
+              ],
+              "objectiveOrigin": "official-learning-objective",
+              "proposedOrder": 8,
+              "sequenceKind": "naescola-proposed",
+              "sequenceBasis": "Ordem dos objetivos no quadro oficial do campo, adotada como sequência proposta pela NaEscola. A numeração não é uma ordem obrigatória de aulas.",
+              "complexity": "consolidacao",
+              "lessonTypes": [
+                "explicacao",
+                "observacao",
+                "pratica"
+              ],
+              "suggestedVisualizations": [
+                "comparison"
+              ],
+              "prerequisites": [],
+              "relatedTopicIds": [
+                "ei-bem-pequenas-ei02et07"
+              ],
+              "coverageStatus": "planned",
+              "flags": [
+                "grupo-etario-oficial"
+              ],
+              "camposDeAtuacao": [
+                "Espaços, tempos, quantidades, relações e transformações"
+              ],
+              "eixo": null,
+              "officialCompetencyIds": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "component": "Ensino Religioso",
+      "reason": "Não há campo de Ensino Religioso na BNCC da Educação Infantil. A Constituição, art. 210, §1º, situa o ensino religioso no ensino fundamental."
+    },
+    {
+      "component": "Língua Inglesa",
+      "reason": "A BNCC não define habilidades de Língua Inglesa na Educação Infantil."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bncc-2018-pdf-completo",
+      "title": "Base Nacional Comum Curricular — versão completa arquivada (600 páginas)",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/fontes/Base-Nacional-Comum-Curricular-BNCC.pdf",
+      "identifier": "bncc-dados:9c268978efa2aa250834c6a9edb6074432752838:fontes/Base-Nacional-Comum-Curricular-BNCC.pdf",
+      "publicationDate": "2018-12-14",
+      "accessedAt": "2026-10-29",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A Educação Infantil organiza objetivos em três faixas etárias e cinco campos de experiências.",
+        "A numeração sequencial das habilidades do Ensino Fundamental não representa uma ordem obrigatória.",
+        "As habilidades do Ensino Médio são apresentadas sem indicação de seriação."
+      ],
+      "reliabilityNote": "Cópia de 600 páginas no commit do dataset. Em 2026-10-29 foram lidas a página PDF 34 (sem seriação), a página PDF 40 (direitos de aprendizagem) e trechos dos quadros da Educação Infantil e de EM13CHS101. O PDF curto BNCC_EI_EF não foi usado como fonte do Ensino Médio.",
+      "license": "Ato oficial brasileiro, em cópia arquivada com o dataset."
+    },
+    {
+      "id": "bncc-dados-2026-07-1",
+      "title": "bncc.dev: dados abertos e verificados da BNCC",
+      "authorOrInstitution": "Profy",
+      "url": "https://doi.org/10.5281/zenodo.21881682",
+      "identifier": "9c268978efa2aa250834c6a9edb6074432752838",
+      "publicationDate": "2026-08-11",
+      "accessedAt": "2026-10-28",
+      "sourceType": "dataset",
+      "relevantClaims": [
+        "Estrutura, códigos e enunciados das habilidades usados nesta versão da NaEscola."
+      ],
+      "reliabilityNote": "Profy. bncc.dev: dados abertos e verificados da Base Nacional Comum Curricular. versão dados-2026.07.1. DOI 10.5281/zenodo.21881682. Commit 9c268978efa2aa250834c6a9edb6074432752838.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "computacao-parecer-2-2022",
+      "title": "Parecer CNE/CEB nº 2/2022 — anexo de Computação na educação básica",
+      "authorOrInstitution": "Conselho Nacional de Educação / Ministério da Educação",
+      "url": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/fontes/anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+      "identifier": "Parecer CNE/CEB nº 2/2022",
+      "publicationDate": "2022",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "Normas complementares de Computação na educação básica, distintas do texto da BNCC homologada em 2017."
+      ],
+      "reliabilityNote": "A cópia arquivada no commit do dataset respondeu HTTP 200. O portal do MEC não foi usado como URL porque não respondeu neste ambiente.",
+      "license": "Ato oficial. Cópia de referência redistribuída com o dataset."
+    },
+    {
+      "id": "cf-1988-art-210",
+      "title": "Constituição da República Federativa do Brasil de 1988, artigo 210, §1º",
+      "authorOrInstitution": "Assembleia Nacional Constituinte / Presidência da República",
+      "url": null,
+      "identifier": "CF/1988, art. 210, §1º",
+      "publicationDate": "1988-10-05",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "O ensino religioso, de matrícula facultativa, constitui disciplina dos horários normais das escolas públicas de ensino fundamental."
+      ],
+      "reliabilityNote": "Identificador normativo. A URL do planalto.gov.br não respondeu neste ambiente em 2026-10-28, por isso não foi registrada como link verificado.",
+      "license": "Ato oficial."
+    }
+  ],
+  "notes": [
+    "Os objetivos de aprendizagem e desenvolvimento são oficiais. A ordem em cada campo é uma proposta da NaEscola.",
+    "Os seis direitos de aprendizagem pertencem à etapa. Este arquivo não atribui um direito a cada objetivo, porque a BNCC não faz esse vínculo por código.",
+    "Creche e pré-escola não são três anos numerados. Bebês e crianças bem pequenas cabem na creche; crianças pequenas correspondem à pré-escola."
+  ],
+  "uncertainties": [
+    "Currículos estaduais e municipais não foram comparados.",
+    "A ordem proposta não foi validada por uma rede de ensino.",
+    "O portal do Planalto não respondeu em 2026-10-29. Leis são citadas por identificador e pela ementa do recorte marcos-legais, sem URL verificada nesta sessão.",
+    "A relação entre cada objetivo e os direitos de aprendizagem não está codificada na fonte usada aqui."
+  ]
+}

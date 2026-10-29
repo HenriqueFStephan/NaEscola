@@ -2,7 +2,13 @@
 
 Ensino Fundamental — Anos Iniciais. Nomenclatura atual do Ensino Fundamental. Não usamos 'série' na interface.
 
-A ordem abaixo é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.
+A ordem abaixo, quando há registros, é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.
+
+As habilidades são oficiais. A ordem dentro de cada componente é uma proposta da NaEscola baseada na ordem do documento, não uma sequência obrigatória da BNCC.
+
+Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano, a repetição indica o recorte oficial, não uma habilidade nova.
+
+A numeração sequencial da BNCC não representa uma ordem ou hierarquia esperada. Isso foi lido na página PDF 33 da cópia completa arquivada.
 
 Omissão explícita: **Língua Inglesa**. A BNCC introduz Língua Inglesa a partir do 6º ano. Não há habilidades oficiais desse componente para este ano.
 
@@ -371,3 +377,8 @@ Complemento de Computação do Parecer CNE/CEB nº 2/2022. Não faz parte do tex
 - `EF05CO11` (anos oficiais: 5) — Identificar a adequação de diferentes tecnologias computacionais na resolução de problemas.
 - `EF15CO08` (anos oficiais: 1, 2, 3, 4, 5) — Reconhecer e utilizar tecnologias computacionais para pesquisar e acessar informações, expressar-se crítica e criativamente e resolver problemas.
 - `EF15CO09` (anos oficiais: 1, 2, 3, 4, 5) — Entender que as tecnologias devem ser utilizadas de maneira segura, ética e responsável, respeitando direitos autorais, de imagem e as leis vigentes.
+
+## Incertezas
+
+- Currículos estaduais e municipais não foram comparados.
+- A ordem proposta não foi validada por uma rede de ensino.

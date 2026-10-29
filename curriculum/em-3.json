@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0.0",
+  "gradeId": "em-3",
+  "gradeNumber": 3,
+  "gradeLabel": "3ª série",
+  "stageId": "ensino-medio",
+  "stageLabel": "Ensino Médio",
+  "nomenclatureNote": "A 3ª série existe na organização escolar do Ensino Médio. A BNCC não atribui habilidades a esta série. As habilidades oficiais estão na etapa inteira.",
+  "segmentKind": "serie",
+  "skillPlacement": "series-has-no-official-skills",
+  "officialSkillCatalogId": "em-etapa",
+  "subjects": [
+    {
+      "id": "em-3-lp",
+      "slug": "l-ngua-portuguesa",
+      "name": "Língua Portuguesa",
+      "componentId": "em-comp-lp",
+      "codeSigla": "LP",
+      "areaId": "em-area-lgg",
+      "areaName": "Linguagens e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-lgg",
+      "slug": "linguagens-e-suas-tecnologias",
+      "name": "Linguagens e suas Tecnologias",
+      "componentId": "em-area-lgg",
+      "codeSigla": "LGG",
+      "areaId": "em-area-lgg",
+      "areaName": "Linguagens e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-ma",
+      "slug": "matem-tica",
+      "name": "Matemática",
+      "componentId": "em-comp-mat",
+      "codeSigla": "MA",
+      "areaId": "em-area-mat",
+      "areaName": "Matemática e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-cnt",
+      "slug": "ci-ncias-da-natureza-e-suas-tecnologias",
+      "name": "Ciências da Natureza e suas Tecnologias",
+      "componentId": "em-area-cnt",
+      "codeSigla": "CNT",
+      "areaId": "em-area-cnt",
+      "areaName": "Ciências da Natureza e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-chs",
+      "slug": "ci-ncias-humanas-e-sociais-aplicadas",
+      "name": "Ciências Humanas e Sociais Aplicadas",
+      "componentId": "em-area-chs",
+      "codeSigla": "CHS",
+      "areaId": "em-area-chs",
+      "areaName": "Ciências Humanas e Sociais Aplicadas",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-co",
+      "slug": "computa-o",
+      "name": "Computação",
+      "componentId": "complemento-computacao",
+      "codeSigla": "CO",
+      "areaId": "complemento-computacao-2022",
+      "areaName": "Computação (complemento de 2022)",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "complemento-computacao-2022",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-ar",
+      "slug": "arte",
+      "name": "Arte",
+      "componentId": "em-comp-arte",
+      "codeSigla": "AR",
+      "areaId": "em-area-lgg",
+      "areaName": "Linguagens e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-ef",
+      "slug": "educa-o-f-sica",
+      "name": "Educação Física",
+      "componentId": "em-comp-educacao-fisica",
+      "codeSigla": "EF",
+      "areaId": "em-area-lgg",
+      "areaName": "Linguagens e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-li",
+      "slug": "l-ngua-inglesa",
+      "name": "Língua Inglesa",
+      "componentId": "em-comp-lingua-inglesa",
+      "codeSigla": "LI",
+      "areaId": "em-area-lgg",
+      "areaName": "Linguagens e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-bi",
+      "slug": "biologia",
+      "name": "Biologia",
+      "componentId": "em-comp-biologia",
+      "codeSigla": "BI",
+      "areaId": "em-area-cnt",
+      "areaName": "Ciências da Natureza e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-fi",
+      "slug": "f-sica",
+      "name": "Física",
+      "componentId": "em-comp-fisica",
+      "codeSigla": "FI",
+      "areaId": "em-area-cnt",
+      "areaName": "Ciências da Natureza e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-qi",
+      "slug": "qu-mica",
+      "name": "Química",
+      "componentId": "em-comp-quimica",
+      "codeSigla": "QI",
+      "areaId": "em-area-cnt",
+      "areaName": "Ciências da Natureza e suas Tecnologias",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-hi",
+      "slug": "hist-ria",
+      "name": "História",
+      "componentId": "em-comp-historia",
+      "codeSigla": "HI",
+      "areaId": "em-area-chs",
+      "areaName": "Ciências Humanas e Sociais Aplicadas",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-ge",
+      "slug": "geografia",
+      "name": "Geografia",
+      "componentId": "em-comp-geografia",
+      "codeSigla": "GE",
+      "areaId": "em-area-chs",
+      "areaName": "Ciências Humanas e Sociais Aplicadas",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-so",
+      "slug": "sociologia",
+      "name": "Sociologia",
+      "componentId": "em-comp-sociologia",
+      "codeSigla": "SO",
+      "areaId": "em-area-chs",
+      "areaName": "Ciências Humanas e Sociais Aplicadas",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    },
+    {
+      "id": "em-3-fl",
+      "slug": "filosofia",
+      "name": "Filosofia",
+      "componentId": "em-comp-filosofia",
+      "codeSigla": "FL",
+      "areaId": "em-area-chs",
+      "areaName": "Ciências Humanas e Sociais Aplicadas",
+      "description": "As habilidades oficiais deste componente ou área estão no registro da etapa inteira, não nesta série.",
+      "officialStatus": "bncc-2018",
+      "localDependencyNote": "A progressão por série é decisão do currículo local. Este cartão não contém uma lista oficial de habilidades da série.",
+      "units": []
+    }
+  ],
+  "omissions": [
+    {
+      "component": "Lista oficial de habilidades desta série",
+      "reason": "A BNCC declara que as habilidades do Ensino Médio são apresentadas sem indicação de seriação. A NaEscola não cria essa lista."
+    },
+    {
+      "component": "Itinerários formativos",
+      "reason": "Dependem do sistema de ensino e da escola. A Lei nº 14.945/2024 muda a organização do Ensino Médio; o texto da lei não foi aberto neste ambiente."
+    }
+  ],
+  "sources": [
+    {
+      "id": "bncc-2018-pdf-completo",
+      "title": "Base Nacional Comum Curricular — versão completa arquivada (600 páginas)",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/fontes/Base-Nacional-Comum-Curricular-BNCC.pdf",
+      "identifier": "bncc-dados:9c268978efa2aa250834c6a9edb6074432752838:fontes/Base-Nacional-Comum-Curricular-BNCC.pdf",
+      "publicationDate": "2018-12-14",
+      "accessedAt": "2026-10-29",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A Educação Infantil organiza objetivos em três faixas etárias e cinco campos de experiências.",
+        "A numeração sequencial das habilidades do Ensino Fundamental não representa uma ordem obrigatória.",
+        "As habilidades do Ensino Médio são apresentadas sem indicação de seriação."
+      ],
+      "reliabilityNote": "Cópia de 600 páginas no commit do dataset. Em 2026-10-29 foram lidas a página PDF 34 (sem seriação), a página PDF 40 (direitos de aprendizagem) e trechos dos quadros da Educação Infantil e de EM13CHS101. O PDF curto BNCC_EI_EF não foi usado como fonte do Ensino Médio.",
+      "license": "Ato oficial brasileiro, em cópia arquivada com o dataset."
+    },
+    {
+      "id": "bncc-dados-2026-07-1",
+      "title": "bncc.dev: dados abertos e verificados da BNCC",
+      "authorOrInstitution": "Profy",
+      "url": "https://doi.org/10.5281/zenodo.21881682",
+      "identifier": "9c268978efa2aa250834c6a9edb6074432752838",
+      "publicationDate": "2026-08-11",
+      "accessedAt": "2026-10-28",
+      "sourceType": "dataset",
+      "relevantClaims": [
+        "Estrutura, códigos e enunciados das habilidades usados nesta versão da NaEscola."
+      ],
+      "reliabilityNote": "Profy. bncc.dev: dados abertos e verificados da Base Nacional Comum Curricular. versão dados-2026.07.1. DOI 10.5281/zenodo.21881682. Commit 9c268978efa2aa250834c6a9edb6074432752838.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "computacao-parecer-2-2022",
+      "title": "Parecer CNE/CEB nº 2/2022 — anexo de Computação na educação básica",
+      "authorOrInstitution": "Conselho Nacional de Educação / Ministério da Educação",
+      "url": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/fontes/anexo-ao-parecer-cneceb-no-2-2022-bncc-computacao.pdf",
+      "identifier": "Parecer CNE/CEB nº 2/2022",
+      "publicationDate": "2022",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "Normas complementares de Computação na educação básica, distintas do texto da BNCC homologada em 2017."
+      ],
+      "reliabilityNote": "A cópia arquivada no commit do dataset respondeu HTTP 200. O portal do MEC não foi usado como URL porque não respondeu neste ambiente.",
+      "license": "Ato oficial. Cópia de referência redistribuída com o dataset."
+    },
+    {
+      "id": "cf-1988-art-210",
+      "title": "Constituição da República Federativa do Brasil de 1988, artigo 210, §1º",
+      "authorOrInstitution": "Assembleia Nacional Constituinte / Presidência da República",
+      "url": null,
+      "identifier": "CF/1988, art. 210, §1º",
+      "publicationDate": "1988-10-05",
+      "accessedAt": "2026-10-28",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "O ensino religioso, de matrícula facultativa, constitui disciplina dos horários normais das escolas públicas de ensino fundamental."
+      ],
+      "reliabilityNote": "Identificador normativo. A URL do planalto.gov.br não respondeu neste ambiente em 2026-10-28, por isso não foi registrada como link verificado.",
+      "license": "Ato oficial."
+    }
+  ],
+  "notes": [
+    "Nenhum código BNCC foi colocado nesta série.",
+    "Língua Portuguesa e Matemática continuam obrigatórias nos três anos pela Lei nº 13.415/2017, sem que cada habilidade ganhe uma série."
+  ],
+  "uncertainties": [
+    "Currículos estaduais e municipais não foram comparados.",
+    "A ordem proposta não foi validada por uma rede de ensino.",
+    "O portal do Planalto não respondeu em 2026-10-29. Leis são citadas por identificador e pela ementa do recorte marcos-legais, sem URL verificada nesta sessão."
+  ]
+}

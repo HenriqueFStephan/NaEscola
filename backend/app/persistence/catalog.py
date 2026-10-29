@@ -15,26 +15,53 @@ def write_json(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+SKIP_CURRICULUM_FILES = {"competencies.json", "report.json", "baseline-grades-3-6.json"}
+REQUIRED_GRADE_IDS = {
+    "ef-1",
+    "ef-2",
+    "ef-3",
+    "ef-4",
+    "ef-5",
+    "ef-6",
+    "ef-7",
+    "ef-8",
+    "ef-9",
+    "ei-bebes",
+    "ei-bem-pequenas",
+    "ei-pequenas",
+    "em-etapa",
+    "em-1",
+    "em-2",
+    "em-3",
+}
+
+
 class CurriculumCatalog:
     def __init__(self, curriculum_dir: Path) -> None:
         self.grades: dict[str, GradeCurriculum] = {}
         self.topics: dict[str, dict] = {}
         self.competencies = read_json(curriculum_dir / "competencies.json")
         self.report = read_json(curriculum_dir / "report.json")
-        for path in sorted(curriculum_dir.glob("grade-*.json")):
+        for path in sorted(curriculum_dir.glob("*.json")):
+            if path.name in SKIP_CURRICULUM_FILES:
+                continue
             grade = GradeCurriculum.model_validate(read_json(path))
+            if grade.gradeId in self.grades:
+                raise RuntimeError(f"Duplicate curriculum segment {grade.gradeId}.")
             self.grades[grade.gradeId] = grade
             for subject in grade.subjects:
                 for unit in subject.units:
                     for topic in unit.topics:
+                        if topic.id in self.topics:
+                            raise RuntimeError(f"Duplicate topic id {topic.id}.")
                         self.topics[topic.id] = {
                             "grade": grade,
                             "subject": subject,
                             "unit": unit,
                             "topic": topic,
                         }
-        if set(self.grades) != {"ef-3", "ef-4", "ef-5", "ef-6"}:
-            raise RuntimeError("Curriculum catalog is missing a required grade.")
+        if set(self.grades) != REQUIRED_GRADE_IDS or not {"ef-3", "ef-4", "ef-5", "ef-6"} <= set(self.grades):
+            raise RuntimeError("Curriculum catalog is missing a required segment.")
 
     def topic(self, topic_id: str) -> dict | None:
         return self.topics.get(topic_id)

@@ -5,7 +5,17 @@ import { useParams } from "next/navigation";
 import { Remote } from "@/components/Remote";
 
 type Subject = { id: string; name: string; description: string; officialStatus: string; topicCount: number; publishedLessonCount: number; coveragePercent: number };
-type Grade = { label: string; description: string; status: string; subjects: Subject[]; omissions: Array<{ component: string; reason: string }>; publishedLessonCount: number; coveragePercent: number };
+type Grade = {
+  label: string;
+  description: string;
+  status: string;
+  officialSkillCatalogId?: string | null;
+  uncertainties?: string[];
+  subjects: Subject[];
+  omissions: Array<{ component: string; reason: string }>;
+  publishedLessonCount: number;
+  coveragePercent: number;
+};
 
 export default function GradePage() {
   const params = useParams<{ gradeId: string }>();
@@ -14,9 +24,12 @@ export default function GradePage() {
       {(grade) => (
         <>
           <h1>{grade.label}</h1>
+          <p>{grade.description}</p>
           <p>{grade.publishedLessonCount} aulas publicadas. Cobertura dos tópicos carregados: {grade.coveragePercent.toLocaleString("pt-BR")}%.</p>
-          {grade.status !== "curriculum_loaded" ? <p>Este ano está na estrutura da educação básica, mas o currículo ainda não foi montado.</p> : null}
+          {grade.status === "not_researched" ? <p>Este ano está na estrutura da educação básica, mas o currículo ainda não foi montado.</p> : null}
+          {grade.officialSkillCatalogId ? <p><Link href={`/anos/${grade.officialSkillCatalogId}`}>Abrir as habilidades da etapa inteira</Link></p> : null}
           {grade.omissions.map((item) => <p key={item.component}><strong>{item.component}.</strong> {item.reason}</p>)}
+          {(grade.uncertainties ?? []).map((item) => <p key={item}>{item}</p>)}
           <div className="grid cards">
             {grade.subjects.map((subject) => (
               <Link key={subject.id} className="card" href={`/anos/${params.gradeId}/${subject.id}`}>
@@ -24,7 +37,7 @@ export default function GradePage() {
                 <p>{subject.description}</p>
                 <div className="meta">
                   <span className="pill">{subject.officialStatus === "bncc-2018" ? "BNCC 2018" : "Complemento 2022"}</span>
-                  <span className="pill">{subject.topicCount} habilidades</span>
+                  <span className="pill">{subject.topicCount} tópicos</span>
                   <span className="pill">{subject.publishedLessonCount} aulas</span>
                   <span className="pill">{subject.coveragePercent.toLocaleString("pt-BR")}% dos tópicos</span>
                 </div>

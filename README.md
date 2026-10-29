@@ -85,7 +85,7 @@ Run those three from the `backend` directory, or set `PYTHONPATH`.
 
 ## Curriculum
 
-`scripts/build_curriculum.py` reads `data/sources/` and writes `curriculum/grade-3.json` through `grade-6.json`, `curriculum/competencies.json`, and the Markdown in `docs/curriculum/`. Human-readable notes on what is official and what is proposed are in `docs/curriculum/overview.md`.
+`scripts/build_curriculum.py` reads `data/sources/` and writes the basic-education curriculum, except Ensino Superior: Educação Infantil, Ensino Fundamental years 1–9, and Ensino Médio. Grades 3–6 stay in that output. Human-readable notes on what is official and what is proposed are in `docs/curriculum/overview.md`. `python -m app.automation.cli validate`, from `backend/`, checks schema load, duplicate ids, missing references, and prerequisite cycles.
 
 ## Layout
 

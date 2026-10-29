@@ -21,3 +21,5 @@ Ensino Religioso is included and flagged as matrícula facultativa, citing CF/19
 ## Consequences
 
 Coverage counts topics that have a published lesson. A repeated multi-year code is one placement per grade, not a new official skill.
+
+The same distinction is extended to the rest of basic education in ADR 004. Grades 3–6 keep their skill texts, order, and existing prerequisite edges.
