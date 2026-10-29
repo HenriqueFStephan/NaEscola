@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "note": "Competências oficiais da BNCC. Não são aulas e não têm ordem de ensino proposta.",
+  "note": "Competências e direitos oficiais. Não são aulas e não têm ordem de ensino proposta. As habilidades do Ensino Fundamental não estão vinculadas, uma a uma, a estas competências.",
   "general": [
     {
       "id": "cg-01",
@@ -1009,5 +1009,438 @@
       "origin": "bncc-2018"
     }
   ],
-  "sourceId": "bncc-2018-pdf"
+  "sourceId": "bncc-2018-pdf",
+  "specificMedio": [
+    {
+      "id": "em-area-lgg-ce-01",
+      "number": 1,
+      "text": "Compreender o funcionamento das diferentes linguagens e práticas culturais (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-02",
+      "number": 2,
+      "text": "Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-03",
+      "number": 3,
+      "text": "Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-04",
+      "number": 4,
+      "text": "Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas variedades e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-05",
+      "number": 5,
+      "text": "Compreender os processos de produção e negociação de sentidos nas práticas corporais, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-06",
+      "number": 6,
+      "text": "Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas, exercendo protagonismo de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-lgg-ce-07",
+      "number": 7,
+      "text": "Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-lgg",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Linguagens e suas Tec",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 492",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat-ce-01",
+      "number": 1,
+      "text": "Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a contribuir para uma formação geral.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-mat",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Matemática e suas Te",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat-ce-02",
+      "number": 2,
+      "text": "Propor ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-mat",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Matemática e suas Te",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat-ce-03",
+      "number": 3,
+      "text": "Utilizar estratégias, conceitos, definições e procedimentos matemáticos para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-mat",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Matemática e suas Te",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat-ce-04",
+      "number": 4,
+      "text": "Compreender e utilizar, com flexibilidade e precisão, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-mat",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Matemática e suas Te",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-mat-ce-05",
+      "number": 5,
+      "text": "Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando estratégias e recursos, como observação de padrões, experimentações e diferentes tecnologias, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-mat",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Matemática e suas Te",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 533",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-cnt-ce-01",
+      "number": 1,
+      "text": "Analisar fenômenos naturais e processos tecnológicos, com base nas interações e relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem processos produtivos, minimizem impactos socioambientais e melhorem as condições de vida em âmbito local, regional e global.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-cnt",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências da Natureza",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-cnt-ce-02",
+      "number": 2,
+      "text": "Analisar e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos para elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar e defender decisões éticas e responsáveis.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-cnt",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências da Natureza",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-cnt-ce-03",
+      "number": 3,
+      "text": "Investigar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC).",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-cnt",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências da Natureza",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 555",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-01",
+      "number": 1,
+      "text": "Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-02",
+      "number": 2,
+      "text": "Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão das relações de poder que determinam as territorialidades e o papel geopolítico dos Estados-nações.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-03",
+      "number": 3,
+      "text": "Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-04",
+      "number": 4,
+      "text": "Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-05",
+      "number": 5,
+      "text": "Identificar e combater as diversas formas de injustiça, preconceito e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    },
+    {
+      "id": "em-area-chs-ce-06",
+      "number": 6,
+      "text": "Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.",
+      "kind": "especifica_de_area",
+      "areaId": "em-area-chs",
+      "componentId": null,
+      "sourceLocator": "aba Comp. de Ciências Humanas e S",
+      "pdfLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 572",
+      "origin": "bncc-2018"
+    }
+  ],
+  "earlyChildhoodRights": [
+    {
+      "id": "ei-direito-conviver",
+      "name": "Conviver",
+      "text": "Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    },
+    {
+      "id": "ei-direito-brincar",
+      "name": "Brincar",
+      "text": "Brincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    },
+    {
+      "id": "ei-direito-participar",
+      "name": "Participar",
+      "text": "Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    },
+    {
+      "id": "ei-direito-explorar",
+      "name": "Explorar",
+      "text": "Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    },
+    {
+      "id": "ei-direito-expressar",
+      "name": "Expressar",
+      "text": "Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    },
+    {
+      "id": "ei-direito-conhecer-se",
+      "name": "Conhecer-se",
+      "text": "Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.",
+      "origin": "bncc-2018-pdf-page-40",
+      "transcriptionNote": "Transcrição da página PDF 40, com hífens de quebra de linha recompostos. Não é um código de habilidade e não tem ordem de aula."
+    }
+  ],
+  "computingCompetencies": [
+    {
+      "id": "computacao-cg-01",
+      "number": 1,
+      "text": "Compreender a Computação como uma área de conhecimento que contribui para explicar o mundo atual e ser um agente ativo e consciente de transformação capaz de analisar criticamente seus impactos sociais, ambientais, culturais, econômicos, científicos, tecnológicos, legais e éticos.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-02",
+      "number": 2,
+      "text": "Reconhecer o impacto dos artefatos computacionais e os respectivos desafios para os indivíduos na sociedade, discutindo questões socioambientais, culturais, científicas, políticas e econômicas.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-03",
+      "number": 3,
+      "text": "Expressar e partilhar informações, ideias, sentimentos e soluções computacionais utilizando diferentes linguagens e tecnologias da Computação de forma criativa, crítica, significativa, reflexiva e ética.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-04",
+      "number": 4,
+      "text": "Aplicar os princípios e técnicas da Computação e suas tecnologias para identificar problemas e criar soluções computacionais, preferencialmente de forma cooperativa, bem como alicerçar descobertas em diversas áreas do conhecimento seguindo uma abordagem científica e inovadora, considerando os impactos sob diferentes contextos.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-05",
+      "number": 5,
+      "text": "Avaliar as soluções e os processos envolvidos na resolução computacional de problemas de diversas áreas do conhecimento, sendo capaz de construir argumentações coerentes e consistentes, utilizando conhecimentos da Computação para argumentar em diferentes contextos com base em fatos e informações confiáveis com respeito à diversidade de opiniões, saberes, identidades e culturas.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-06",
+      "number": 6,
+      "text": "Desenvolver projetos, baseados em problemas, desafios e oportunidades que façam sentido ao contexto ou interesse do estudante, de maneira individual e/ou cooperativa, fazendo uso da Computação e suas tecnologias, utilizando conceitos, técnicas e ferramentas computacionais que possibilitem automatizar processos em diversas áreas do conhecimento com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de indivíduos e de grupos sociais, de maneira inclusiva.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-cg-07",
+      "number": 7,
+      "text": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, identificando e reconhecendo seus direitos e deveres, recorrendo aos conhecimentos da Computação e suas tecnologias para tomar decisões frente às questões de diferentes naturezas.",
+      "kind": "geral_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-01",
+      "number": 1,
+      "text": "Compreender as possibilidades e os limites da Computação para resolver problemas, tanto em termos de viabilidade quanto de eficiência, propondo e analisando soluções computacionais para diversos domínios do conhecimento, considerando diferentes aspectos.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-02",
+      "number": 2,
+      "text": "Analisar criticamente artefatos computacionais, sendo capaz de identificar as vulnerabilidades dos ambientes e das soluções computacionais buscando garantir a integridade, privacidade, sigilo e segurança das informações.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-03",
+      "number": 3,
+      "text": "Analisar situações do mundo contemporâneo, selecionando técnicas computacionais apropriadas para a solução de problemas.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-04",
+      "number": 4,
+      "text": "Construir conhecimento usando técnicas e tecnologias computacionais, produzindo conteúdos e artefatos de forma criativa, com respeito às questões éticas e legais, que proporcionem experiências para si e os demais.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-05",
+      "number": 5,
+      "text": "Desenvolver projetos para investigar desafios do mundo contemporâneo, construir soluções e tomar decisões éticas, democráticas e socialmente responsáveis, articulando conceitos, procedimentos e linguagens próprias da Computação preferencialmente de maneira colaborativa.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-06",
+      "number": 6,
+      "text": "Expressar e partilhar informações, ideias, sentimentos e soluções computacionais utilizando diferentes plataformas, ferramentas, linguagens e tecnologias da Computação de forma fluente, criativa, crítica, significativa, reflexiva e ética.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    },
+    {
+      "id": "computacao-em-ce-07",
+      "number": 7,
+      "text": "Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, identificando e reconhecendo seus direitos e deveres, recorrendo aos conhecimentos da Computação e suas tecnologias frente às questões de diferentes naturezas.",
+      "kind": "especifica_em_computacao",
+      "areaId": null,
+      "componentId": "complemento-computacao",
+      "sourceLocator": null,
+      "pdfLocator": null,
+      "origin": "computacao-2022"
+    }
+  ]
 }

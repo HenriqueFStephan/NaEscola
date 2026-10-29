@@ -6,6 +6,9 @@
   "stageId": "ef-anos-iniciais",
   "stageLabel": "Ensino Fundamental — Anos Iniciais",
   "nomenclatureNote": "Nomenclatura atual do Ensino Fundamental. Não usamos 'série' na interface.",
+  "segmentKind": "ano",
+  "skillPlacement": "official-year",
+  "officialSkillCatalogId": null,
   "subjects": [
     {
       "id": "ef-3-lp",
@@ -73,14 +76,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp01",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp02"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -133,15 +141,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp02",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp01",
                 "ef-3-lp-ef15lp03"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -194,15 +207,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp03",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp02",
                 "ef-3-lp-ef15lp04"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -255,15 +273,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp04",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp03",
                 "ef-3-lp-ef15lp14"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -316,15 +339,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp14",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp04",
                 "ef-3-lp-ef15lp15"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo da vida cotidiana"
@@ -377,15 +405,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp15",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp14",
                 "ef-3-lp-ef15lp16"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -438,15 +471,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp16",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp15",
                 "ef-3-lp-ef15lp17"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -499,15 +537,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp17",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp16",
                 "ef-3-lp-ef15lp18"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -560,15 +603,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp18",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp17",
                 "ef-3-lp-ef03lp11"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -1538,14 +1586,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp05",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp06"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1598,15 +1651,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp06",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp05",
                 "ef-3-lp-ef15lp07"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1659,15 +1717,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp07",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp06",
                 "ef-3-lp-ef15lp08"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1720,15 +1783,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp08",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp07",
                 "ef-3-lp-ef03lp13"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2412,14 +2480,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp09",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp10"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2472,15 +2545,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp10",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp09",
                 "ef-3-lp-ef15lp11"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2533,15 +2611,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp11",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp10",
                 "ef-3-lp-ef15lp12"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2594,15 +2677,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp12",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp11",
                 "ef-3-lp-ef15lp13"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2655,15 +2743,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp13",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp12",
                 "ef-3-lp-ef15lp19"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2716,15 +2809,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-lp-ef15lp19",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-lp-ef15lp13",
                 "ef-3-lp-ef03lp15"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -4540,7 +4638,13 @@
                 "number-line",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ma-ef02ma01",
+                  "kind": "conceptual",
+                  "note": "Dependência conceitual proposta pela NaEscola. Não é uma ordem obrigatória da BNCC."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ma-ef03ma02"
               ],
@@ -5004,6 +5108,11 @@
               "prerequisites": [
                 {
                   "topicId": "ef-3-ma-ef03ma08",
+                  "kind": "conceptual",
+                  "note": "Dependência conceitual proposta pela NaEscola. Não é uma ordem obrigatória da BNCC."
+                },
+                {
+                  "topicId": "ef-2-ma-ef02ma08",
                   "kind": "conceptual",
                   "note": "Dependência conceitual proposta pela NaEscola. Não é uma ordem obrigatória da BNCC."
                 }
@@ -8011,14 +8120,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar01",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar02"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8069,15 +8183,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar02",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar01",
                 "ef-3-ar-ef15ar03"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8128,15 +8247,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar03",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar02",
                 "ef-3-ar-ef15ar04"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8187,15 +8311,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar04",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar03",
                 "ef-3-ar-ef15ar05"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8246,15 +8375,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar05",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar04",
                 "ef-3-ar-ef15ar06"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8305,15 +8439,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar06",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar05",
                 "ef-3-ar-ef15ar07"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8364,14 +8503,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar07",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar06"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8432,14 +8576,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar08",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar09"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8490,15 +8639,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar09",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar08",
                 "ef-3-ar-ef15ar10"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8549,15 +8703,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar10",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar09",
                 "ef-3-ar-ef15ar11"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8608,15 +8767,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar11",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar10",
                 "ef-3-ar-ef15ar12"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8667,14 +8831,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar12",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar11"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8735,14 +8904,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar13",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar14"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8793,15 +8967,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar14",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar13",
                 "ef-3-ar-ef15ar15"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8852,15 +9031,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar15",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar14",
                 "ef-3-ar-ef15ar16"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8911,15 +9095,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar16",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar15",
                 "ef-3-ar-ef15ar17"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8970,14 +9159,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar17",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar16"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9038,14 +9232,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar18",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar19"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9096,15 +9295,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar19",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar18",
                 "ef-3-ar-ef15ar20"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9155,15 +9359,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar20",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar19",
                 "ef-3-ar-ef15ar21"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9214,15 +9423,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar21",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar20",
                 "ef-3-ar-ef15ar22"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9273,14 +9487,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar22",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar21"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9341,14 +9560,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar23",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar24"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9399,15 +9623,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar24",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar23",
                 "ef-3-ar-ef15ar25"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9458,15 +9687,20 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar25",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar24",
                 "ef-3-ar-ef15ar26"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9517,14 +9751,19 @@
               "suggestedVisualizations": [
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-ar-ef15ar26",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-ar-ef15ar25"
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -11004,7 +11243,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co01",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef03co03",
                 "ef-3-co-ef15co02"
@@ -11012,7 +11257,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11065,7 +11309,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co02",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co01",
                 "ef-3-co-ef15co03"
@@ -11073,7 +11323,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11126,7 +11375,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co03",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co02",
                 "ef-3-co-ef15co04"
@@ -11134,7 +11389,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11187,14 +11441,19 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co04",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co03"
               ],
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11421,7 +11680,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co05",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef03co06",
                 "ef-3-co-ef15co06"
@@ -11429,7 +11694,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11482,7 +11746,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co06",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co05",
                 "ef-3-co-ef15co07"
@@ -11490,7 +11760,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11543,14 +11812,19 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co07",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co06"
               ],
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11777,7 +12051,13 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co08",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef03co09",
                 "ef-3-co-ef15co09"
@@ -11785,7 +12065,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11838,14 +12117,19 @@
                 "state-steps",
                 "comparison"
               ],
-              "prerequisites": [],
+              "prerequisites": [
+                {
+                  "topicId": "ef-2-co-ef15co09",
+                  "kind": "same-official-code-previous-year",
+                  "note": "O mesmo código oficial também se aplica ao ano anterior desta etapa. A BNCC não converte esse recorte em sequência obrigatória de aulas."
+                }
+              ],
               "relatedTopicIds": [
                 "ef-3-co-ef15co08"
               ],
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11927,7 +12211,11 @@
   ],
   "notes": [
     "As habilidades são oficiais. A ordem dentro de cada componente é uma proposta da NaEscola baseada na ordem do documento, não uma sequência obrigatória da BNCC.",
-    "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano desta entrega, a repetição indica o recorte oficial, não uma habilidade nova.",
-    "O 7º, o 8º e o 9º anos não foram pesquisados nesta entrega. Códigos oficiais que também valem para esses anos estão sinalizados."
+    "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano, a repetição indica o recorte oficial, não uma habilidade nova.",
+    "A numeração sequencial da BNCC não representa uma ordem ou hierarquia esperada. Isso foi lido na página PDF 33 da cópia completa arquivada."
+  ],
+  "uncertainties": [
+    "Currículos estaduais e municipais não foram comparados.",
+    "A ordem proposta não foi validada por uma rede de ensino."
   ]
 }

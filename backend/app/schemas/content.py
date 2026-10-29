@@ -38,7 +38,12 @@ class SourceReference(StrictModel):
 
 class PrerequisiteLink(StrictModel):
     topicId: str
-    kind: Literal["conceptual", "cross-subject", "same-official-code-previous-year"]
+    kind: Literal[
+        "conceptual",
+        "cross-subject",
+        "same-official-code-previous-year",
+        "same-objective-previous-age-group",
+    ]
     note: str
 
 
@@ -52,6 +57,7 @@ class SkillRecord(StrictModel):
     sourceId: str
     sourceLocator: str | None
     pdfLocator: str | None
+    officialSpanLabel: str | None = None
 
 
 class Topic(StrictModel):
@@ -63,7 +69,7 @@ class Topic(StrictModel):
     bnccSkillCodes: list[str]
     skills: list[SkillRecord]
     learningObjectives: list[str]
-    objectiveOrigin: Literal["official-skill-statement"]
+    objectiveOrigin: Literal["official-skill-statement", "official-learning-objective"]
     proposedOrder: int
     sequenceKind: Literal["naescola-proposed"]
     sequenceBasis: str
@@ -76,16 +82,25 @@ class Topic(StrictModel):
     flags: list[str]
     camposDeAtuacao: list[str]
     eixo: str | None = None
+    officialCompetencyIds: list[str] = Field(default_factory=list)
 
 
 class Unit(StrictModel):
     id: str
     sourceId: str
     name: str
-    kind: Literal["unidade-tematica", "pratica-de-linguagem", "eixo"]
+    kind: Literal[
+        "unidade-tematica",
+        "pratica-de-linguagem",
+        "eixo",
+        "campo-de-experiencia",
+        "campo-de-atuacao",
+        "competencia-especifica",
+    ]
     official: Literal[True]
     sequenceKind: Literal["document-order-adopted-as-naescola-proposal"]
     topics: list[Topic]
+    officialText: str | None = None
 
 
 class Subject(StrictModel):
@@ -119,6 +134,15 @@ class GradeCurriculum(StrictModel):
     omissions: list[Omission]
     sources: list[SourceReference]
     notes: list[str]
+    segmentKind: Literal["ano", "grupo-etario", "etapa-sem-seriacao", "serie"] = "ano"
+    skillPlacement: Literal[
+        "official-year",
+        "official-age-group",
+        "stage-not-a-year",
+        "series-has-no-official-skills",
+    ] = "official-year"
+    officialSkillCatalogId: str | None = None
+    uncertainties: list[str] = Field(default_factory=list)
 
 
 class Choice(StrictModel):

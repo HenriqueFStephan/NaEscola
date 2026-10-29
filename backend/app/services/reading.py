@@ -9,30 +9,30 @@ STAGES = [
     {
         "id": "educacao-infantil",
         "label": "Educação Infantil",
-        "status": "not_researched",
-        "summary": "Creche e pré-escola. Ainda não há currículo carregado nesta versão.",
-        "gradeIds": [],
+        "status": "curriculum_loaded",
+        "summary": "Três grupos etários da BNCC, da creche à pré-escola. Os objetivos são oficiais; a ordem é proposta.",
+        "gradeIds": ["ei-bebes", "ei-bem-pequenas", "ei-pequenas"],
     },
     {
         "id": "ef-anos-iniciais",
         "label": "Ensino Fundamental I",
-        "status": "partial",
-        "summary": "1º ao 5º ano. Nesta versão, o currículo carregado é o dos 3º, 4º e 5º anos.",
+        "status": "curriculum_loaded",
+        "summary": "1º ao 5º ano, com as habilidades oficiais da BNCC e a sequência proposta pela NaEscola.",
         "gradeIds": ["ef-1", "ef-2", "ef-3", "ef-4", "ef-5"],
     },
     {
         "id": "ef-anos-finais",
         "label": "Ensino Fundamental II",
-        "status": "partial",
-        "summary": "6º ao 9º ano. Nesta versão, o currículo carregado é o do 6º ano.",
+        "status": "curriculum_loaded",
+        "summary": "6º ao 9º ano, com as habilidades oficiais da BNCC e a sequência proposta pela NaEscola.",
         "gradeIds": ["ef-6", "ef-7", "ef-8", "ef-9"],
     },
     {
         "id": "ensino-medio",
         "label": "Ensino Médio",
-        "status": "not_researched",
-        "summary": "1ª, 2ª e 3ª séries. Ainda não há currículo carregado nesta versão.",
-        "gradeIds": [],
+        "status": "curriculum_loaded",
+        "summary": "Habilidades oficiais da etapa, sem série atribuída. As três séries não recebem uma lista nacional inventada.",
+        "gradeIds": ["em-etapa", "em-1", "em-2", "em-3"],
     },
     {
         "id": "ensino-superior",
@@ -43,13 +43,7 @@ STAGES = [
     },
 ]
 
-PLANNED_GRADES = {
-    "ef-1": ("1º ano", "ef-anos-iniciais", "Ensino Fundamental I"),
-    "ef-2": ("2º ano", "ef-anos-iniciais", "Ensino Fundamental I"),
-    "ef-7": ("7º ano", "ef-anos-finais", "Ensino Fundamental II"),
-    "ef-8": ("8º ano", "ef-anos-finais", "Ensino Fundamental II"),
-    "ef-9": ("9º ano", "ef-anos-finais", "Ensino Fundamental II"),
-}
+PLANNED_GRADES: dict[str, tuple[str, str, str]] = {}
 
 
 def coverage_percent(published_count: int, total: int) -> float:
@@ -122,13 +116,20 @@ def grade_summary(catalog: CurriculumCatalog, lessons: LessonStore, grade_id: st
                     **stats,
                 }
             )
+        status = "curriculum_loaded"
+        if grade.skillPlacement == "series-has-no-official-skills":
+            status = "series_without_official_split"
         return {
             "id": grade.gradeId,
             "label": grade.gradeLabel,
             "stageId": grade.stageId,
             "stageLabel": grade.stageLabel,
-            "status": "curriculum_loaded",
+            "status": status,
             "description": grade.nomenclatureNote,
+            "segmentKind": grade.segmentKind,
+            "skillPlacement": grade.skillPlacement,
+            "officialSkillCatalogId": grade.officialSkillCatalogId,
+            "uncertainties": grade.uncertainties,
             "subjects": subjects,
             "publishedLessonCount": published_total,
             "topicCount": topic_total,

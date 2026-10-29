@@ -1,10 +1,10 @@
 # Project status
 
-Updated 2026-10-28.
+Updated 2026-10-29.
 
 ## Done
 
-- Grades 3–6 curriculum loaded from the pinned BNCC snapshot: 909 skill placements, 709 distinct codes, 10 general competencies. No duplicate ids, broken links, or prerequisite cycles.
+- Basic education curriculum, except Ensino Superior: Educação Infantil (three age groups), Ensino Fundamental years 1–9, and Ensino Médio as one ungraded stage plus three series that do not invent a national skill split. 2486 placements. Grades 3–6 still contribute 909 placements. No duplicate ids, broken links, or prerequisite cycles.
 - Official skill statements stay separate from NaEscola's proposed order. Computação is labeled as the 2022 complement. Língua Inglesa is explicitly absent before 6º ano. Ensino Religioso is included and marked as matrícula facultativa.
 - FastAPI serves stages, grades, subjects, search, lessons, competencies, and the Mediterranean map snapshots.
 - Learner-facing Next.js app, in Brazilian Portuguese, reads those endpoints. Coverage percentages come from published lessons.
@@ -45,8 +45,7 @@ cd apps/web && npm test && npx tsc --noEmit
 - No language-model provider is configured. Commands without a research packet refuse to invent lesson text.
 - `.github/workflows/validation.yml` only runs tests, `window-check`, and `dry-run`. It has not been observed executing on GitHub. It does not publish lessons. Unattended generation on days 1–3 is not operational.
 - Agent roles other than the deterministic pipeline are specifications, not autonomous workers.
-- Grades 1, 2, 7, 8, and 9, Educação Infantil, Ensino Médio, and Ensino Superior have no curriculum payload.
-- State and municipal curricula were not compared one by one.
+- Ensino Superior has no curriculum payload. Educação de Jovens e Adultos is not a separate grade. State and municipal curricula, itinerários formativos, and a skill-by-skill check of all 183 Ensino Médio statements were not completed. Lei nº 14.945/2024 was not opened on Planalto.
 - Screenshot visual-regression tooling is not set up. Mathematical samples and a headless browser pass are the checks that ran.
 
 ## Blocked

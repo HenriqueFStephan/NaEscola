@@ -16,7 +16,7 @@ type Topic = {
   prerequisites: Prerequisite[];
   flags: string[];
 };
-type Unit = { id: string; name: string; kind: string; topics: Topic[] };
+type Unit = { id: string; name: string; kind: string; officialText?: string | null; topics: Topic[] };
 type Subject = {
   id: string;
   name: string;
@@ -34,6 +34,7 @@ const KIND_LABEL: Record<string, string> = {
   conceptual: "Dependência conceitual proposta pela NaEscola",
   "cross-subject": "Ligação proposta entre componentes",
   "same-official-code-previous-year": "Mesmo código oficial no ano anterior",
+  "same-objective-previous-age-group": "Mesmo objetivo oficial na faixa etária anterior",
 };
 
 function formatPercent(published: number, total: number) {
@@ -117,6 +118,7 @@ export function Timeline({ gradeId, subject, initialTopicId }: { gradeId: string
                   </button>
                 </h3>
                 <p>{published} de {unit.topics.length} com aula ({formatPercent(published, unit.topics.length)}%)</p>
+                {unit.officialText ? <p>{unit.officialText}</p> : null}
               </header>
               {expanded ? (
                 <ol className="topic-list">

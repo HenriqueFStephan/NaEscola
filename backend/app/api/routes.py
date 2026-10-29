@@ -101,6 +101,7 @@ def subject_detail(grade_id: str, subject_id: str, request: Request) -> dict:
                 "name": unit.name,
                 "kind": unit.kind,
                 "sequenceKind": unit.sequenceKind,
+                "officialText": unit.officialText,
                 "topics": topics,
             }
         )

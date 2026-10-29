@@ -6,6 +6,9 @@
   "stageId": "ef-anos-iniciais",
   "stageLabel": "Ensino Fundamental — Anos Iniciais",
   "nomenclatureNote": "Nomenclatura atual do Ensino Fundamental. Não usamos 'série' na interface.",
+  "segmentKind": "ano",
+  "skillPlacement": "official-year",
+  "officialSkillCatalogId": null,
   "subjects": [
     {
       "id": "ef-5-lp",
@@ -85,8 +88,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -152,8 +154,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -219,8 +220,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -286,8 +286,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -353,8 +352,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo da vida cotidiana"
@@ -420,8 +418,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -487,8 +484,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -554,8 +550,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -621,8 +616,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -1724,8 +1718,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1791,8 +1784,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1858,8 +1850,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -1925,8 +1916,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2610,8 +2600,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2677,8 +2666,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2744,8 +2732,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2811,8 +2798,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2878,8 +2864,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Todos os campos de atuação"
@@ -2945,8 +2930,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [
                 "Campo artístico-literário"
@@ -8391,8 +8375,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8456,8 +8439,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8521,8 +8503,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8586,8 +8567,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8651,8 +8631,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8716,8 +8695,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8780,8 +8758,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8854,8 +8831,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8919,8 +8895,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -8984,8 +8959,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9049,8 +9023,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9113,8 +9086,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9187,8 +9159,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9252,8 +9223,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9317,8 +9287,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9382,8 +9351,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9446,8 +9414,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9520,8 +9487,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9585,8 +9551,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9650,8 +9615,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9715,8 +9679,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9779,8 +9742,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9853,8 +9815,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9918,8 +9879,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -9983,8 +9943,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -10047,8 +10006,7 @@
               ],
               "coverageStatus": "planned",
               "flags": [
-                "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release"
+                "multi-year-official-code"
               ],
               "camposDeAtuacao": [],
               "eixo": null
@@ -11730,7 +11688,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11797,7 +11754,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11864,7 +11820,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -11930,7 +11885,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12171,7 +12125,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12238,7 +12191,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12304,7 +12256,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12600,7 +12551,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12666,7 +12616,6 @@
               "coverageStatus": "planned",
               "flags": [
                 "multi-year-official-code",
-                "official-code-also-covers-years-outside-this-release",
                 "complemento-2022-nao-e-bncc-2018"
               ],
               "camposDeAtuacao": [],
@@ -12748,7 +12697,11 @@
   ],
   "notes": [
     "As habilidades são oficiais. A ordem dentro de cada componente é uma proposta da NaEscola baseada na ordem do documento, não uma sequência obrigatória da BNCC.",
-    "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano desta entrega, a repetição indica o recorte oficial, não uma habilidade nova.",
-    "O 7º, o 8º e o 9º anos não foram pesquisados nesta entrega. Códigos oficiais que também valem para esses anos estão sinalizados."
+    "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano, a repetição indica o recorte oficial, não uma habilidade nova.",
+    "A numeração sequencial da BNCC não representa uma ordem ou hierarquia esperada. Isso foi lido na página PDF 33 da cópia completa arquivada."
+  ],
+  "uncertainties": [
+    "Currículos estaduais e municipais não foram comparados.",
+    "A ordem proposta não foi validada por uma rede de ensino."
   ]
 }

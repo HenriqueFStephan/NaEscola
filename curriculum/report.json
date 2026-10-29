@@ -5,22 +5,43 @@
   "sourceSha256": {
     "ensino-fundamental.json": "bdc84d6bb6f4b38ca1331b0319cb04ea8f9240d076d3097928124c0b9ba38c0b",
     "estrutura.json": "bb909eb1c9e41f37e0703b38b36d3a77dbc01cb28614aadf144d339bf258612e",
-    "computacao.json": "6192c381961c55abfc886415e8ae60cc5e16ed783496c63d09bef9c6302b4f69"
+    "computacao.json": "6192c381961c55abfc886415e8ae60cc5e16ed783496c63d09bef9c6302b4f69",
+    "educacao-infantil.json": "80d35189eaec4053db95a2b550aceb3de747715eb0afcfe9f3ef9a27a86373a1",
+    "ensino-medio.json": "febcb29cf1df94eb72344d26375d623e558c39264c6dcb9c37253e6c730311a4",
+    "marcos-legais.json": "a5a55dd3dd294c05db8d5f8dad5e5cc55c5c683c15a56b9dcff4288f4e628fbe"
   },
   "grades": {
-    "3": 203,
-    "4": 203,
-    "5": 206,
-    "6": 297
+    "ef-1": 171,
+    "ef-2": 180,
+    "ef-3": 203,
+    "ef-4": 203,
+    "ef-5": 206,
+    "ef-6": 297,
+    "ef-7": 300,
+    "ef-8": 309,
+    "ef-9": 304,
+    "ei-bebes": 29,
+    "ei-bem-pequenas": 32,
+    "ei-pequenas": 43,
+    "em-etapa": 209,
+    "em-1": 0,
+    "em-2": 0,
+    "em-3": 0
   },
-  "uniqueSkills": 709,
-  "placements": 909,
+  "uniqueSkills": 1721,
+  "placements": 2486,
+  "preservedPlacements": 909,
   "generalCompetencies": 10,
   "specificCompetencies": 84,
-  "conceptualEdgesResolved": 61,
-  "continuityEdges": 200,
+  "specificMedioCompetencies": 21,
+  "conceptualEdgesResolved": 106,
+  "continuityEdges": 765,
+  "ageGroupEdges": 61,
   "cycles": 0,
   "brokenReferences": 0,
   "duplicateIds": 0,
+  "excluded": [
+    "ensino-superior"
+  ],
   "mapDatasetCommitNotUsedHere": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
 }

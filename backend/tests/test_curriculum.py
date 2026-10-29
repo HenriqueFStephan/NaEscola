@@ -10,13 +10,21 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def test_catalog_matches_official_counts():
     catalog = app.state.catalog
-    assert set(catalog.grades) == {"ef-3", "ef-4", "ef-5", "ef-6"}
-    assert len(catalog.topics) == catalog.report["placements"] == 909
-    assert catalog.report["uniqueSkills"] == 709
+    assert {"ef-3", "ef-4", "ef-5", "ef-6"} <= set(catalog.grades)
+    assert catalog.report["preservedPlacements"] == 909
+    preserved = [
+        topic
+        for topic in catalog.iter_topics()
+        if topic["grade"].gradeId in {"ef-3", "ef-4", "ef-5", "ef-6"}
+    ]
+    assert len(preserved) == 909
+    assert len(catalog.topics) == catalog.report["placements"]
+    assert catalog.report["placements"] > 909
     assert find_cycles(catalog) == []
     assert broken_references(catalog) == []
     assert catalog.competencies["general"]
     assert len(catalog.competencies["general"]) == 10
+    assert len(catalog.competencies["specificFundamental"]) == 84
 
 
 def test_distinguishes_official_skills_from_proposed_sequence():
@@ -54,35 +62,47 @@ def test_every_code_exists_in_the_pinned_source():
 
     fundamental = json.loads((ROOT / "data/sources/bncc-2018/ensino-fundamental.json").read_text(encoding="utf-8"))
     computing = json.loads((ROOT / "data/sources/computacao-2022/computacao.json").read_text(encoding="utf-8"))
+    infantil = json.loads((ROOT / "data/sources/bncc-2018/educacao-infantil.json").read_text(encoding="utf-8"))
+    medio = json.loads((ROOT / "data/sources/bncc-2018/ensino-medio.json").read_text(encoding="utf-8"))
     official = {item["codigo"] for item in fundamental["habilidades"]}
     official.update(item["codigo"] for item in computing["habilidades_ef"])
+    official.update(item["codigo"] for item in computing["objetivos_ei"])
+    official.update(item["codigo"] for item in computing["habilidades_em"])
+    official.update(item["codigo"] for item in infantil["objetivos"])
+    official.update(item["codigo"] for item in medio["habilidades"])
     used = set()
+    grades_3_to_6 = set()
     for record in app.state.catalog.iter_topics():
         used.update(record["topic"].bnccSkillCodes)
+        if record["grade"].gradeId in {"ef-3", "ef-4", "ef-5", "ef-6"}:
+            grades_3_to_6.update(record["topic"].bnccSkillCodes)
     assert used <= official
-    expected = set()
+    expected_3_to_6 = set()
     for item in fundamental["habilidades"]:
         if any(year in {3, 4, 5, 6} for year in item["anos"]):
-            expected.add(item["codigo"])
+            expected_3_to_6.add(item["codigo"])
     for item in computing["habilidades_ef"]:
         if any(year in {3, 4, 5, 6} for year in item["anos"]):
-            expected.add(item["codigo"])
-    assert used == expected
+            expected_3_to_6.add(item["codigo"])
+    assert grades_3_to_6 == expected_3_to_6
+    assert used == official
 
 
 def test_api_navigation_uses_stored_counts():
     client = TestClient(app)
     health = client.get("/api/health")
     assert health.status_code == 200
-    assert health.json()["topics"] == 909
+    assert health.json()["topics"] == len(app.state.catalog.topics)
     assert health.json()["monthlyAutomationOperational"] is False
     grade = client.get("/api/grades/ef-4").json()
     assert grade["status"] == "curriculum_loaded"
     assert grade["topicCount"] == 203
     assert grade["coveragePercent"] == 0 or grade["publishedLessonCount"] <= grade["topicCount"]
-    missing = client.get("/api/grades/ef-2").json()
-    assert missing["status"] == "not_researched"
-    assert missing["publishedLessonCount"] == 0
+    loaded = client.get("/api/grades/ef-2").json()
+    assert loaded["status"] == "curriculum_loaded"
+    assert loaded["topicCount"] > 0
+    missing = client.get("/api/grades/superior-1")
+    assert missing.status_code == 404
     subject_id = grade["subjects"][0]["id"]
     subject = client.get(f"/api/grades/ef-4/subjects/{subject_id}")
     assert subject.status_code == 200
@@ -94,6 +114,12 @@ def test_api_navigation_uses_stored_counts():
     labels = {item["id"]: item["label"] for item in stages}
     assert labels["ef-anos-iniciais"] == "Ensino Fundamental I"
     assert labels["ef-anos-finais"] == "Ensino Fundamental II"
+    assert labels["educacao-infantil"] == "Educação Infantil"
+    assert labels["ensino-medio"] == "Ensino Médio"
+    assert labels["ensino-superior"] == "Ensino Superior"
+    superior = next(item for item in stages if item["id"] == "ensino-superior")
+    assert superior["grades"] == []
+    assert superior["topicCount"] == 0
     for stage in stages:
         detail = client.get(f"/api/stages/{stage['id']}").json()
         total = sum(grade["topicCount"] for grade in detail["grades"])

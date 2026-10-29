@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build NaEscola curriculum files for grades 3–6 from pinned BNCC sources.
+"""Build NaEscola curriculum files for basic education, except Ensino Superior.
 
 Official skill statements are copied from the pinned dataset. Teaching order,
 complexity, and prerequisite links are NaEscola proposals and are labeled as
@@ -26,7 +26,7 @@ DATASET_COMMIT = "9c268978efa2aa250834c6a9edb6074432752838"
 DATASET_VERSION = "dados-2026.07.1"
 DATASET_CITATION = "Profy. bncc.dev: dados abertos e verificados da Base Nacional Comum Curricular. versão dados-2026.07.1. DOI 10.5281/zenodo.21881682."
 MAP_COMMIT = "da7a4b735ecef70aebdc9c73e409d8a2500d50f3"
-GRADES = (3, 4, 5, 6)
+GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 SUBJECT_ORDER = ("LP", "MA", "CI", "HI", "GE", "AR", "EF", "LI", "ER", "CO")
 SEQUENCE_BASIS = (
     "Ordem de apresentação no documento oficial, adotada como sequência proposta "
@@ -136,6 +136,51 @@ CONCEPTUAL_EDGES: list[tuple[str, str, str]] = [
     ("EF04GE10", "EF03GE06", "cross-subject"),
     ("EF06GE08", "EF04GE10", "cross-subject"),
     ("EF06HI06", "EF04GE10", "cross-subject"),
+    ("EF01MA04", "EF01MA02", "conceptual"),
+    ("EF01MA05", "EF01MA04", "conceptual"),
+    ("EF01MA07", "EF01MA06", "conceptual"),
+    ("EF01MA08", "EF01MA06", "conceptual"),
+    ("EF01MA12", "EF01MA11", "conceptual"),
+    ("EF01MA18", "EF01MA17", "conceptual"),
+    ("EF01MA22", "EF01MA21", "conceptual"),
+    ("EF02MA01", "EF01MA05", "conceptual"),
+    ("EF02MA04", "EF01MA07", "conceptual"),
+    ("EF02MA05", "EF01MA06", "conceptual"),
+    ("EF02MA06", "EF02MA05", "conceptual"),
+    ("EF02MA07", "EF02MA05", "conceptual"),
+    ("EF02MA08", "EF02MA07", "conceptual"),
+    ("EF02MA15", "EF01MA14", "conceptual"),
+    ("EF02MA20", "EF01MA19", "conceptual"),
+    ("EF02MA21", "EF01MA20", "conceptual"),
+    ("EF02MA23", "EF02MA22", "conceptual"),
+    ("EF03MA01", "EF02MA01", "conceptual"),
+    ("EF03MA09", "EF02MA08", "conceptual"),
+    ("EF07MA02", "EF06MA13", "conceptual"),
+    ("EF07MA04", "EF07MA03", "conceptual"),
+    ("EF07MA08", "EF06MA07", "conceptual"),
+    ("EF07MA10", "EF07MA08", "conceptual"),
+    ("EF07MA11", "EF07MA10", "conceptual"),
+    ("EF07MA12", "EF07MA11", "conceptual"),
+    ("EF07MA17", "EF07MA13", "conceptual"),
+    ("EF07MA32", "EF07MA31", "conceptual"),
+    ("EF08MA02", "EF08MA01", "conceptual"),
+    ("EF08MA04", "EF07MA02", "conceptual"),
+    ("EF08MA05", "EF07MA10", "conceptual"),
+    ("EF08MA06", "EF07MA13", "conceptual"),
+    ("EF08MA08", "EF08MA07", "conceptual"),
+    ("EF08MA13", "EF07MA17", "conceptual"),
+    ("EF08MA19", "EF07MA31", "conceptual"),
+    ("EF08MA21", "EF07MA30", "conceptual"),
+    ("EF08MA25", "EF07MA35", "conceptual"),
+    ("EF09MA02", "EF09MA01", "conceptual"),
+    ("EF09MA03", "EF09MA02", "conceptual"),
+    ("EF09MA03", "EF08MA01", "conceptual"),
+    ("EF09MA04", "EF09MA03", "conceptual"),
+    ("EF09MA05", "EF08MA04", "conceptual"),
+    ("EF09MA08", "EF08MA13", "conceptual"),
+    ("EF09MA13", "EF09MA12", "conceptual"),
+    ("EF09MA14", "EF09MA13", "conceptual"),
+    ("EF09MA20", "EF08MA22", "conceptual"),
 ]
 
 TEXT_CHECKS = {
@@ -199,6 +244,67 @@ TEXT_CHECKS = {
     "EF06HI11": "Roma Antiga",
     "EF06HI12": "cidadania",
     "EF06HI13": "império",
+    "EF01MA02": "Contar",
+    "EF01MA04": "100",
+    "EF01MA05": "duas ordens",
+    "EF01MA06": "adição",
+    "EF01MA07": "decompor",
+    "EF01MA08": "adição e de subtração",
+    "EF01MA11": "própria posição",
+    "EF01MA12": "ponto de referência",
+    "EF01MA14": "figuras planas",
+    "EF01MA17": "calendário",
+    "EF01MA18": "data",
+    "EF01MA19": "moedas",
+    "EF01MA20": "acaso",
+    "EF01MA21": "tabelas",
+    "EF01MA22": "pesquisa",
+    "EF02MA01": "centenas",
+    "EF02MA04": "três ordens",
+    "EF02MA05": "adição e subtração",
+    "EF02MA06": "três ordens",
+    "EF02MA07": "multiplicação",
+    "EF02MA08": "metade",
+    "EF02MA15": "figuras planas",
+    "EF02MA20": "moedas",
+    "EF02MA21": "prováveis",
+    "EF02MA22": "tabelas",
+    "EF02MA23": "pesquisa",
+    "EF07MA02": "porcentagens",
+    "EF07MA03": "números inteiros",
+    "EF07MA04": "números inteiros",
+    "EF07MA08": "frações",
+    "EF07MA10": "números racionais",
+    "EF07MA11": "números racionais",
+    "EF07MA12": "números racionais",
+    "EF07MA13": "variável",
+    "EF07MA17": "proporcionalidade",
+    "EF07MA30": "volume",
+    "EF07MA31": "área",
+    "EF07MA32": "área",
+    "EF07MA35": "média",
+    "EF08MA01": "potências",
+    "EF08MA02": "radiciação",
+    "EF08MA04": "porcentagens",
+    "EF08MA05": "dízima",
+    "EF08MA06": "expressões algébricas",
+    "EF08MA07": "plano cartesiano",
+    "EF08MA08": "duas incógnitas",
+    "EF08MA13": "proporcionais",
+    "EF08MA19": "área",
+    "EF08MA21": "volume",
+    "EF08MA22": "probabilidade",
+    "EF08MA25": "mediana",
+    "EF09MA01": "número racional",
+    "EF09MA02": "irracional",
+    "EF09MA03": "números reais",
+    "EF09MA04": "números reais",
+    "EF09MA05": "porcentagens",
+    "EF09MA08": "proporcionalidade",
+    "EF09MA12": "semelhantes",
+    "EF09MA13": "Pitágoras",
+    "EF09MA14": "Pitágoras",
+    "EF09MA20": "independentes",
 }
 
 EDGE_NOTES = {
@@ -523,8 +629,8 @@ def build_grade(
         )
     notes = [
         "As habilidades são oficiais. A ordem dentro de cada componente é uma proposta da NaEscola baseada na ordem do documento, não uma sequência obrigatória da BNCC.",
-        "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano desta entrega, a repetição indica o recorte oficial, não uma habilidade nova.",
-        "O 7º, o 8º e o 9º anos não foram pesquisados nesta entrega. Códigos oficiais que também valem para esses anos estão sinalizados.",
+        "Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano, a repetição indica o recorte oficial, não uma habilidade nova.",
+        "A numeração sequencial da BNCC não representa uma ordem ou hierarquia esperada. Isso foi lido na página PDF 33 da cópia completa arquivada.",
     ]
     return {
         "schemaVersion": "1.0.0",
@@ -534,10 +640,17 @@ def build_grade(
         "stageId": stage_id,
         "stageLabel": stage_label,
         "nomenclatureNote": "Nomenclatura atual do Ensino Fundamental. Não usamos 'série' na interface.",
+        "segmentKind": "ano",
+        "skillPlacement": "official-year",
+        "officialSkillCatalogId": None,
         "subjects": subjects,
         "omissions": omissions,
         "sources": source_catalog(),
         "notes": notes,
+        "uncertainties": [
+            "Currículos estaduais e municipais não foram comparados.",
+            "A ordem proposta não foi validada por uma rede de ensino.",
+        ],
     }
 
 
@@ -668,51 +781,68 @@ def count_expected(fundamental: dict, computing: dict) -> dict[str, int]:
     return counts
 
 
-def write_markdown(grades: dict[int, dict], report: dict) -> None:
+def doc_path(doc: dict) -> Path:
+    grade_id = doc["gradeId"]
+    if grade_id.startswith("ef-"):
+        return DOCS_DIR / f"grade-{doc['gradeNumber']}.md"
+    if grade_id == "em-etapa":
+        return DOCS_DIR / "ensino-medio.md"
+    return DOCS_DIR / f"{grade_id}.md"
+
+
+def write_markdown(documents: list[dict], report: dict) -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     lines = [
-        "# Currículo dos 3º, 4º, 5º e 6º anos",
+        "# Currículo da educação básica, sem o Ensino Superior",
         "",
         "Este texto é gerado por `scripts/build_curriculum.py`. Não edite os números à mão.",
         "",
         "## O que é oficial e o que é proposta",
         "",
-        "- Oficial: competências, habilidades, unidades, objetos de conhecimento, campos e práticas, com o código e o enunciado da fonte.",
+        "- Oficial: competências, habilidades, objetivos de aprendizagem, unidades, objetos de conhecimento, campos e práticas, com o código e o enunciado da fonte.",
         "- Proposta da NaEscola: ordem de ensino, complexidade estimada, tipos de aula, visualizações sugeridas e pré-requisitos.",
         "- A BNCC não é tratada como uma lista obrigatória de aulas.",
+        "- O Ensino Médio não recebe uma série inventada. As três séries existem na escola e apontam para as habilidades da etapa.",
         "",
         "## Fontes",
         "",
-        f"- BNCC, PDF do MEC, consultado em 2026-10-28.",
-        f"- Dataset bncc-dados `{DATASET_VERSION}`, commit `{DATASET_COMMIT}`.",
+        "- Dataset bncc-dados `" + DATASET_VERSION + "`, commit `" + DATASET_COMMIT + "`.",
+        "- PDF completo de 600 páginas arquivado nesse commit, lido em 2026-10-29 nas páginas 33, 34, 40 e em trechos da Educação Infantil e do Ensino Médio.",
         "- Parecer CNE/CEB nº 2/2022 para Computação, em cópia arquivada no mesmo commit.",
         "- Constituição de 1988, art. 210, §1º, citada por identificador. A URL do Planalto não respondeu neste ambiente.",
         "",
         "## Contagens",
         "",
-        f"- Habilidades oficiais distintas que incidem nos anos 3 a 6, incluindo Computação: {report['uniqueSkills']}.",
-        f"- Colocações ano-habilidade: {report['placements']}.",
+        f"- Colocações oficiais, somando anos, grupos etários e a etapa do Ensino Médio: {report['placements']}.",
+        f"- Códigos distintos nessas colocações: {report['uniqueSkills']}.",
+        f"- Colocações preservadas dos 3º ao 6º ano: {report['preservedPlacements']}.",
         f"- Pré-requisitos conceituais ou entre componentes: {report['conceptualEdgesResolved']}.",
-        f"- Arestas de continuidade do mesmo código: {report['continuityEdges']}.",
+        f"- Continuidade do mesmo código no ano anterior: {report['continuityEdges']}.",
+        f"- Continuidade do mesmo objetivo na faixa etária anterior: {report['ageGroupEdges']}.",
         f"- Ciclos: {report['cycles']}. Referências quebradas: {report['brokenReferences']}. IDs duplicados: {report['duplicateIds']}.",
         "",
-        "## Lacunas deliberadas",
+        "## O que não está aqui",
         "",
-        "- 1º, 2º, 7º, 8º e 9º anos não foram montados.",
-        "- Ensino Infantil, Ensino Médio e Ensino Superior não têm habilidades nesta entrega.",
-        "- Currículos estaduais e municipais não foram comparados um a um.",
-        "- A ordem proposta não foi validada por uma rede de ensino.",
+        "- Ensino Superior.",
+        "- Uma ordem nacional de aulas.",
+        "- A distribuição das habilidades do Ensino Médio entre 1ª, 2ª e 3ª série.",
+        "- Itinerários formativos, que dependem da rede e da escola.",
+        "- A Educação de Jovens e Adultos como grade própria.",
+        "- Currículos estaduais e municipais comparados um a um.",
+        "- Um grafo conceitual completo. A lista revista cobre trechos de Matemática e algumas ligações já feitas de História e Geografia. Não há aresta afirmada entre a Educação Infantil e o 1º ano, nem entre o 9º ano e o Ensino Médio.",
         "",
     ]
-    for grade, doc in grades.items():
+    for doc in documents:
         lines.append(f"## {doc['gradeLabel']} — {doc['stageLabel']}")
+        lines.append("")
+        lines.append(doc["nomenclatureNote"])
         lines.append("")
         for omission in doc["omissions"]:
             lines.append(f"- Omissão explícita: {omission['component']}. {omission['reason']}")
         for subject in doc["subjects"]:
             topic_count = sum(len(unit["topics"]) for unit in subject["units"])
             status = "BNCC 2018" if subject["officialStatus"] == "bncc-2018" else "complemento de 2022"
-            lines.append(f"### {subject['name']} ({status}) — {topic_count} habilidades")
+            lines.append(f"### {subject['name']} ({status}) — {topic_count} registros")
             lines.append("")
             lines.append(subject["description"])
             lines.append("")
@@ -720,20 +850,25 @@ def write_markdown(grades: dict[int, dict], report: dict) -> None:
                 lines.append(subject["localDependencyNote"])
                 lines.append("")
             for unit in subject["units"]:
-                lines.append(f"- {unit['name']} ({unit['kind']}): {len(unit['topics'])} habilidades")
+                lines.append(f"- {unit['name']} ({unit['kind']}): {len(unit['topics'])} registros")
+        if doc["uncertainties"]:
+            lines.append("")
+            lines.append("Incertezas:")
+            lines.append("")
+            for item in doc["uncertainties"]:
+                lines.append(f"- {item}")
         lines.append("")
-        path = DOCS_DIR / f"grade-{grade}.md"
-        section = [f"# {doc['gradeLabel']}", "", doc["nomenclatureNote"], ""]
-        section.extend([line for line in lines if line.startswith("###") or line.startswith("- ") or line.startswith("Omissão")][-0:])
-        # Write a focused grade file from this document only.
         grade_lines = [
             f"# {doc['gradeLabel']}",
             "",
             doc["stageLabel"] + ". " + doc["nomenclatureNote"],
             "",
-            "A ordem abaixo é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.",
+            "A ordem abaixo, quando há registros, é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.",
             "",
         ]
+        for note in doc["notes"]:
+            grade_lines.append(note)
+            grade_lines.append("")
         for omission in doc["omissions"]:
             grade_lines.append(f"Omissão explícita: **{omission['component']}**. {omission['reason']}")
             grade_lines.append("")
@@ -747,17 +882,32 @@ def write_markdown(grades: dict[int, dict], report: dict) -> None:
             if subject["localDependencyNote"]:
                 grade_lines.append(subject["localDependencyNote"])
                 grade_lines.append("")
+            if not subject["units"]:
+                grade_lines.append("Não há habilidade oficial colocada neste cartão.")
+                grade_lines.append("")
             for unit in subject["units"]:
                 grade_lines.append(f"### {unit['name']}")
                 grade_lines.append("")
+                if unit.get("officialText"):
+                    grade_lines.append(unit["officialText"])
+                    grade_lines.append("")
+                    grade_lines.append("O texto acima é a competência oficial. Os códigos abaixo não são uma ordem obrigatória de aulas.")
+                    grade_lines.append("")
                 for topic in unit["topics"]:
                     skill = topic["skills"][0]
-                    years = ", ".join(str(year) for year in skill["officialYears"])
-                    grade_lines.append(
-                        f"- `{skill['code']}` (anos oficiais: {years}) — {skill['text']}"
-                    )
+                    span = skill.get("officialSpanLabel")
+                    if not span:
+                        years = ", ".join(str(year) for year in skill["officialYears"])
+                        span = f"anos oficiais: {years}"
+                    grade_lines.append(f"- `{skill['code']}` ({span}) — {skill['text']}")
                 grade_lines.append("")
-        path.write_text("\n".join(grade_lines), encoding="utf-8")
+        if doc["uncertainties"]:
+            grade_lines.append("## Incertezas")
+            grade_lines.append("")
+            for item in doc["uncertainties"]:
+                grade_lines.append(f"- {item}")
+            grade_lines.append("")
+        doc_path(doc).write_text("\n".join(grade_lines), encoding="utf-8")
     (DOCS_DIR / "overview.md").write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -795,7 +945,7 @@ def competencies(structure: dict) -> dict:
         )
     return {
         "schemaVersion": "1.0.0",
-        "note": "Competências oficiais da BNCC. Não são aulas e não têm ordem de ensino proposta.",
+        "note": "Competências e direitos oficiais. Não são aulas e não têm ordem de ensino proposta. As habilidades do Ensino Fundamental não estão vinculadas, uma a uma, a estas competências.",
         "general": generals,
         "specificFundamental": specific,
         "sourceId": "bncc-2018-pdf",
@@ -803,7 +953,17 @@ def competencies(structure: dict) -> dict:
 
 
 def main() -> None:
+    from curriculum_extensions import (
+        apply_age_group_links,
+        build_early_childhood,
+        build_high_school,
+        build_series,
+        competency_additions,
+    )
+
     fundamental, structure, computing = load()
+    infantil = json.loads((ROOT / "data/sources/bncc-2018/educacao-infantil.json").read_text(encoding="utf-8"))
+    medio = json.loads((ROOT / "data/sources/bncc-2018/ensino-medio.json").read_text(encoding="utf-8"))
     skills = build_skills_by_code(fundamental, computing)
     contexts = {item["id"]: item for item in fundamental["contextos_organizacao"]}
     for eixo in computing["eixos"]:
@@ -818,9 +978,14 @@ def main() -> None:
         for grade in GRADES
     }
     link_report = apply_links(grades, skills)
-    cycles = detect_cycles(grades)
-    broken = broken_references(grades)
-    duplicates = duplicate_ids(grades)
+    early = build_early_childhood(infantil, structure, computing, source_catalog())
+    age_group_edges = apply_age_group_links(early, infantil)
+    high_school = build_high_school(medio, structure, computing, source_catalog())
+    series = build_series(source_catalog(), structure)
+    documents = [grades[grade] for grade in GRADES] + early + [high_school] + series
+    cycles = detect_cycles({index: doc for index, doc in enumerate(documents)})
+    broken = broken_references({index: doc for index, doc in enumerate(documents)})
+    duplicates = duplicate_ids({index: doc for index, doc in enumerate(documents)})
     if cycles or broken or duplicates:
         raise SystemExit(
             json.dumps({"cycles": cycles[:5], "broken": broken[:10], "duplicates": duplicates[:10]}, ensure_ascii=False)
@@ -830,23 +995,37 @@ def main() -> None:
     unique_codes = set()
     placements = 0
     continuity = 0
-    for grade, doc in grades.items():
+    preserved = 0
+    for doc in documents:
         count = 0
         for _s, _u, topic in iter_topics(doc):
             count += 1
             placements += 1
             unique_codes.add(topic["bnccSkillCodes"][0])
             continuity += sum(1 for item in topic["prerequisites"] if item["kind"] == "same-official-code-previous-year")
-        actual[str(grade)] = count
-        if count != expected[str(grade)]:
-            raise SystemExit(f"Grade {grade} has {count} topics, expected {expected[str(grade)]}")
+            if doc["gradeId"] in {"ef-3", "ef-4", "ef-5", "ef-6"}:
+                preserved += 1
+        actual[doc["gradeId"]] = count
+    for grade, expected_count in expected.items():
+        if actual[f"ef-{grade}"] != expected_count:
+            raise SystemExit(f"Grade {grade} has {actual[f'ef-{grade}']} topics, expected {expected_count}")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for grade, doc in grades.items():
         (OUT_DIR / f"grade-{grade}.json").write_text(
             json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+    for doc in early + series:
+        (OUT_DIR / f"{doc['gradeId']}.json").write_text(
+            json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+    (OUT_DIR / "ensino-medio.json").write_text(
+        json.dumps(high_school, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     comp = competencies(structure)
+    comp.update(competency_additions(structure, computing))
     (OUT_DIR / "competencies.json").write_text(json.dumps(comp, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report = {
         "schemaVersion": "1.0.0",
@@ -856,21 +1035,28 @@ def main() -> None:
             "ensino-fundamental.json": sha256(BNCC_PATH),
             "estrutura.json": sha256(STRUCTURE_PATH),
             "computacao.json": sha256(COMPUTING_PATH),
+            "educacao-infantil.json": sha256(ROOT / "data/sources/bncc-2018/educacao-infantil.json"),
+            "ensino-medio.json": sha256(ROOT / "data/sources/bncc-2018/ensino-medio.json"),
+            "marcos-legais.json": sha256(ROOT / "data/sources/bncc-2018/marcos-legais.json"),
         },
         "grades": actual,
         "uniqueSkills": len(unique_codes),
         "placements": placements,
+        "preservedPlacements": preserved,
         "generalCompetencies": len(comp["general"]),
         "specificCompetencies": len(comp["specificFundamental"]),
+        "specificMedioCompetencies": len(comp["specificMedio"]),
         "conceptualEdgesResolved": link_report["conceptualEdgesResolved"],
         "continuityEdges": continuity,
+        "ageGroupEdges": age_group_edges,
         "cycles": len(cycles),
         "brokenReferences": len(broken),
         "duplicateIds": len(duplicates),
+        "excluded": ["ensino-superior"],
         "mapDatasetCommitNotUsedHere": MAP_COMMIT,
     }
     (OUT_DIR / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    write_markdown(grades, report)
+    write_markdown(documents, report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

@@ -59,16 +59,17 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(window_report(), ensure_ascii=False, indent=2))
         return 0
     if args.command == "validate":
-        from app.services.graph import broken_references, find_cycles
+        from app.services.graph import broken_references, duplicate_topic_ids, find_cycles
 
         report = {
             "topics": len(catalog.topics),
             "cycles": len(find_cycles(catalog)),
             "brokenReferences": len(broken_references(catalog)),
+            "duplicateIds": len(duplicate_topic_ids(catalog)),
             "publishedLessons": sum(1 for lesson in lessons.list_lessons() if lesson.status == "published"),
         }
         print(json.dumps(report, indent=2))
-        return 0 if report["cycles"] == 0 and report["brokenReferences"] == 0 else 1
+        return 0 if report["cycles"] == 0 and report["brokenReferences"] == 0 and report["duplicateIds"] == 0 else 1
     if args.command == "dry-run":
         topic_id = args.topic or next_topic(catalog, lessons, grade_id=args.grade, subject_id=args.subject, unit_id=args.unit)
         print(json.dumps({

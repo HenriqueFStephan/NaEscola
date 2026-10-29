@@ -2,7 +2,13 @@
 
 Ensino Fundamental — Anos Finais. Nomenclatura atual do Ensino Fundamental. Não usamos 'série' na interface.
 
-A ordem abaixo é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.
+A ordem abaixo, quando há registros, é a sequência proposta pela NaEscola. Os códigos e os enunciados são oficiais.
+
+As habilidades são oficiais. A ordem dentro de cada componente é uma proposta da NaEscola baseada na ordem do documento, não uma sequência obrigatória da BNCC.
+
+Códigos de bloco de anos (como EF15, EF35 ou EF67) permanecem com o texto e o recorte oficiais. Quando aparecem em mais de um ano, a repetição indica o recorte oficial, não uma habilidade nova.
+
+A numeração sequencial da BNCC não representa uma ordem ou hierarquia esperada. Isso foi lido na página PDF 33 da cópia completa arquivada.
 
 ## Língua Portuguesa
 
@@ -508,3 +514,8 @@ Complemento de Computação do Parecer CNE/CEB nº 2/2022. Não faz parte do tex
 - `EF06CO10` (anos oficiais: 6) — Analisar o consumo de tecnologia na sociedade, compreendendo criticamente o caminho da produção dos recursos bem como aspectos ligados à obsolescência e a sustentabilidade.
 - `EF69CO11` (anos oficiais: 6, 7, 8, 9) — Apresentar conduta e linguagem apropriadas ao se comunicar em ambiente digital, considerando a ética e o respeito.
 - `EF69CO12` (anos oficiais: 6, 7, 8, 9) — Analisar o consumo de tecnologia na sociedade, compreendendo criticamente o caminho da produção dos recursos bem como aspectos ligados à obsolescência e a sustentabilidade.
+
+## Incertezas
+
+- Currículos estaduais e municipais não foram comparados.
+- A ordem proposta não foi validada por uma rede de ensino.
