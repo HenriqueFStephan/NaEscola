@@ -1,0 +1,289 @@
+{
+  "id": "lesson-ef05ci02",
+  "slug": "a-agua-muda-e-continua",
+  "title": "A água muda de estado e continua no ciclo",
+  "language": "pt-BR",
+  "gradeId": "ef-5",
+  "subjectId": "ef-5-ci",
+  "unitId": "ef-5-ci-ef-comp-ci-ut-materia-e-energia",
+  "topicId": "ef-5-ci-ef05ci02",
+  "learningObjectives": [
+    "Aplicar os conhecimentos sobre as mudanças de estado físico da água para explicar o ciclo hidrológico e analisar suas implicações na agricultura, no clima, na geração de energia elétrica, no provimento de água potável e no equilíbrio dos ecossistemas regionais (ou locais)."
+  ],
+  "bnccSkillCodes": [
+    "EF05CI02"
+  ],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A água desta aula aparece em três estados. Sólida, como o gelo. Líquida, como a água do copo, do rio ou do mar. Gasosa, como o vapor. Evaporar é a passagem do líquido ao gás. Condensar, no ciclo, é o vapor que esfria e vira gotículas. Quando essas gotas caem, há precipitação: chuva e, se fizer frio o bastante, neve ou granizo."
+    },
+    {
+      "type": "paragraph",
+      "text": "O Sol aquece a água de rios, lagos e mares, e também a água que as plantas devolvem ao ar. O vapor sobe, encontra ar mais frio e forma nuvem. A água que cai pode escorrer para os rios ou infiltrar no solo. Esse caminho é o ciclo hidrológico. A quantidade de chuva de uma cidade não entra nesta aula: esse número pediria uma medição citada."
+    },
+    {
+      "type": "paragraph",
+      "text": "O ciclo importa na agricultura, porque a chuva molha a plantação. No clima, porque a evaporação e a chuva repartem umidade. Na energia elétrica, porque há usinas que usam a água em movimento para girar turbinas. Na água potável, porque o ciclo repõe mananciais, e a qualidade dessa água depende do que o solo e a vegetação retêm. Sem vegetação, a água escorre mais depressa e carrega solo para o rio."
+    },
+    {
+      "type": "worked-example",
+      "title": "Da poça à nuvem",
+      "prompt": "Uma poça some numa manhã de sol e, de tarde, chove.",
+      "steps": [
+        "O Sol aquece a água da poça. Parte dela evapora.",
+        "O vapor sobe e esfria. As gotículas formam nuvem: condensação.",
+        "As gotas caem: precipitação.",
+        "A água da chuva pode voltar ao rio ou entrar no solo. A poça não precisa ser a mesma água, molécula por molécula, para o ciclo fazer sentido."
+      ],
+      "conclusion": "A mudança de estado explica o caminho. A aula não mede quantos litros evaporaram."
+    },
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "O que não está medido",
+      "text": "Não há aqui o volume de uma represa, o preço da energia nem a chuva de um município. Esses números mudam e pediriam a fonte da medição."
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Quatro momentos do ciclo",
+      "description": "Evaporação, condensação, precipitação e escoamento ou infiltração, um momento de cada vez.",
+      "config": {
+        "steps": [
+          {
+            "id": "evapora",
+            "title": "Evaporação",
+            "text": "Água líquida, aquecida pelo Sol, passa a vapor."
+          },
+          {
+            "id": "condensa",
+            "title": "Condensação",
+            "text": "O vapor esfria e forma gotículas de nuvem."
+          },
+          {
+            "id": "precipita",
+            "title": "Precipitação",
+            "text": "A água cai. Pode ser chuva. Com frio bastante, neve ou granizo."
+          },
+          {
+            "id": "segue",
+            "title": "Escoamento e infiltração",
+            "text": "Parte escorre para o rio. Parte entra no solo. A vegetação ajuda a segurar o solo e a água."
+          }
+        ]
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Três estados",
+      "description": "Gelo, água líquida e vapor, com o que se observa e o nome da mudança que sai de cada um no ciclo.",
+      "config": {
+        "leftTitle": "O que se observa",
+        "rightTitle": "No ciclo",
+        "rows": [
+          {
+            "label": "Sólido",
+            "left": "Gelo. Tem forma própria.",
+            "right": "Se derrete, volta ao líquido. A neve da precipitação é água sólida."
+          },
+          {
+            "label": "Líquido",
+            "left": "Água do copo, do rio, do mar. Escorre.",
+            "right": "Evapora com o calor do Sol."
+          },
+          {
+            "label": "Gasoso",
+            "left": "Vapor. Não se vê como uma poça.",
+            "right": "Condensa em gotículas quando esfria."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-evaporar",
+      "prompt": "A poça seca no sol. Qual mudança de estado a aula usa para explicar isso?",
+      "choices": [
+        {
+          "id": "evaporacao",
+          "text": "Evaporação: líquido que vira vapor",
+          "explanation": "O calor do Sol fornece a energia dessa passagem."
+        },
+        {
+          "id": "precipitacao",
+          "text": "Precipitação: a água caindo da nuvem",
+          "explanation": "Precipitação é a queda, não a poça que some."
+        },
+        {
+          "id": "condensacao",
+          "text": "Condensação: vapor que vira gota",
+          "explanation": "Condensação forma a nuvem. Não esvazia a poça."
+        }
+      ],
+      "correctChoiceId": "evaporacao",
+      "feedbackCorrect": "A poça perde água líquida para o ar. O nome dessa passagem, aqui, é evaporação.",
+      "feedbackIncorrect": "Condensação e precipitação acontecem depois, no ar e na queda. A poça que seca é evaporação."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-nuvem",
+      "prompt": "O vapor sobe, encontra ar frio e forma nuvem. Qual é o nome desse trecho?",
+      "choices": [
+        {
+          "id": "condensacao",
+          "text": "Condensação",
+          "explanation": "O gás volta a líquido em gotículas."
+        },
+        {
+          "id": "evaporacao",
+          "text": "Evaporação",
+          "explanation": "Evaporação é a saída do líquido. A nuvem é o retorno."
+        },
+        {
+          "id": "infiltracao",
+          "text": "Infiltração",
+          "explanation": "Infiltração é a água entrando no solo, não a formação da nuvem."
+        }
+      ],
+      "correctChoiceId": "condensacao",
+      "feedbackCorrect": "Vapor que esfria e vira gotícula é condensação.",
+      "feedbackIncorrect": "Evaporação já aconteceu. Infiltração é no solo. A nuvem é condensação."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-usina",
+      "prompt": "Qual implicação a aula sustenta, sem inventar um número?",
+      "choices": [
+        {
+          "id": "movimento",
+          "text": "Há usinas que usam a água em movimento para produzir eletricidade",
+          "explanation": "A habilidade cita a geração de energia elétrica. A aula não diz quantos megawatts."
+        },
+        {
+          "id": "preco",
+          "text": "O preço da energia de uma cidade, com um valor fechado",
+          "explanation": "Esse valor não foi pesquisado."
+        },
+        {
+          "id": "sempre-cheia",
+          "text": "Toda represa permanece cheia, porque o ciclo não para",
+          "explanation": "O ciclo não garante o nível de uma represa. Seca e consumo mudam o reservatório."
+        }
+      ],
+      "correctChoiceId": "movimento",
+      "feedbackCorrect": "A ligação segura é qualitativa: água em movimento pode girar turbina. O número da usina fica de fora.",
+      "feedbackIncorrect": "Preço e nível de represa não estão nesta aula. O que está é o uso da água em movimento."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-mata",
+      "prompt": "Por que a aula fala da vegetação no ciclo?",
+      "choices": [
+        {
+          "id": "segura",
+          "text": "A vegetação ajuda a água a infiltrar e segura solo que iria para o rio",
+          "explanation": "Sem essa cobertura, o escoamento carrega mais solo."
+        },
+        {
+          "id": "cria-agua",
+          "text": "A planta cria água nova, que não existia no ciclo",
+          "explanation": "A aula não diz que a planta fabrica água do nada."
+        },
+        {
+          "id": "impede-chuva",
+          "text": "A mata impede a chuva de cair",
+          "explanation": "A mata não cancela a precipitação. Ela muda o caminho da água no solo."
+        }
+      ],
+      "correctChoiceId": "segura",
+      "feedbackCorrect": "Raiz e cobertura mudam infiltração e erosão. A água continua no ciclo.",
+      "feedbackIncorrect": "A planta não cria água nova nem impede a chuva. Ela muda o caminho depois que a água cai."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Evaporação, condensação e precipitação são mudanças de estado no ciclo.",
+        "Depois da chuva, a água escorre ou infiltra.",
+        "Agricultura, clima, energia elétrica, água potável e vegetação dependem desse caminho.",
+        "A aula não traz volume, preço nem chuva de um lugar específico."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bncc-ef05ci02",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF05CI02",
+      "publicationDate": "2017-12-22",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A habilidade pede usar as mudanças de estado da água para explicar o ciclo hidrológico e suas implicações na agricultura, no clima, na energia elétrica, na água potável e nos ecossistemas."
+      ],
+      "reliabilityNote": "Enunciado oficial da habilidade no PDF da BNCC.",
+      "license": "Ato oficial.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "video-ana-ciclo",
+      "title": "O Ciclo da Água (Ciclo Hidrológico)",
+      "authorOrInstitution": "Agência Nacional de Águas e Saneamento Básico (ANA), canal anagovbr",
+      "url": "https://www.youtube.com/watch?v=vW5-xrV3Bq4",
+      "identifier": "youtube:vW5-xrV3Bq4",
+      "publicationDate": "2017-07-07",
+      "sourceType": "government",
+      "relevantClaims": [
+        "A ANA publica um vídeo institucional sobre o ciclo hidrológico."
+      ],
+      "reliabilityNote": "Título, canal e página gov.br do vídeo conferidos em 29 out. 2026. A página da ANA registra publicação em 7 jul. 2017.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "video-smile-ciclo",
+      "title": "O ciclo da água para crianças",
+      "authorOrInstitution": "Smile and Learn - Português",
+      "url": "https://www.youtube.com/watch?v=KZTRy6KL7_c",
+      "identifier": "youtube:KZTRy6KL7_c",
+      "publicationDate": "2020-01-02",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O vídeo em português mostra evaporação, condensação e precipitação como etapas do ciclo, com o Sol aquecendo a água."
+      ],
+      "reliabilityNote": "Título, canal e um trecho da narração conferidos em 29 out. 2026. É uma segunda maneira de mostrar as mesmas três etapas, não uma medição.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "sme-ciclo",
+      "title": "Ciências da Natureza – Ciclo hidrológico",
+      "authorOrInstitution": "Secretaria Municipal de Educação de Goiânia",
+      "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/ciencias-da-natureza-ciclo-hidrologico-2/",
+      "sourceType": "government",
+      "relevantClaims": [
+        "A página descreve evaporação, condensação, precipitação e infiltração, e liga o ciclo à agricultura, ao clima, às hidrelétricas, à água potável e à vegetação."
+      ],
+      "reliabilityNote": "Texto da página aberto em 29 out. 2026. Não traz a série pluviométrica de um município.",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-29T16:40:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
+  "sequenceNote": "A posição desta aula é uma proposta da NaEscola. Ela não substitui EF05CI03, que pede argumentos sobre a cobertura vegetal com outro recorte.",
+  "uncertaintyNotes": [
+    "Não há dado local de chuva, vazão ou tarifa. As implicações ficam qualitativas, como a habilidade permite sem uma medição."
+  ],
+  "reviews": [
+    {
+      "id": "review-ef05ci02-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Dois vídeos conferidos, um da ANA e outro em português para crianças, mais a página da SME de Goiânia. Nenhum número local foi inventado.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
+    }
+  ]
+}

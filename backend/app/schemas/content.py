@@ -124,6 +124,7 @@ class GradeCurriculum(StrictModel):
 class Choice(StrictModel):
     id: str
     text: str
+    explanation: str = ""
 
 
 class ParagraphBlock(StrictModel):

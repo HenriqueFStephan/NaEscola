@@ -1,0 +1,51 @@
+{
+  "selectedOn": "2026-10-29",
+  "purpose": "Cinco aulas novas para comparar com as sete já publicadas. Não é o sorteio de content/selection/initial-five.json.",
+  "criteria": [
+    "O tópico já está no currículo carregado e ainda não tinha aula publicada.",
+    "A habilidade cabe em duas ferramentas que o aplicativo já valida, sem desenhar fronteira.",
+    "Há página ou vídeo com URL conferida em 29 out. 2026, ou o limite fica escrito na aula.",
+    "Os cinco cobrem componentes ainda pouco representados: valor posicional, luz, ciclo da água, misturas e cronologia."
+  ],
+  "notChosen": [
+    {
+      "topicId": "ef-5-ge-*",
+      "reason": "Habilidades de geografia que pediriam fronteira de unidade da federação. Nesta revisão não se desenha fronteira."
+    },
+    {
+      "component": "Ensino Religioso",
+      "reason": "Continua fora, como no sorteio inicial. A matrícula é facultativa e a aula não inventa conteúdo confessional."
+    },
+    {
+      "topicId": "ef-6-hi-ef06hi07",
+      "reason": "Povos da Antiguidade na África, no Oriente Médio e nas Américas pediriam cultura material que não foi aberta em fonte nesta revisão."
+    }
+  ],
+  "selected": [
+    {
+      "topicId": "ef-3-ma-ef03ma01",
+      "slug": "cada-algarismo-no-seu-lugar",
+      "why": "Valor posicional até o milhar. Vídeo da Khan Academy Brasil sobre blocos e ficha da coleção Ápis Mais."
+    },
+    {
+      "topicId": "ef-3-ci-ef03ci02",
+      "slug": "por-onde-a-luz-passa",
+      "why": "Luz em transparente, espelho e opaco, com translúcido marcado como termo escolar. Vídeo conferido pelo título e plano da Nova Escola."
+    },
+    {
+      "topicId": "ef-5-ci-ef05ci02",
+      "slug": "a-agua-muda-e-continua",
+      "why": "Ciclo da água por mudança de estado. Dois vídeos, ANA e Smile and Learn em português, mais a página da SME de Goiânia. Sem número local."
+    },
+    {
+      "topicId": "ef-6-ci-ef06ci01",
+      "slug": "uma-fase-ou-mais",
+      "why": "Misturas com os exemplos da própria habilidade. Vídeo da Khan Academy Brasil e página da Brasil Escola."
+    },
+    {
+      "topicId": "ef-6-hi-ef06hi01",
+      "slug": "o-tempo-nao-e-uma-linha-so",
+      "why": "Cronologia sem fronteira e sem data nova. Planos da Nova Escola. Sem vídeo conferido, e isso está escrito na aula."
+    }
+  ]
+}

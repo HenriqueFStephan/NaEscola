@@ -83,6 +83,15 @@ export function StateSteps({ config, description }: { config: Record<string, unk
   return (
     <figure className="viz">
       <p>{description}</p>
+      <ol className="stepper">
+        {steps.map((item, itemIndex) => (
+          <li key={item.id}>
+            <button type="button" className="secondary" aria-current={itemIndex === index} onClick={() => setIndex(itemIndex)}>
+              {itemIndex + 1}. {item.title}
+            </button>
+          </li>
+        ))}
+      </ol>
       <div className="controls">
         <button type="button" className="secondary" onClick={() => setIndex((value) => Math.max(0, value - 1))} disabled={index === 0}>Anterior</button>
         <button type="button" className="secondary" onClick={() => setIndex((value) => Math.min(steps.length - 1, value + 1))} disabled={index === steps.length - 1}>Próximo</button>

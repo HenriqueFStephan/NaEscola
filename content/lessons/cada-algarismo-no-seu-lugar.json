@@ -1,0 +1,313 @@
+{
+  "id": "lesson-ef03ma01",
+  "slug": "cada-algarismo-no-seu-lugar",
+  "title": "Cada algarismo no seu lugar",
+  "language": "pt-BR",
+  "gradeId": "ef-3",
+  "subjectId": "ef-3-ma",
+  "unitId": "ef-3-ma-ef-comp-ma-ut-numeros",
+  "topicId": "ef-3-ma-ef03ma01",
+  "learningObjectives": [
+    "Ler, escrever e comparar números naturais de até a ordem de unidade de milhar, estabelecendo relações entre os registros numéricos e em língua materna."
+  ],
+  "bnccSkillCodes": [
+    "EF03MA01"
+  ],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "No número 2.437 há quatro ordens. Da direita para a esquerda: 7 unidades, 3 dezenas, 4 centenas e 2 unidades de milhar. O mesmo número, em língua materna, é dois mil quatrocentos e trinta e sete."
+    },
+    {
+      "type": "paragraph",
+      "text": "O algarismo muda de valor conforme o lugar. O 4 de 2.437 não vale 4. Vale 4 centenas, isto é, 400. Dez unidades formam 1 dezena. Dez dezenas formam 1 centena. Dez centenas formam 1 unidade de milhar."
+    },
+    {
+      "type": "worked-example",
+      "title": "Qual é maior",
+      "prompt": "Compare 1.250 e 1.205.",
+      "steps": [
+        "Os dois números têm 1 unidade de milhar. Essa ordem não decide.",
+        "Na centena, os dois têm 2. Ainda não decide.",
+        "Na dezena, 1.250 tem 5 e 1.205 tem 0. Cinco dezenas são mais do que zero dezenas.",
+        "As unidades nem precisam entrar: 1.250 é maior."
+      ],
+      "conclusion": "1.250 > 1.205. Em língua materna: mil duzentos e cinquenta é maior do que mil duzentos e cinco."
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "O algarismo não é o valor",
+      "text": "Em 1.250, o algarismo 5 está na ordem das dezenas. O valor dele é 50, não 5. Ler só o algarismo, sem o lugar, quebra o número."
+    },
+    {
+      "type": "visualization",
+      "component": "field-record",
+      "title": "A ficha de 2.437",
+      "description": "Quatro campos nomeados decompõem 2.437. A tarefa é escolher o campo das centenas.",
+      "config": {
+        "prompt": "Qual campo guarda as centenas de 2.437?",
+        "targetFieldId": "centena",
+        "fields": [
+          {
+            "id": "milhar",
+            "label": "unidade de milhar",
+            "value": "2"
+          },
+          {
+            "id": "centena",
+            "label": "centena",
+            "value": "4"
+          },
+          {
+            "id": "dezena",
+            "label": "dezena",
+            "value": "3"
+          },
+          {
+            "id": "unidade",
+            "label": "unidade",
+            "value": "7"
+          }
+        ],
+        "feedbackCorrect": "O 4 está na ordem das centenas. O valor é 400.",
+        "feedbackIncorrect": "Conte os lugares a partir da direita: unidade, dezena, centena, milhar. O 4 é a centena."
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "bar-compare",
+      "title": "Quanto vale cada ordem",
+      "description": "Quatro barras com os valores 2000, 400, 30 e 7. São as ordens de 2.437, não uma estatística.",
+      "config": {
+        "unit": "unidades",
+        "question": "Em 2.437, qual ordem contribui com o maior valor?",
+        "bars": [
+          {
+            "id": "milhar",
+            "label": "milhar",
+            "value": 2000
+          },
+          {
+            "id": "centena",
+            "label": "centena",
+            "value": 400
+          },
+          {
+            "id": "dezena",
+            "label": "dezena",
+            "value": 30
+          },
+          {
+            "id": "unidade",
+            "label": "unidade",
+            "value": 7
+          }
+        ]
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "number-line",
+      "title": "Onde ficam na reta",
+      "description": "Reta de 0 a 3.000. Os pontos 1.000, 2.000 e 2.437 estão marcados. O controle anda de 1 em 1.",
+      "config": {
+        "min": 0,
+        "max": 3000,
+        "step": 1,
+        "ticks": [
+          0,
+          1000,
+          2000,
+          3000
+        ],
+        "markers": [
+          {
+            "value": 1000,
+            "label": "1.000"
+          },
+          {
+            "value": 2000,
+            "label": "2.000"
+          },
+          {
+            "value": 2437,
+            "label": "2.437"
+          }
+        ],
+        "initial": 1000
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-valor-do-4",
+      "prompt": "No número 2.437, quanto vale o algarismo 4?",
+      "choices": [
+        {
+          "id": "quatrocentas",
+          "text": "400, porque está na ordem das centenas",
+          "explanation": "O lugar da centena multiplica o algarismo por 100."
+        },
+        {
+          "id": "quatro",
+          "text": "4, porque o algarismo escrito é 4",
+          "explanation": "O algarismo sozinho não é o valor da ordem."
+        },
+        {
+          "id": "quatro-mil",
+          "text": "4.000, porque 2.437 é um número de milhar",
+          "explanation": "4.000 seria um 4 na ordem do milhar. Aqui o milhar é 2."
+        }
+      ],
+      "correctChoiceId": "quatrocentas",
+      "feedbackCorrect": "2.437 = 2.000 + 400 + 30 + 7. O 4 vale 400.",
+      "feedbackIncorrect": "Olhe o lugar. O 4 não está nas unidades nem no milhar. Está nas centenas."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-comparar",
+      "prompt": "Qual número é maior?",
+      "choices": [
+        {
+          "id": "mil-cem",
+          "text": "1.100",
+          "explanation": "O milhar é igual ao de 1.099. A centena 1 é maior do que a centena 0."
+        },
+        {
+          "id": "mil-noventa",
+          "text": "1.099",
+          "explanation": "1.099 tem mais algarismos diferentes, mas a centena é 0."
+        },
+        {
+          "id": "iguais",
+          "text": "São iguais, porque os dois começam com 1",
+          "explanation": "O primeiro algarismo igual não torna o número igual."
+        }
+      ],
+      "correctChoiceId": "mil-cem",
+      "feedbackCorrect": "1.100 tem 1 centena. 1.099 tem 0 centenas e está uma unidade abaixo de 1.100.",
+      "feedbackIncorrect": "Compare ordem por ordem, da maior para a menor. A centena decide."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-lingua",
+      "prompt": "Qual leitura corresponde a 3.050?",
+      "choices": [
+        {
+          "id": "leitura-certa",
+          "text": "três mil e cinquenta",
+          "explanation": "3 milhares, 0 centenas, 5 dezenas e 0 unidades."
+        },
+        {
+          "id": "tres-cinquenta",
+          "text": "trezentos e cinquenta",
+          "explanation": "350 não chega na ordem do milhar."
+        },
+        {
+          "id": "trinta-mil",
+          "text": "trinta mil e cinquenta",
+          "explanation": "30.050 teria o 3 na dezena de milhar, ordem que esta aula não usa."
+        }
+      ],
+      "correctChoiceId": "leitura-certa",
+      "feedbackCorrect": "3.050 é três mil e cinquenta. A centena vazia não se lê como um zero no meio da fala.",
+      "feedbackIncorrect": "3.050 tem uma unidade de milhar igual a 3. Não é 350 nem 30.050."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-depois",
+      "prompt": "Qual número vem logo depois de 999?",
+      "choices": [
+        {
+          "id": "mil",
+          "text": "1.000",
+          "explanation": "999 + 1 reagrupa 10 centenas em 1 unidade de milhar."
+        },
+        {
+          "id": "novecentos",
+          "text": "990",
+          "explanation": "990 é menor do que 999."
+        },
+        {
+          "id": "mil-e-um",
+          "text": "1.001",
+          "explanation": "1.001 vem depois de 1.000, não logo depois de 999."
+        }
+      ],
+      "correctChoiceId": "mil",
+      "feedbackCorrect": "Depois de 999 vem 1.000, o primeiro número com unidade de milhar.",
+      "feedbackIncorrect": "990 já passou. 1.001 está dois passos à frente. O próximo é 1.000."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Até o milhar há quatro ordens: unidade, dezena, centena e unidade de milhar.",
+        "O valor do algarismo depende do lugar.",
+        "2.437 se lê dois mil quatrocentos e trinta e sete e vale 2.000 + 400 + 30 + 7.",
+        "Para comparar, começa-se pela ordem maior."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bncc-ef03ma01",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF03MA01",
+      "publicationDate": "2017-12-22",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A habilidade pede ler, escrever e comparar números naturais até a ordem da unidade de milhar, nos registros numérico e em língua materna."
+      ],
+      "reliabilityNote": "Enunciado oficial da habilidade no PDF da BNCC.",
+      "license": "Ato oficial.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "khan-blocos",
+      "title": "Blocos de valores posicionais",
+      "authorOrInstitution": "Khan Academy Brasil",
+      "url": "https://www.youtube.com/watch?v=z98Jy8GWs0I",
+      "identifier": "youtube:z98Jy8GWs0I",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O vídeo mostra o agrupamento de dez: unidades soltas viram uma dezena."
+      ],
+      "reliabilityNote": "Título e canal conferidos em 29 out. 2026. O trecho visto trata de unidades e dezenas. A aula repete esse agrupamento até o milhar, que é o alcance de EF03MA01, sem atribuir ao vídeo um exemplo de milhar que esse trecho não mostrou.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "apis-ef03ma01",
+      "title": "Ápis Mais: Matemática, 3º ano",
+      "authorOrInstitution": "Luiz Roberto Dante e Fernando Viana, Editora Ática",
+      "url": "https://www.edocente.com.br/pnld/obra/apis-mais-matematica-3o-ano/",
+      "identifier": "0056 P23 01 01 020 020",
+      "publicationDate": "2021",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O manual do professor dessa coleção trabalha EF03MA01 com material dourado e com a escrita do número em língua materna."
+      ],
+      "reliabilityNote": "A ficha da editora foi aberta em 29 out. 2026. O trecho do manual consultado descreve as atividades de EF03MA01 com material dourado. Não foi citada uma página impressa.",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-29T16:40:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
+  "sequenceNote": "A posição desta aula é uma proposta da NaEscola. A BNCC não transforma EF03MA01 numa ordem obrigatória de aulas.",
+  "uncertaintyNotes": [
+    "O vídeo citado mostra o agrupamento de dez. O milhar desta aula segue a habilidade oficial e o mesmo princípio, não uma cena específica desse vídeo."
+  ],
+  "reviews": [
+    {
+      "id": "review-ef03ma01-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Habilidade conferida no currículo carregado. Vídeo e ficha da coleção Ápis Mais abertos. Nenhum número de página foi inventado.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
+    }
+  ]
+}

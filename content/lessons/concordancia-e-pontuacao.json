@@ -10,22 +10,225 @@
   "learningObjectives": [
     "Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas."
   ],
-  "bnccSkillCodes": ["EF05LP26"],
+  "bnccSkillCodes": [
+    "EF05LP26"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "paragraph", "text": "Esta aula olha para quatro decisões que aparecem enquanto o texto está sendo escrito: o substantivo e as palavras que falam dele combinam? O verbo combina com quem pratica a ação? A enumeração está separada por vírgulas? A frase termina em ponto?"},
-    {"type": "heading", "level": 2, "text": "Concordância nominal"},
-    {"type": "paragraph", "text": "Se o substantivo está no plural, o artigo e o adjetivo que o acompanham também vão ao plural. Escrevemos \"os cadernos novos\", não \"os caderno novo\". O nome e os termos que o determinam apontam juntos para mais de um caderno."},
-    {"type": "heading", "level": 2, "text": "Concordância verbal"},
-    {"type": "paragraph", "text": "O verbo combina com o sujeito. \"Os cadernos novos chegaram\" usa chegaram porque o sujeito está no plural. \"O caderno novo chegou\" usa chegou porque o sujeito está no singular. Não é uma regra de enfeite: o leitor usa essa marca para saber de quantas coisas a frase fala."},
-    {"type": "heading", "level": 2, "text": "Pontuação desta habilidade"},
-    {"type": "paragraph", "text": "O ponto final encerra a frase. Os dois-pontos anunciam o que vem em seguida, como uma lista ou uma fala. Na enumeração, a vírgula separa itens do mesmo tipo: \"Levei lápis, borracha e régua.\" Antes do \"e\" que fecha uma enumeração simples, a vírgula pode ficar de fora."},
-    {"type": "paragraph", "text": "Uma citação curta, nesta aula, é a fala ou o texto de outra pessoa marcado por dois-pontos e aspas. Exemplo original: A monitora disse: \"Guardem os cadernos.\" As aspas mostram que a frase não é do narrador. Não copiamos aqui um texto de livro."},
-    {"type": "worked-example", "title": "Reescrever um aviso", "prompt": "Aviso inicial: \"Os aluno esqueceu lápis borracha e regua.\"", "steps": ["O sujeito é plural: os alunos.", "O verbo acompanha o sujeito: esqueceram.", "A lista de objetos pede vírgulas e a conjunção e antes do último item.", "A palavra régua leva acento. A frase fecha com ponto."], "conclusion": "Os alunos esqueceram lápis, borracha e régua."},
-    {"type": "visualization", "component": "comparison", "title": "A mesma cena, dois escritos", "description": "Duas versões de um aviso. A da esquerda quebra a concordância. A da direita faz o artigo, o substantivo e o verbo combinarem.", "config": {"leftTitle": "Ainda sem concordância", "rightTitle": "Com concordância", "rows": [{"label": "Aviso", "left": "Os aluno chegou atrasado.", "right": "Os alunos chegaram atrasados."}, {"label": "O que mudou", "left": "Artigo no plural, substantivo e verbo no singular.", "right": "Artigo, substantivo, verbo e adjetivo marcam o plural."}]}},
-    {"type": "callout", "tone": "misconception", "title": "Plural só no artigo não basta", "text": "\"Os aluno chegou\" já anuncia mais de uma pessoa no artigo, mas o substantivo e o verbo não acompanham. O leitor precisa juntar marcas que se contradizem."},
-    {"type": "knowledge-check", "id": "check-concordancia", "prompt": "Qual frase usa concordância verbal e a vírgula de enumeração?", "choices": [{"id": "certa", "text": "As professoras pediram caderno, lápis e borracha."}, {"id": "verbo", "text": "As professoras pediu caderno lápis e borracha."}, {"id": "nominal", "text": "As professora pediram caderno, lápis e borracha."}], "correctChoiceId": "certa", "feedbackCorrect": "Professoras e pediram combinam no plural, e a lista separa os itens com vírgula.", "feedbackIncorrect": "Confira o verbo com \"as professoras\" e se a lista tem vírgulas entre os itens."},
-    {"type": "summary", "points": ["Artigo, substantivo e adjetivo combinam em número.", "O verbo combina com o sujeito.", "Vírgula separa itens de uma enumeração; o ponto encerra a frase.", "Dois-pontos podem anunciar uma fala, e as aspas marcam que a fala é de outra pessoa."]}
+    {
+      "type": "paragraph",
+      "text": "Esta aula olha para quatro decisões que aparecem enquanto o texto está sendo escrito: o substantivo e as palavras que falam dele combinam? O verbo combina com quem pratica a ação? A enumeração está separada por vírgulas? A frase termina em ponto?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Concordância nominal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Se o substantivo está no plural, o artigo e o adjetivo que o acompanham também vão ao plural. Escrevemos \"os cadernos novos\", não \"os caderno novo\". O nome e os termos que o determinam apontam juntos para mais de um caderno."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Concordância verbal"
+    },
+    {
+      "type": "paragraph",
+      "text": "O verbo combina com o sujeito. \"Os cadernos novos chegaram\" usa chegaram porque o sujeito está no plural. \"O caderno novo chegou\" usa chegou porque o sujeito está no singular. Não é uma regra de enfeite: o leitor usa essa marca para saber de quantas coisas a frase fala."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pontuação desta habilidade"
+    },
+    {
+      "type": "paragraph",
+      "text": "O ponto final encerra a frase. Os dois-pontos anunciam o que vem em seguida, como uma lista ou uma fala. Na enumeração, a vírgula separa itens do mesmo tipo: \"Levei lápis, borracha e régua.\" Antes do \"e\" que fecha uma enumeração simples, a vírgula pode ficar de fora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma citação curta, nesta aula, é a fala ou o texto de outra pessoa marcado por dois-pontos e aspas. Exemplo original: A monitora disse: \"Guardem os cadernos.\" As aspas mostram que a frase não é do narrador. Não copiamos aqui um texto de livro."
+    },
+    {
+      "type": "worked-example",
+      "title": "Reescrever um aviso",
+      "prompt": "Aviso inicial: \"Os aluno esqueceu lápis borracha e regua.\"",
+      "steps": [
+        "O sujeito é plural: os alunos.",
+        "O verbo acompanha o sujeito: esqueceram.",
+        "A lista de objetos pede vírgulas e a conjunção e antes do último item.",
+        "A palavra régua leva acento. A frase fecha com ponto."
+      ],
+      "conclusion": "Os alunos esqueceram lápis, borracha e régua."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "A mesma cena, dois escritos",
+      "description": "Duas versões de um aviso. A da esquerda quebra a concordância. A da direita faz o artigo, o substantivo e o verbo combinarem.",
+      "config": {
+        "leftTitle": "Ainda sem concordância",
+        "rightTitle": "Com concordância",
+        "rows": [
+          {
+            "label": "Aviso",
+            "left": "Os aluno chegou atrasado.",
+            "right": "Os alunos chegaram atrasados."
+          },
+          {
+            "label": "O que mudou",
+            "left": "Artigo no plural, substantivo e verbo no singular.",
+            "right": "Artigo, substantivo, verbo e adjetivo marcam o plural."
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Plural só no artigo não basta",
+      "text": "\"Os aluno chegou\" já anuncia mais de uma pessoa no artigo, mas o substantivo e o verbo não acompanham. O leitor precisa juntar marcas que se contradizem."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-concordancia",
+      "prompt": "Qual frase usa concordância verbal e a vírgula de enumeração?",
+      "choices": [
+        {
+          "id": "certa",
+          "text": "As professoras pediram caderno, lápis e borracha.",
+          "explanation": "O artigo, o substantivo e o verbo estão no plural, e a lista separa os itens com vírgula."
+        },
+        {
+          "id": "verbo",
+          "text": "As professoras pediu caderno lápis e borracha.",
+          "explanation": "O sujeito está no plural, mas o verbo ficou no singular e a lista perdeu as vírgulas."
+        },
+        {
+          "id": "nominal",
+          "text": "As professora pediram caderno, lápis e borracha.",
+          "explanation": "O verbo foi ao plural, mas o substantivo ficou no singular: professora."
+        }
+      ],
+      "correctChoiceId": "certa",
+      "feedbackCorrect": "Professoras e pediram combinam no plural, e a lista separa os itens com vírgula.",
+      "feedbackIncorrect": "Confira o verbo com \"as professoras\" e se a lista tem vírgulas entre os itens."
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Revisar uma frase",
+      "description": "Quatro passos discretos para revisar sujeito, verbo, lista e ponto. Cada passo mostra uma decisão, sem pular para o meio.",
+      "config": {
+        "steps": [
+          {
+            "id": "sujeito",
+            "title": "Achar o sujeito",
+            "text": "Em \"os alunos\", o artigo e o substantivo anunciam mais de uma pessoa."
+          },
+          {
+            "id": "verbo",
+            "title": "Acompanhar o verbo",
+            "text": "O verbo vai ao plural com o sujeito: esqueceram, não esqueceu."
+          },
+          {
+            "id": "lista",
+            "title": "Pontuar a lista",
+            "text": "Entre os itens vai vírgula. Antes do último, a conjunção e. A palavra régua leva acento."
+          },
+          {
+            "id": "fechar",
+            "title": "Fechar a frase",
+            "text": "O ponto encerra o aviso: Os alunos esqueceram lápis, borracha e régua."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-sujeito",
+      "prompt": "Qual frase faz o verbo concordar com o sujeito?",
+      "choices": [
+        {
+          "id": "plural-certo",
+          "text": "As crianças chegaram cedo.",
+          "explanation": "Crianças e chegaram marcam o plural."
+        },
+        {
+          "id": "verbo-singular",
+          "text": "As crianças chegou cedo.",
+          "explanation": "O artigo e o substantivo estão no plural, mas o verbo não."
+        },
+        {
+          "id": "artigo-singular",
+          "text": "A crianças chegaram cedo.",
+          "explanation": "O artigo ficou no singular e briga com o substantivo."
+        }
+      ],
+      "correctChoiceId": "plural-certo",
+      "feedbackCorrect": "Artigo, substantivo e verbo combinam no plural.",
+      "feedbackIncorrect": "Leia o sujeito inteiro e só então escolha o verbo. As crianças pede chegaram."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-lista",
+      "prompt": "Qual aviso usa a vírgula da enumeração?",
+      "choices": [
+        {
+          "id": "lista-certa",
+          "text": "Trouxe caderno, lápis e régua.",
+          "explanation": "Há vírgula entre os itens e e antes do último."
+        },
+        {
+          "id": "sem-virgula",
+          "text": "Trouxe caderno lápis e régua.",
+          "explanation": "Os itens ficaram colados. A vírgula é que separa a lista."
+        },
+        {
+          "id": "virgula-antes-do-e-so",
+          "text": "Trouxe caderno lápis, e régua.",
+          "explanation": "A vírgula apareceu só antes do e. Falta separar caderno de lápis."
+        }
+      ],
+      "correctChoiceId": "lista-certa",
+      "feedbackCorrect": "A lista de três itens fica: caderno, lápis e régua.",
+      "feedbackIncorrect": "Separe os dois primeiros itens com vírgula e deixe o e antes do último."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-acento",
+      "prompt": "No aviso revisado, por que régua não se escreve regua?",
+      "choices": [
+        {
+          "id": "acento-agudo",
+          "text": "Porque a sílaba tônica pede o acento agudo: ré-gua.",
+          "explanation": "A aula marca esse acento na revisão do aviso."
+        },
+        {
+          "id": "plural",
+          "text": "Porque a palavra está no plural",
+          "explanation": "Régua, nesse aviso, está no singular."
+        },
+        {
+          "id": "virgula",
+          "text": "Porque toda palavra depois de vírgula leva acento",
+          "explanation": "A vírgula não coloca acento. O acento é da palavra."
+        }
+      ],
+      "correctChoiceId": "acento-agudo",
+      "feedbackCorrect": "Régua leva acento agudo na primeira sílaba. A vírgula da lista é outra decisão.",
+      "feedbackIncorrect": "Não é o plural nem a vírgula que acentuam a palavra. É a tonicidade: régua."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Artigo, substantivo e adjetivo combinam em número.",
+        "O verbo combina com o sujeito.",
+        "Vírgula separa itens de uma enumeração; o ponto encerra a frase.",
+        "Dois-pontos podem anunciar uma fala, e as aspas marcam que a fala é de outra pessoa."
+      ]
+    }
   ],
   "references": [
     {
@@ -37,17 +240,35 @@
       "publicationDate": "2017-12-22",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade lista concordância nominal e verbal, citação, ponto final, dois-pontos, vírgula em enumerações e ortografia."],
+      "relevantClaims": [
+        "A habilidade lista concordância nominal e verbal, citação, ponto final, dois-pontos, vírgula em enumerações e ortografia."
+      ],
       "reliabilityNote": "Localizador do dataset: página PDF 133.",
       "license": "Ato oficial."
+    },
+    {
+      "id": "brasil-escola-concordancia",
+      "title": "Concordância verbal: sujeito simples e composto",
+      "authorOrInstitution": "Vânia Maria do Nascimento Duarte, Brasil Escola",
+      "url": "https://brasilescola.uol.com.br/gramatica/concordancia-verbal.htm",
+      "accessedAt": "2026-10-29",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "A concordância verbal adapta o verbo em número e pessoa ao sujeito. A página traz o exemplo: os alunos chegaram atrasados."
+      ],
+      "reliabilityNote": "Página aberta em 29 out. 2026. Trata mais casos do que o 5º ano precisa. A aula fica no sujeito simples, no plural e na lista.",
+      "license": null
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:14:00+00:00",
-  "updatedAt": "2026-10-28T21:14:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A posição na linha do tempo de Língua Portuguesa é uma proposta da NaEscola, baseada na ordem do documento, não uma sequência obrigatória da BNCC.",
-  "uncertaintyNotes": ["A aula não cobre todas as regras ortográficas do português. Trata só o que o exemplo precisa e o que a habilidade nomeia."],
+  "uncertaintyNotes": [
+    "A aula não cobre todas as regras ortográficas do português. Trata só o que o exemplo precisa e o que a habilidade nomeia.",
+    "Nesta revisão não foi citado um vídeo de concordância, porque nenhum foi conferido até o canal e o título."
+  ],
   "reviews": [
     {
       "id": "review-ef05lp26",
@@ -55,6 +276,13 @@
       "decision": "approve",
       "notes": "Os exemplos foram escritos para a aula. Nenhum trecho de livro didático foi copiado. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:14:00+00:00"
+    },
+    {
+      "id": "review-concordancia-e-pontuacao-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "A verificação foi ampliada e os passos da revisão viraram uma ferramenta separada da tabela. Não foi citado vídeo novo: nenhum foi conferido para esta habilidade nesta revisão. O código continua EF05LP26.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

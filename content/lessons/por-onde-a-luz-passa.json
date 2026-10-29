@@ -1,0 +1,265 @@
+{
+  "id": "lesson-ef03ci02",
+  "slug": "por-onde-a-luz-passa",
+  "title": "Por onde a luz passa",
+  "language": "pt-BR",
+  "gradeId": "ef-3",
+  "subjectId": "ef-3-ci",
+  "unitId": "ef-3-ci-ef-comp-ci-ut-materia-e-energia",
+  "topicId": "ef-3-ci-ef03ci02",
+  "learningObjectives": [
+    "Experimentar e relatar o que ocorre com a passagem da luz através de objetos transparentes (copos, janelas de vidro, lentes, prismas, água etc.), no contato com superfícies polidas (espelhos) e na intersecção com objetos opacos (paredes, pratos, pessoas e outros objetos de uso cotidiano)."
+  ],
+  "bnccSkillCodes": [
+    "EF03CI02"
+  ],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A habilidade pede três encontros da luz com os materiais. No vidro de uma janela, a luz atravessa e a gente vê com nitidez o que está do outro lado: o material é transparente. Numa parede, a luz não atravessa: o material é opaco. Num espelho, a superfície polida devolve a luz e a gente vê uma imagem refletida, não o cômodo que estaria atrás do espelho."
+    },
+    {
+      "type": "paragraph",
+      "text": "Materiais de escola costumam acrescentar um terceiro caso, o translúcido: passa luz, mas a visão do outro lado fica turva. Um papel vegetal é o exemplo comum. EF03CI02 não usa essa palavra. Ela nomeia transparentes, superfícies polidas e opacos. A aula usa translúcido como o nome escolar da passagem parcial, e deixa marcado que ele não está no enunciado oficial."
+    },
+    {
+      "type": "worked-example",
+      "title": "Três objetos da sala",
+      "prompt": "Uma lanterna aponta, um de cada vez, para a janela, para o espelho e para a parede.",
+      "steps": [
+        "Na janela de vidro, a luz segue e o pátio continua visível.",
+        "No espelho, a luz volta. Aparece a imagem de quem está na frente, não a parede que fica atrás do espelho.",
+        "Na parede, a luz não continua do outro lado. A parede faz sombra."
+      ],
+      "conclusion": "O relato muda com o material. Atravessar, refletir e barrar são três resultados diferentes."
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Espelho não é janela",
+      "text": "Ver alguma coisa no espelho não significa que a luz atravessou. A superfície polida devolve a luz. O que se vê é reflexão."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Atravessa ou não",
+      "description": "Três linhas: vidro, papel vegetal e parede. A coluna da direita diz o que a luz faz.",
+      "config": {
+        "leftTitle": "Material",
+        "rightTitle": "O que a luz faz",
+        "rows": [
+          {
+            "label": "Vidro da janela",
+            "left": "Transparente, nome usado pela habilidade.",
+            "right": "Atravessa e deixa ver com nitidez."
+          },
+          {
+            "label": "Papel vegetal",
+            "left": "Translúcido, nome de material escolar, não do enunciado.",
+            "right": "Deixa passar parte da luz e a visão fica turva."
+          },
+          {
+            "label": "Parede",
+            "left": "Opaco, nome usado pela habilidade.",
+            "right": "Não deixa a luz seguir. Faz sombra."
+          }
+        ]
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Três encontros",
+      "description": "Um passo para cada encontro pedido pela habilidade: transparente, espelho e opaco.",
+      "config": {
+        "steps": [
+          {
+            "id": "vidro",
+            "title": "Vidro",
+            "text": "A luz atravessa. Dá para ver o outro lado com nitidez."
+          },
+          {
+            "id": "espelho",
+            "title": "Espelho",
+            "text": "A superfície polida reflete. A imagem não é o que está atrás do espelho."
+          },
+          {
+            "id": "parede",
+            "title": "Parede",
+            "text": "O objeto opaco intercepta a luz. Do outro lado, fica escuro."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-janela",
+      "prompt": "A luz da lanterna chega à janela de vidro e o pátio continua visível. Como a aula nomeia esse vidro?",
+      "choices": [
+        {
+          "id": "transparente",
+          "text": "Transparente",
+          "explanation": "A luz atravessa e a visão do outro lado permanece nítida."
+        },
+        {
+          "id": "opaco",
+          "text": "Opaco",
+          "explanation": "O opaco barra a luz. O pátio não ficaria visível."
+        },
+        {
+          "id": "espelho",
+          "text": "Espelho",
+          "explanation": "O espelho devolve a luz. Não mostra o pátio através dele."
+        }
+      ],
+      "correctChoiceId": "transparente",
+      "feedbackCorrect": "Vidro de janela, no exemplo da habilidade, é transparente.",
+      "feedbackIncorrect": "Se o pátio continua visível através do material, a luz atravessou. Não foi parede nem espelho."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-espelho",
+      "prompt": "Uma criança se vê no espelho. O que aconteceu com a luz?",
+      "choices": [
+        {
+          "id": "refletiu",
+          "text": "A superfície polida refletiu a luz",
+          "explanation": "É o contato com superfície polida que a habilidade pede."
+        },
+        {
+          "id": "atravessou",
+          "text": "A luz atravessou o espelho e mostrou a parede dos fundos",
+          "explanation": "A imagem do espelho não é a parede de trás."
+        },
+        {
+          "id": "sumiu",
+          "text": "A luz acabou, porque espelho não tem relação com luz",
+          "explanation": "Sem luz incidindo, não há imagem para ver."
+        }
+      ],
+      "correctChoiceId": "refletiu",
+      "feedbackCorrect": "O espelho não é uma janela. Ele devolve a luz.",
+      "feedbackIncorrect": "A imagem no espelho é reflexão. Não é passagem e não é ausência de luz."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-parede",
+      "prompt": "A lanterna aponta para a parede e do outro lado da parede fica escuro. Por quê?",
+      "choices": [
+        {
+          "id": "opaca",
+          "text": "A parede é opaca e intercepta a luz",
+          "explanation": "É o caso de intersecção com objeto opaco."
+        },
+        {
+          "id": "transparente",
+          "text": "A parede é transparente e a escuridão é outra luz",
+          "explanation": "Transparente deixaria ver o outro lado."
+        },
+        {
+          "id": "longe",
+          "text": "A lanterna está longe demais para qualquer objeto",
+          "explanation": "A distância não explica o contraste: no vidro, a mesma lanterna atravessa."
+        }
+      ],
+      "correctChoiceId": "opaca",
+      "feedbackCorrect": "A parede barra a luz. O outro lado não recebe essa lanterna.",
+      "feedbackIncorrect": "O vidro, com a mesma lanterna, deixa passar. A diferença está no material."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-translucido",
+      "prompt": "Onde a palavra translúcido entra nesta aula?",
+      "choices": [
+        {
+          "id": "escola",
+          "text": "Como nome escolar para a passagem parcial, fora do enunciado de EF03CI02",
+          "explanation": "O enunciado oficial fala em transparentes, espelhos e opacos."
+        },
+        {
+          "id": "oficial",
+          "text": "Como uma das três palavras do enunciado oficial",
+          "explanation": "Translúcido não está no enunciado."
+        },
+        {
+          "id": "sinonimo",
+          "text": "Como sinônimo de opaco",
+          "explanation": "Opaco não deixa passar. Translúcido deixa passar uma parte."
+        }
+      ],
+      "correctChoiceId": "escola",
+      "feedbackCorrect": "A aula não troca o enunciado. Translúcido é o complemento dos materiais de escola.",
+      "feedbackIncorrect": "Não está no código como palavra oficial e não significa opaco."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Transparente: a luz atravessa e a visão é nítida.",
+        "Superfície polida, como o espelho: a luz reflete.",
+        "Opaco: a luz não segue e há sombra.",
+        "Translúcido é um nome escolar para a passagem parcial. Não está no enunciado de EF03CI02."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bncc-ef03ci02",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF03CI02",
+      "publicationDate": "2017-12-22",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A habilidade lista objetos transparentes, superfícies polidas como espelhos e objetos opacos."
+      ],
+      "reliabilityNote": "Enunciado oficial da habilidade no PDF da BNCC.",
+      "license": "Ato oficial.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "video-luz-materiais",
+      "title": "Translúcidos, transparentes e opacos",
+      "authorOrInstitution": "Dia a Dia do Professor",
+      "url": "https://www.youtube.com/watch?v=3cQrYQQBa_s",
+      "identifier": "youtube:3cQrYQQBa_s",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O título anuncia os três comportamentos da luz diante dos materiais, inclusive o translúcido."
+      ],
+      "reliabilityNote": "Título e canal conferidos em 29 out. 2026. O roteiro do vídeo não foi transcrito nesta revisão. A aula não copia fala que não foi lida.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "nova-escola-luz",
+      "title": "Plano de aula: Meios de propagação, 3º ano, Ciências",
+      "authorOrInstitution": "Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/fundamental/3ano/ciencias/meios-de-propagacao/1793",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O plano declara a habilidade EF03CI02 e propõe observar a passagem da luz em materiais diferentes."
+      ],
+      "reliabilityNote": "A página do plano foi localizada em 29 out. 2026 pelo enunciado da habilidade. Não substitui o experimento feito pela turma.",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-29T16:40:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
+  "sequenceNote": "A posição desta aula é uma proposta da NaEscola. Ela não cobre saúde auditiva, que é outro recorte do mesmo objeto de conhecimento.",
+  "uncertaintyNotes": [
+    "Não há medida de intensidade da luz. A aula descreve atravessar, refletir e barrar.",
+    "O vídeo foi conferido pelo título e pelo canal, não por uma transcrição completa."
+  ],
+  "reviews": [
+    {
+      "id": "review-ef03ci02-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Enunciado oficial copiado do currículo. Vídeo conferido pelo título. Plano da Nova Escola localizado. Translúcido marcado como termo escolar, não como palavra da habilidade.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
+    }
+  ]
+}

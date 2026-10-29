@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import { Remote } from "@/components/Remote";
@@ -12,9 +13,9 @@ function SubjectBody() {
     <Remote<{ gradeLabel: string; subject: never; sequenceNote: string }> path={`/api/grades/${params.gradeId}/subjects/${params.subjectId}`}>
       {(data) => (
         <>
-          <p>{data.gradeLabel}</p>
+          <p className="crumb"><Link href={`/anos/${params.gradeId}`}>{data.gradeLabel}</Link></p>
           <h1>{(data.subject as { name: string }).name}</h1>
-          <Timeline gradeId={params.gradeId} subject={data.subject} sequenceNote={data.sequenceNote} initialTopicId={search.get("topico") ?? undefined} />
+          <Timeline gradeId={params.gradeId} subject={data.subject} initialTopicId={search.get("topico") ?? undefined} />
         </>
       )}
     </Remote>

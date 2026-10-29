@@ -90,3 +90,16 @@ def test_api_navigation_uses_stored_counts():
     search = client.get("/api/search", params={"q": "frações"})
     assert search.status_code == 200
     assert search.json()["topics"]
+    stages = client.get("/api/stages").json()["stages"]
+    labels = {item["id"]: item["label"] for item in stages}
+    assert labels["ef-anos-iniciais"] == "Ensino Fundamental I"
+    assert labels["ef-anos-finais"] == "Ensino Fundamental II"
+    for stage in stages:
+        detail = client.get(f"/api/stages/{stage['id']}").json()
+        total = sum(grade["topicCount"] for grade in detail["grades"])
+        published = sum(grade["publishedLessonCount"] for grade in detail["grades"])
+        expected = round(100 * published / total, 1) if total else 0
+        assert stage["topicCount"] == total
+        assert stage["publishedLessonCount"] == published
+        assert stage["coveragePercent"] == expected
+        assert "Planejada" not in stage["label"]

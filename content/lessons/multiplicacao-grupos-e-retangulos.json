@@ -10,19 +10,207 @@
   "learningObjectives": [
     "Resolver e elaborar problemas de multiplicação (por 2, 3, 4, 5 e 10) com os significados de adição de parcelas iguais e elementos apresentados em disposição retangular, utilizando diferentes estratégias de cálculo e registros."
   ],
-  "bnccSkillCodes": ["EF03MA07"],
+  "bnccSkillCodes": [
+    "EF03MA07"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "heading", "level": 2, "text": "O que esta aula ensina"},
-    {"type": "callout", "tone": "objective", "title": "Habilidade oficial", "text": "EF03MA07 pede problemas de multiplicação por 2, 3, 4, 5 e 10. Dois significados entram aqui: parcelas iguais e disposição retangular. O objeto de conhecimento da BNCC também fala em divisão, mas a divisão é a habilidade EF03MA08. Esta aula não a substitui."},
-    {"type": "paragraph", "text": "Multiplicar, neste momento, é um jeito curto de escrever uma soma de grupos iguais. Três grupos de 4 lápis são 4 + 4 + 4. O registro 3 × 4 guarda essa soma. O 3 diz quantos grupos há. O 4 diz quantos objetos há em cada grupo."},
-    {"type": "paragraph", "text": "O mesmo total pode aparecer em fileiras. Três fileiras com 4 cadeiras formam um retângulo. Contar de um em um ainda funciona. A multiplicação evita recomeçar a contagem quando os grupos são iguais."},
-    {"type": "worked-example", "title": "Caixas de lápis", "prompt": "Há 4 caixas e cada caixa tem 5 lápis. Quantos lápis há ao todo?", "steps": ["Há 4 grupos iguais.", "Cada grupo tem 5 lápis.", "5 + 5 + 5 + 5 = 20.", "O registro curto é 4 × 5 = 20."], "conclusion": "Vinte lápis. Não são 4 + 5, porque 4 + 5 junta as duas informações em vez de repetir o tamanho do grupo."},
-    {"type": "callout", "tone": "misconception", "title": "Um engano comum", "text": "3 × 4 não é 3 + 4. A soma 3 + 4 vale 7. A multiplicação 3 × 4 repete o 4 três vezes e vale 12."},
-    {"type": "visualization", "component": "array-grid", "title": "Monte um retângulo", "description": "Uma grade de pontos. Você escolhe o número de fileiras e o número de pontos em cada fileira, somente entre 2, 3, 4, 5 e 10. O total é fileiras vezes pontos por fileira.", "config": {"allowedRows": [2, 3, 4, 5, 10], "allowedColumns": [2, 3, 4, 5, 10], "initialRows": 3, "initialColumns": 4}},
-    {"type": "paragraph", "text": "Mude as fileiras e as colunas. Leia o total em voz alta como uma soma de parcelas iguais e também como uma multiplicação. Se fizer 10 fileiras de 10, o total é 100. Esse é o maior caso desta aula, de propósito: a habilidade para no fator 10."},
-    {"type": "knowledge-check", "id": "check-produto", "prompt": "Uma horta tem 5 fileiras com 4 alfaces em cada fileira. Quantas alfaces há?", "choices": [{"id": "vinte", "text": "20, porque 4 + 4 + 4 + 4 + 4 = 20"}, {"id": "nove", "text": "9, porque 5 + 4 = 9"}, {"id": "cinco", "text": "5, porque há 5 fileiras"}], "correctChoiceId": "vinte", "feedbackCorrect": "Certo. São cinco parcelas iguais a 4. O registro 5 × 4 = 20.", "feedbackIncorrect": "Conte uma fileira de cada vez: 4, 8, 12, 16, 20. Somar 5 + 4 mistura o número de fileiras com o tamanho da fileira."},
-    {"type": "summary", "points": ["3 × 4 significa três grupos de 4, ou seja, 4 + 4 + 4.", "Um retângulo de fileiras iguais mostra o mesmo total.", "Nesta aula os fatores são 2, 3, 4, 5 e 10.", "A divisão fica para a habilidade seguinte, EF03MA08."]}
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "O que esta aula ensina"
+    },
+    {
+      "type": "callout",
+      "tone": "objective",
+      "title": "Habilidade oficial",
+      "text": "EF03MA07 pede problemas de multiplicação por 2, 3, 4, 5 e 10. Dois significados entram aqui: parcelas iguais e disposição retangular. O objeto de conhecimento da BNCC também fala em divisão, mas a divisão é a habilidade EF03MA08. Esta aula não a substitui."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiplicar, neste momento, é um jeito curto de escrever uma soma de grupos iguais. Três grupos de 4 lápis são 4 + 4 + 4. O registro 3 × 4 guarda essa soma. O 3 diz quantos grupos há. O 4 diz quantos objetos há em cada grupo."
+    },
+    {
+      "type": "paragraph",
+      "text": "O mesmo total pode aparecer em fileiras. Três fileiras com 4 cadeiras formam um retângulo. Contar de um em um ainda funciona. A multiplicação evita recomeçar a contagem quando os grupos são iguais."
+    },
+    {
+      "type": "worked-example",
+      "title": "Caixas de lápis",
+      "prompt": "Há 4 caixas e cada caixa tem 5 lápis. Quantos lápis há ao todo?",
+      "steps": [
+        "Há 4 grupos iguais.",
+        "Cada grupo tem 5 lápis.",
+        "5 + 5 + 5 + 5 = 20.",
+        "O registro curto é 4 × 5 = 20."
+      ],
+      "conclusion": "Vinte lápis. Não são 4 + 5, porque 4 + 5 junta as duas informações em vez de repetir o tamanho do grupo."
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Um engano comum",
+      "text": "3 × 4 não é 3 + 4. A soma 3 + 4 vale 7. A multiplicação 3 × 4 repete o 4 três vezes e vale 12."
+    },
+    {
+      "type": "visualization",
+      "component": "array-grid",
+      "title": "Monte um retângulo",
+      "description": "Uma grade de pontos. Você escolhe o número de fileiras e o número de pontos em cada fileira, somente entre 2, 3, 4, 5 e 10. O total é fileiras vezes pontos por fileira.",
+      "config": {
+        "allowedRows": [
+          2,
+          3,
+          4,
+          5,
+          10
+        ],
+        "allowedColumns": [
+          2,
+          3,
+          4,
+          5,
+          10
+        ],
+        "initialRows": 3,
+        "initialColumns": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Mude as fileiras e as colunas. Leia o total em voz alta como uma soma de parcelas iguais e também como uma multiplicação. Se fizer 10 fileiras de 10, o total é 100. Esse é o maior caso desta aula, de propósito: a habilidade para no fator 10."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-produto",
+      "prompt": "Uma horta tem 5 fileiras com 4 alfaces em cada fileira. Quantas alfaces há?",
+      "choices": [
+        {
+          "id": "vinte",
+          "text": "20, porque 4 + 4 + 4 + 4 + 4 = 20",
+          "explanation": "Cinco fileiras de 4 são 4 + 4 + 4 + 4 + 4. O produto é 20."
+        },
+        {
+          "id": "nove",
+          "text": "9, porque 5 + 4 = 9",
+          "explanation": "5 + 4 junta o número de fileiras com o tamanho da fileira. Não repete o 4."
+        },
+        {
+          "id": "cinco",
+          "text": "5, porque há 5 fileiras",
+          "explanation": "5 é o número de fileiras, não o total de alfaces."
+        }
+      ],
+      "correctChoiceId": "vinte",
+      "feedbackCorrect": "Certo. São cinco parcelas iguais a 4. O registro 5 × 4 = 20.",
+      "feedbackIncorrect": "Conte uma fileira de cada vez: 4, 8, 12, 16, 20. Somar 5 + 4 mistura o número de fileiras com o tamanho da fileira."
+    },
+    {
+      "type": "visualization",
+      "component": "bar-compare",
+      "title": "Soma ou produto",
+      "description": "Duas barras. Uma vale 7, que é 3 + 4. A outra vale 12, que é 3 × 4. O clique mostra o valor.",
+      "config": {
+        "unit": "unidades",
+        "question": "Qual barra é o produto 3 × 4, e não a soma 3 + 4?",
+        "bars": [
+          {
+            "id": "soma",
+            "label": "3 + 4",
+            "value": 7
+          },
+          {
+            "id": "produto",
+            "label": "3 × 4",
+            "value": 12
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-retangulo",
+      "prompt": "Uma grade tem 2 fileiras com 10 pontos em cada uma. Qual registro combina com a grade?",
+      "choices": [
+        {
+          "id": "produto-20",
+          "text": "2 × 10 = 20",
+          "explanation": "São dois grupos iguais de 10."
+        },
+        {
+          "id": "soma-12",
+          "text": "2 + 10 = 12",
+          "explanation": "Somar junta as duas informações em vez de repetir o 10."
+        },
+        {
+          "id": "so-fileiras",
+          "text": "2, porque há duas fileiras",
+          "explanation": "2 conta as fileiras. Não conta os pontos."
+        }
+      ],
+      "correctChoiceId": "produto-20",
+      "feedbackCorrect": "A grade é um retângulo de 2 por 10. O total é 20.",
+      "feedbackIncorrect": "Conte uma fileira e repita esse tanto pela outra. 10 + 10 = 20, o mesmo que 2 × 10."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-parcela",
+      "prompt": "Qual situação é multiplicação por parcelas iguais?",
+      "choices": [
+        {
+          "id": "caixas",
+          "text": "6 caixas com 2 bolas em cada uma",
+          "explanation": "Há 6 grupos e cada grupo tem o mesmo tamanho."
+        },
+        {
+          "id": "fila-mista",
+          "text": "Uma fila com 6 crianças e 2 adultos, para saber quantas pessoas há",
+          "explanation": "São grupos de tamanhos diferentes. A operação que junta tudo é uma soma."
+        },
+        {
+          "id": "idade",
+          "text": "Uma criança de 6 anos e outra de 2, para saber quem é mais velha",
+          "explanation": "Comparar idades não repete um grupo igual."
+        }
+      ],
+      "correctChoiceId": "caixas",
+      "feedbackCorrect": "As caixas são parcelas iguais: 2 + 2 + 2 + 2 + 2 + 2.",
+      "feedbackIncorrect": "Parcelas iguais pedem o mesmo tanto em cada grupo. Uma fila misturada ou duas idades não são isso."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-troca",
+      "prompt": "4 × 5 e 5 × 4 dão o mesmo total. O que muda, se muda?",
+      "choices": [
+        {
+          "id": "arranjo",
+          "text": "O total continua 20. Muda o que se toma como fileira.",
+          "explanation": "Quatro fileiras de 5 ocupam outro desenho do que cinco fileiras de 4, e o produto é o mesmo."
+        },
+        {
+          "id": "total-diferente",
+          "text": "O total muda, porque a ordem dos números sempre muda o produto",
+          "explanation": "Nestes dois arranjos o total não muda."
+        },
+        {
+          "id": "vira-soma",
+          "text": "Vira uma soma: 4 + 5",
+          "explanation": "Trocar a ordem do produto não transforma a conta em soma."
+        }
+      ],
+      "correctChoiceId": "arranjo",
+      "feedbackCorrect": "Os dois retângulos têm 20 pontos. Um é 4 por 5 e o outro é 5 por 4.",
+      "feedbackIncorrect": "4 × 5 e 5 × 4 valem 20. O desenho gira. A soma 4 + 5 continua valendo 9."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "3 × 4 significa três grupos de 4, ou seja, 4 + 4 + 4.",
+        "Um retângulo de fileiras iguais mostra o mesmo total.",
+        "Nesta aula os fatores são 2, 3, 4, 5 e 10.",
+        "A divisão fica para a habilidade seguinte, EF03MA08."
+      ]
+    }
   ],
   "references": [
     {
@@ -34,15 +222,45 @@
       "publicationDate": "2017-12-22",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade pede multiplicação por 2, 3, 4, 5 e 10 com parcelas iguais e disposição retangular."],
+      "relevantClaims": [
+        "A habilidade pede multiplicação por 2, 3, 4, 5 e 10 com parcelas iguais e disposição retangular."
+      ],
       "reliabilityNote": "Localizador do dataset: página PDF 289. O PDF oficial respondeu HTTP 200 em 2026-10-28.",
       "license": "Ato oficial."
+    },
+    {
+      "id": "khan-multiplicacao",
+      "title": "Introdução à multiplicação",
+      "authorOrInstitution": "Khan Academy Brasil",
+      "url": "https://www.youtube.com/watch?v=avvpgIigGYI",
+      "identifier": "youtube:avvpgIigGYI",
+      "publicationDate": null,
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O vídeo trata a multiplicação como grupos iguais e como soma repetida."
+      ],
+      "reliabilityNote": "Título e canal conferidos em 29 out. 2026. A aula usa esse modo e também o retângulo, que a habilidade EF03MA07 pede.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "apis-mais-3",
+      "title": "Ápis Mais: Matemática, 3º ano",
+      "authorOrInstitution": "Luiz Roberto Dante e Fernando Viana, Editora Ática",
+      "url": "https://www.edocente.com.br/pnld/obra/apis-mais-matematica-3o-ano/",
+      "identifier": "0056 P23 01 01 020 020",
+      "publicationDate": "2021",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "A coleção trabalha números e operações dos anos iniciais, inclusive grupos iguais e organização retangular."
+      ],
+      "reliabilityNote": "A ficha da obra no site da editora foi aberta em 29 out. 2026. Não foi conferida uma página impressa.",
+      "accessedAt": "2026-10-29"
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:10:00+00:00",
-  "updatedAt": "2026-10-28T21:10:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A posição desta aula na linha do tempo é uma proposta da NaEscola. A BNCC não transforma EF03MA07 em uma ordem obrigatória de aula.",
   "uncertaintyNotes": [],
   "reviews": [
@@ -52,6 +270,13 @@
       "decision": "approve",
       "notes": "O enunciado oficial foi mantido. Os exemplos numéricos são originais e usam só os fatores da habilidade. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:10:00+00:00"
+    },
+    {
+      "id": "review-multiplicacao-grupos-e-retangulos-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "A verificação passou de uma pergunta para quatro. A segunda ferramenta compara 3 + 4 com 3 × 4. Vídeo da Khan Academy Brasil e ficha da coleção Ápis Mais citados sem número de página inventado.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

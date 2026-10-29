@@ -7,6 +7,7 @@ import { Comparison, EventTimeline, FieldRecord, GeometryDiagram, StateSteps } f
 import { TerritoryMap } from "./viz/TerritoryMap";
 
 type Block = { type: string; [key: string]: unknown };
+type Choice = { id: string; text: string; explanation?: string };
 
 function Visualization({ block }: { block: Block }) {
   const config = block.config as Record<string, unknown>;
@@ -27,23 +28,50 @@ function Visualization({ block }: { block: Block }) {
   }
 }
 
-function KnowledgeCheck({ block }: { block: Block }) {
-  const choices = block.choices as Array<{ id: string; text: string }>;
+function KnowledgeCheck({ block, index, total }: { block: Block; index: number; total: number }) {
+  const choices = block.choices as Choice[];
   const [picked, setPicked] = useState<string | null>(null);
   const correct = picked === block.correctChoiceId;
+  const chosen = choices.find((choice) => choice.id === picked);
   return (
-    <fieldset className="lesson-block">
-      <legend>{String(block.prompt)}</legend>
+    <fieldset className={`lesson-block check${picked === null ? "" : correct ? " is-correct" : " is-incorrect"}`}>
+      <legend>Pergunta {index} de {total}</legend>
+      <p className="prompt">{String(block.prompt)}</p>
       {choices.map((choice) => (
         <button key={choice.id} type="button" className="choice" aria-pressed={picked === choice.id} onClick={() => setPicked(choice.id)}>
           {choice.text}
         </button>
       ))}
-      <p className="feedback" aria-live="polite">
-        {picked === null ? "" : correct ? String(block.feedbackCorrect) : String(block.feedbackIncorrect)}
-      </p>
+      {picked !== null ? (
+        <div className="feedback" aria-live="polite">
+          <p>{correct ? String(block.feedbackCorrect) : String(block.feedbackIncorrect)}</p>
+          {chosen?.explanation ? <p>{chosen.explanation}</p> : null}
+        </div>
+      ) : null}
     </fieldset>
   );
+}
+
+function ReadingBlock({ block }: { block: Block }) {
+  if (block.type === "heading") {
+    const Tag = block.level === 3 ? "h3" : "h2";
+    return <Tag>{String(block.text)}</Tag>;
+  }
+  if (block.type === "paragraph") return <p>{String(block.text)}</p>;
+  if (block.type === "callout") {
+    return <aside className={`callout ${String(block.tone)}`}><h2>{String(block.title)}</h2><p>{String(block.text)}</p></aside>;
+  }
+  if (block.type === "worked-example") {
+    return (
+      <section className="panel">
+        <h2>{String(block.title)}</h2>
+        <p>{String(block.prompt)}</p>
+        <ol>{(block.steps as string[]).map((step) => <li key={step}>{step}</li>)}</ol>
+        <p>{String(block.conclusion)}</p>
+      </section>
+    );
+  }
+  return null;
 }
 
 export function LessonView({ payload }: { payload: Record<string, unknown> }) {
@@ -52,6 +80,13 @@ export function LessonView({ payload }: { payload: Record<string, unknown> }) {
   const prerequisites = payload.prerequisites as Array<Record<string, string | null>>;
   const neighbors = payload.neighbors as { previous: Record<string, string | null> | null; next: Record<string, string | null> | null };
   const blocks = lesson.blocks as Block[];
+  const reading = blocks.filter((block) => ["heading", "paragraph", "callout", "worked-example"].includes(block.type));
+  const visuals = blocks.filter((block) => block.type === "visualization");
+  const checks = blocks.filter((block) => block.type === "knowledge-check");
+  const summary = blocks.find((block) => block.type === "summary");
+  const [tab, setTab] = useState(0);
+  const active = visuals[tab] ?? visuals[0];
+
   return (
     <article>
       <p>{String(placement.gradeLabel)} · {String(placement.subjectName)} · {String(placement.unitName)}</p>
@@ -74,39 +109,45 @@ export function LessonView({ payload }: { payload: Record<string, unknown> }) {
           </ul>
         </>
       ) : null}
-      {blocks.map((block, index) => {
-        if (block.type === "heading") {
-          const Tag = block.level === 3 ? "h3" : "h2";
-          return <Tag key={index}>{String(block.text)}</Tag>;
-        }
-        if (block.type === "paragraph") return <p key={index}>{String(block.text)}</p>;
-        if (block.type === "callout") {
-          return <aside key={index} className={`callout ${String(block.tone)}`}><h2>{String(block.title)}</h2><p>{String(block.text)}</p></aside>;
-        }
-        if (block.type === "worked-example") {
-          return (
-            <section key={index} className="panel">
-              <h2>{String(block.title)}</h2>
-              <p>{String(block.prompt)}</p>
-              <ol>{(block.steps as string[]).map((step) => <li key={step}>{step}</li>)}</ol>
-              <p>{String(block.conclusion)}</p>
-            </section>
-          );
-        }
-        if (block.type === "visualization") {
-          return (
-            <section key={index} className="lesson-block">
-              <h2>{String(block.title)}</h2>
-              <Visualization block={block} />
-            </section>
-          );
-        }
-        if (block.type === "knowledge-check") return <KnowledgeCheck key={index} block={block} />;
-        if (block.type === "summary") {
-          return <section key={index}><h2>Para lembrar</h2><ul>{(block.points as string[]).map((point) => <li key={point}>{point}</li>)}</ul></section>;
-        }
-        return null;
-      })}
+      {reading.map((block, index) => <ReadingBlock key={index} block={block} />)}
+      {active ? (
+        <section className="lesson-block">
+          <h2>Ferramentas</h2>
+          <div className="tablist" role="tablist" aria-label="Modos de visualização">
+            {visuals.map((block, index) => (
+              <button
+                key={String(block.title)}
+                type="button"
+                className="secondary"
+                role="tab"
+                id={`viz-tab-${index}`}
+                aria-selected={index === tab}
+                aria-controls={`viz-panel-${index}`}
+                onClick={() => setTab(index)}
+              >
+                {String(block.title)}
+              </button>
+            ))}
+          </div>
+          <div role="tabpanel" id={`viz-panel-${tab}`} aria-labelledby={`viz-tab-${tab}`}>
+            <h3>{String(active.title)}</h3>
+            <Visualization block={active} />
+          </div>
+        </section>
+      ) : null}
+      {checks.length > 0 ? (
+        <section className="test">
+          <h2>Verificação</h2>
+          <p>Responda cada pergunta. O retorno explica a escolha, certa ou errada.</p>
+          {checks.map((block, index) => <KnowledgeCheck key={String(block.id)} block={block} index={index + 1} total={checks.length} />)}
+        </section>
+      ) : null}
+      {summary ? (
+        <section>
+          <h2>Para lembrar</h2>
+          <ul>{(summary.points as string[]).map((point) => <li key={point}>{point}</li>)}</ul>
+        </section>
+      ) : null}
       {(lesson.uncertaintyNotes as string[]).length > 0 ? (
         <section>
           <h2>Limites</h2>

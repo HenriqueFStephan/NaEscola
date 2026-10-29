@@ -1,0 +1,277 @@
+{
+  "id": "lesson-ef06hi01",
+  "slug": "o-tempo-nao-e-uma-linha-so",
+  "title": "O tempo não é uma linha só",
+  "language": "pt-BR",
+  "gradeId": "ef-6",
+  "subjectId": "ef-6-hi",
+  "unitId": "ef-6-hi-ef-comp-hi-ut-historia-tempo-espaco-e-formas-de-registros",
+  "topicId": "ef-6-hi-ef06hi01",
+  "learningObjectives": [
+    "Identificar diferentes formas de compreensão da noção de tempo e de periodização dos processos históricos (continuidades e rupturas)."
+  ],
+  "bnccSkillCodes": [
+    "EF06HI01"
+  ],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Há mais de um jeito de falar do tempo. O dia de uma pessoa, do acordar ao dormir, é um tempo vivido. O ano letivo é um ciclo combinado pela escola. Uma data em antes da era comum ou na era comum pertence a um sistema de contagem, não ao único sistema possível. Um período com nome, como Antiguidade, é um recorte que historiadores usam para organizar continuidades e rupturas. O nome não é uma fronteira natural no calendário."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma linha do tempo marca o que alguém escolheu registrar. O espaço em branco entre duas marcas não prova que nada aconteceu. Prova que aquele desenho não trouxe o acontecimento. Continuidade é o que segue de um recorte para o outro. Ruptura é o que deixa de ser como era. Os dois podem caber no mesmo período."
+    },
+    {
+      "type": "paragraph",
+      "text": "A aula do mapa do Mediterrâneo, no 6º ano, só tem seis anos com arquivo. Os anos do meio não foram desenhados. Isso é um limite do registro, não uma prova de que a vida parou entre um arquivo e o outro. A mesma cautela vale para qualquer linha do tempo."
+    },
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "Calendários que esta aula não descreve",
+      "text": "Outras sociedades marcam o tempo de outros modos, entre elas povos indígenas e povos africanos, que a habilidade de 5º ano EF05HI08 chega a nomear. Esta aula não descreve um calendário específico desses povos, porque essa descrição não foi aberta numa fonte aqui."
+    },
+    {
+      "type": "worked-example",
+      "title": "Ler uma marca",
+      "prompt": "Uma linha traz só duas marcas: \"início das aulas\" e \"férias\".",
+      "steps": [
+        "As duas marcas são escolhas. Alguém decidiu que elas importavam.",
+        "Entre elas houve aulas, recreio, faltas e feriados. O branco não apaga isso.",
+        "O nome \"ano letivo\" organiza esse ciclo. Não é o único jeito de contar o mesmo tempo.",
+        "Se uma regra da escola muda no meio do ano, houve ruptura dentro de um período que continua se chamando ano letivo."
+      ],
+      "conclusion": "Periodizar é escolher cortes. O corte não esvazia o que ficou de fora nem impede que algo continue."
+    },
+    {
+      "type": "visualization",
+      "component": "event-timeline",
+      "title": "Quatro escalas, sem ano inventado",
+      "description": "Quatro modos de falar do tempo. Nenhum deles é uma data histórica nova.",
+      "config": {
+        "events": [
+          {
+            "id": "dia",
+            "label": "O dia",
+            "text": "Acordar e dormir. É o tempo vivido por uma pessoa, curto e concreto."
+          },
+          {
+            "id": "letivo",
+            "label": "O ano letivo",
+            "text": "Um ciclo combinado pela escola. Organiza o trabalho, não a história inteira."
+          },
+          {
+            "id": "era",
+            "label": "AEC e EC",
+            "text": "Um sistema de contagem de anos. Outros sistemas existem. Este não é o único."
+          },
+          {
+            "id": "periodo",
+            "label": "Um período com nome",
+            "text": "Um recorte de historiadores. Dentro dele há continuidade e pode haver ruptura."
+          }
+        ]
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Como ler o branco da linha",
+      "description": "Quatro perguntas discretas diante de uma linha do tempo. Não preenchem o intervalo com um fato novo.",
+      "config": {
+        "steps": [
+          {
+            "id": "marca",
+            "title": "O que está marcado",
+            "text": "Leia só o que a linha escreveu."
+          },
+          {
+            "id": "branco",
+            "title": "O que o branco não prova",
+            "text": "O intervalo sem marca não é prova de que nada ocorreu."
+          },
+          {
+            "id": "segue",
+            "title": "O que pode continuar",
+            "text": "Um hábito, uma língua ou uma prática pode atravessar o corte."
+          },
+          {
+            "id": "rompe",
+            "title": "O que pode romper",
+            "text": "Uma regra ou um poder pode mudar mesmo que o nome do período continue."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-branco",
+      "prompt": "Entre duas marcas de uma linha do tempo não há texto. O que se pode concluir?",
+      "choices": [
+        {
+          "id": "nao-prova",
+          "text": "Só que essa linha não registrou o intervalo. Não que nada tenha acontecido.",
+          "explanation": "O branco é limite do desenho."
+        },
+        {
+          "id": "vazio-real",
+          "text": "Que a história parou naquele intervalo",
+          "explanation": "Ausência na linha não é ausência de processo."
+        },
+        {
+          "id": "data-exata",
+          "text": "Que o intervalo durou exatamente um ano",
+          "explanation": "Sem uma fonte para a duração, a aula não inventa o prazo."
+        }
+      ],
+      "correctChoiceId": "nao-prova",
+      "feedbackCorrect": "A linha mostra uma escolha de marcas. O branco não é um fato datado.",
+      "feedbackIncorrect": "Não transforme o silêncio do desenho em parada da história nem numa duração."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-nome",
+      "prompt": "O nome Antiguidade, nesta aula, é o quê?",
+      "choices": [
+        {
+          "id": "recorte",
+          "text": "Um recorte usado para organizar o tempo, não uma fronteira natural",
+          "explanation": "Periodizar é uma decisão de quem conta a história."
+        },
+        {
+          "id": "fronteira",
+          "text": "Uma fronteira que existiu no chão, igual para todos os povos",
+          "explanation": "A aula não descreve essa fronteira."
+        },
+        {
+          "id": "dia",
+          "text": "O mesmo tipo de tempo que o dia de uma pessoa",
+          "explanation": "São escalas diferentes."
+        }
+      ],
+      "correctChoiceId": "recorte",
+      "feedbackCorrect": "O nome do período organiza continuidades e rupturas. Não é um acidente geográfico.",
+      "feedbackIncorrect": "Não é uma fronteira no chão nem o mesmo tempo do dia vivido."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-mapa",
+      "prompt": "O mapa do Mediterrâneo desta versão só tem seis anos. O que isso mostra sobre o tempo?",
+      "choices": [
+        {
+          "id": "limite",
+          "text": "Um limite do registro. Os anos sem arquivo não foram desenhados e isso não prova que nada ocorreu.",
+          "explanation": "É o mesmo cuidado do branco na linha do tempo."
+        },
+        {
+          "id": "parada",
+          "text": "Que o Mediterrâneo ficou sem história entre um arquivo e o outro",
+          "explanation": "A falta do desenho não é falta de processo."
+        },
+        {
+          "id": "fronteira-nova",
+          "text": "Que a NaEscola deve desenhar a fronteira dos anos que faltam",
+          "explanation": "A aula não cria fronteira."
+        }
+      ],
+      "correctChoiceId": "limite",
+      "feedbackCorrect": "Seis recortes são seis documentos. O intervalo é silêncio do conjunto, não um vazio histórico provado.",
+      "feedbackIncorrect": "Não se conclui uma parada, nem se desenha o ano que o conjunto não trouxe."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-calendario",
+      "prompt": "Por que a aula não descreve um calendário indígena específico?",
+      "choices": [
+        {
+          "id": "sem-fonte",
+          "text": "Porque essa descrição não foi aberta numa fonte nesta revisão",
+          "explanation": "Nomear o limite evita inventar o calendário."
+        },
+        {
+          "id": "nao-existem",
+          "text": "Porque não existem outros modos de contar o tempo",
+          "explanation": "A aula afirma o contrário: há outros modos."
+        },
+        {
+          "id": "igual-aec",
+          "text": "Porque todo calendário é igual à contagem em AEC e EC",
+          "explanation": "AEC e EC são um sistema, não o único."
+        }
+      ],
+      "correctChoiceId": "sem-fonte",
+      "feedbackCorrect": "Outros modos existem. Sem a fonte, a aula não escreve o calendário.",
+      "feedbackIncorrect": "A ausência de descrição não significa que o outro modo não exista, nem que ele seja igual ao AEC/EC."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Dia vivido, ano letivo, contagem em AEC/EC e período com nome são escalas diferentes.",
+        "Uma linha do tempo marca uma escolha. O branco não prova que nada ocorreu.",
+        "Periodizar é falar de continuidade e de ruptura.",
+        "Sem fonte, a aula não descreve um calendário específico."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bncc-ef06hi01",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF06HI01",
+      "publicationDate": "2017-12-22",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A habilidade pede identificar diferentes compreensões do tempo e da periodização, incluindo continuidades e rupturas."
+      ],
+      "reliabilityNote": "Enunciado oficial da habilidade no PDF da BNCC.",
+      "license": "Ato oficial.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "nova-escola-periodizacao",
+      "title": "Plano de aula: Periodização histórica, 6º ano",
+      "authorOrInstitution": "Nova Escola, plano de Aline Maria Lopes Moura",
+      "url": "https://novaescola.org.br/planos-de-aula/fundamental/6ano/historia/periodizacao-historica/5017",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O plano declara EF06HI01 e trata a periodização tradicional como um modo de organizar continuidades e rupturas."
+      ],
+      "reliabilityNote": "Página do plano aberta em 29 out. 2026. A aula não usa a linha do tempo da China citada como material complementar, porque esse material não foi aberto.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "nova-escola-sequencia",
+      "title": "Sequência: Noções de tempo, 6º ano",
+      "authorOrInstitution": "Nova Escola",
+      "url": "https://novaescola.org.br/planos-de-aula/fundamental/6ano/historia/sequencia/nocoes-de-tempo/797",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "A sequência reparte EF06HI01 em percepção do tempo, modos de contar o tempo e periodização."
+      ],
+      "reliabilityNote": "Página da sequência aberta em 29 out. 2026. Não há vídeo conferido para esta habilidade nesta revisão.",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-29T16:40:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
+  "sequenceNote": "A posição desta aula é uma proposta da NaEscola. Ela vem antes do mapa dos recortes mediterrânicos na leitura desta versão, porque ensina a não completar o branco de uma linha.",
+  "uncertaintyNotes": [
+    "Nenhum vídeo foi conferido para esta habilidade nesta revisão. As referências são a BNCC e dois planos da Nova Escola.",
+    "Nenhum calendário indígena ou africano foi descrito, por falta de fonte aberta aqui."
+  ],
+  "reviews": [
+    {
+      "id": "review-ef06hi01-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Planos da Nova Escola conferidos pelas páginas e pela habilidade. Sem vídeo e sem calendário específico. Nenhuma data histórica nova foi introduzida.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
+    }
+  ]
+}
