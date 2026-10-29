@@ -15,14 +15,14 @@ STAGES = [
     },
     {
         "id": "ef-anos-iniciais",
-        "label": "Ensino Fundamental — Anos Iniciais",
+        "label": "Ensino Fundamental I",
         "status": "partial",
         "summary": "1º ao 5º ano. Nesta versão, o currículo carregado é o dos 3º, 4º e 5º anos.",
         "gradeIds": ["ef-1", "ef-2", "ef-3", "ef-4", "ef-5"],
     },
     {
         "id": "ef-anos-finais",
-        "label": "Ensino Fundamental — Anos Finais",
+        "label": "Ensino Fundamental II",
         "status": "partial",
         "summary": "6º ao 9º ano. Nesta versão, o currículo carregado é o do 6º ano.",
         "gradeIds": ["ef-6", "ef-7", "ef-8", "ef-9"],
@@ -44,12 +44,28 @@ STAGES = [
 ]
 
 PLANNED_GRADES = {
-    "ef-1": ("1º ano", "ef-anos-iniciais", "Ensino Fundamental — Anos Iniciais"),
-    "ef-2": ("2º ano", "ef-anos-iniciais", "Ensino Fundamental — Anos Iniciais"),
-    "ef-7": ("7º ano", "ef-anos-finais", "Ensino Fundamental — Anos Finais"),
-    "ef-8": ("8º ano", "ef-anos-finais", "Ensino Fundamental — Anos Finais"),
-    "ef-9": ("9º ano", "ef-anos-finais", "Ensino Fundamental — Anos Finais"),
+    "ef-1": ("1º ano", "ef-anos-iniciais", "Ensino Fundamental I"),
+    "ef-2": ("2º ano", "ef-anos-iniciais", "Ensino Fundamental I"),
+    "ef-7": ("7º ano", "ef-anos-finais", "Ensino Fundamental II"),
+    "ef-8": ("8º ano", "ef-anos-finais", "Ensino Fundamental II"),
+    "ef-9": ("9º ano", "ef-anos-finais", "Ensino Fundamental II"),
 }
+
+
+def coverage_percent(published_count: int, total: int) -> float:
+    if not total:
+        return 0
+    return round(100 * published_count / total, 1)
+
+
+def aggregate_coverage(grades: list[dict]) -> dict:
+    topic_total = sum(int(grade["topicCount"]) for grade in grades)
+    published_total = sum(int(grade["publishedLessonCount"]) for grade in grades)
+    return {
+        "topicCount": topic_total,
+        "publishedLessonCount": published_total,
+        "coveragePercent": coverage_percent(published_total, topic_total),
+    }
 
 
 def fold(text: str) -> str:
@@ -81,7 +97,7 @@ def subject_stats(subject, published: dict[str, list[Lesson]]) -> dict:
     return {
         "topicCount": total,
         "publishedLessonCount": published_count,
-        "coveragePercent": round(100 * published_count / total, 1) if total else 0,
+        "coveragePercent": coverage_percent(published_count, total),
     }
 
 
@@ -116,7 +132,7 @@ def grade_summary(catalog: CurriculumCatalog, lessons: LessonStore, grade_id: st
             "subjects": subjects,
             "publishedLessonCount": published_total,
             "topicCount": topic_total,
-            "coveragePercent": round(100 * published_total / topic_total, 1) if topic_total else 0,
+            "coveragePercent": coverage_percent(published_total, topic_total),
             "omissions": [item.model_dump() for item in grade.omissions],
         }
     planned = PLANNED_GRADES.get(grade_id)

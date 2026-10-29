@@ -20,9 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
             <nav aria-label="Principal">
               <Link href="/">Início</Link>
-              <Link href="/busca">Busca</Link>
+              <Link href="/">Busca</Link>
               <Link href="/competencias">Competências</Link>
-              <Link href="/laboratorio">Laboratório</Link>
             </nav>
           </div>
         </header>

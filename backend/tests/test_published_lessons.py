@@ -15,6 +15,11 @@ EXPECTED = {
     "lutas-nao-sao-brigas",
     "imperio-no-mundo-antigo",
     "fracoes-unitarias-na-reta",
+    "cada-algarismo-no-seu-lugar",
+    "por-onde-a-luz-passa",
+    "a-agua-muda-e-continua",
+    "uma-fase-ou-mais",
+    "o-tempo-nao-e-uma-linha-so",
 }
 
 
@@ -26,6 +31,12 @@ def test_every_versioned_lesson_is_publishable():
         assert lesson.status == "published", lesson.slug
         assert report.publishable, [issue.model_dump() for issue in report.issues]
         assert lesson.language == "pt-BR"
+        checks = [block for block in lesson.blocks if block.type == "knowledge-check"]
+        visuals = [block for block in lesson.blocks if block.type == "visualization"]
+        assert len(checks) >= 4, lesson.slug
+        assert len(visuals) >= 2, lesson.slug
+        for block in checks:
+            assert all(choice.explanation.strip() for choice in block.choices), lesson.slug
         found.add(lesson.slug)
     assert found == EXPECTED
 

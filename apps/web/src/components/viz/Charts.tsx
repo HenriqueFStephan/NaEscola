@@ -93,7 +93,7 @@ export function NumberLine({ config, description }: { config: Record<string, unk
         ))}
         <button type="button" className="secondary" onClick={() => setValue(config.initial as number)}>Restaurar</button>
       </div>
-      <p className="live" aria-live="polite">Valor escolhido: {value.toFixed(2)}.</p>
+      <p className="live" aria-live="polite">Valor escolhido: {value.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}.</p>
     </figure>
   );
 }
@@ -105,11 +105,15 @@ export function ArrayGrid({ config, description }: { config: Record<string, unkn
   const [columns, setColumns] = useState(config.initialColumns as number);
   const total = arrayTotal(rows, columns);
   const cells = useMemo(() => Array.from({ length: rows }, (_, row) => Array.from({ length: columns }, (_, column) => `${row}-${column}`)), [rows, columns]);
+  const cell = Math.min(36, Math.floor(520 / Math.max(columns, 1)), Math.floor(250 / Math.max(rows, 1)));
+  const originX = 48;
+  const originY = 28;
   return (
     <figure className="viz">
-      <svg viewBox="0 0 640 360" role="img" aria-label={description}>
+      <svg viewBox="0 0 640 320" role="img" aria-label={description}>
+        <rect x={originX - cell * 0.35} y={originY - cell * 0.35} width={columns * cell + cell * 0.2} height={rows * cell + cell * 0.2} fill="#f4f0e6" stroke="#0e5c57" strokeWidth="2" />
         {cells.flatMap((row, rowIndex) => row.map((key, columnIndex) => (
-          <circle key={key} cx={80 + columnIndex * 48} cy={40 + rowIndex * 32} r="8" fill="#0e5c57" />
+          <circle key={key} cx={originX + columnIndex * cell + cell / 2} cy={originY + rowIndex * cell + cell / 2} r={Math.max(4, cell * 0.22)} fill="#0e5c57" />
         )))}
       </svg>
       <div className="controls">
@@ -137,13 +141,15 @@ export function BarCompare({ config, description }: { config: Record<string, unk
   const [active, setActive] = useState(bars[0]?.id ?? "");
   const max = Math.max(...bars.map((bar) => bar.value), 1);
   const chosen = bars.find((bar) => bar.id === active);
+  const slot = Math.min(110, Math.floor(560 / Math.max(bars.length, 1)));
+  const barWidth = Math.max(18, slot - 24);
   return (
     <figure className="viz">
       <svg viewBox="0 0 640 280" role="img" aria-label={description}>
         {bars.map((bar, index) => (
           <g key={bar.id} onClick={() => setActive(bar.id)}>
-            <rect x={40 + index * 90} y={240 - (bar.value / max) * 180} width="60" height={(bar.value / max) * 180} fill={bar.id === active ? "#0e5c57" : "#8d4528"} />
-            <text x={70 + index * 90} y="262" textAnchor="middle" fontSize="12">{bar.label}</text>
+            <rect x={40 + index * slot} y={220 - (bar.value / max) * 170} width={barWidth} height={(bar.value / max) * 170} fill={bar.id === active ? "#0e5c57" : "#8d4528"} />
+            <text x={40 + index * slot + barWidth / 2} y="246" textAnchor="middle" fontSize="12">{bar.label}</text>
           </g>
         ))}
       </svg>

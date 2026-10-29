@@ -83,20 +83,130 @@
       "choices": [
         {
           "id": "cem",
-          "text": "1/100"
+          "text": "1/100",
+          "explanation": "A unidade foi partida em 100 partes iguais. Cada parte, 1/100, fica junto do 0."
         },
         {
           "id": "dois",
-          "text": "1/2"
+          "text": "1/2",
+          "explanation": "Ocidente e Oriente são o recorte de 400 EC, não o de 100 EC."
         },
         {
           "id": "quatro",
-          "text": "1/4"
+          "text": "1/4",
+          "explanation": "1/4 é maior do que 1/100. O denominador 4 corta a unidade em menos pedaços."
         }
       ],
       "correctChoiceId": "cem",
       "feedbackCorrect": "1/100 é a menor dessas três partes. 1/2 é a maior e fica no meio da unidade.",
       "feedbackIncorrect": "Dividir a unidade em mais partes deixa cada parte menor. 1/100 é menor do que 1/4 e do que 1/2."
+    },
+    {
+      "type": "visualization",
+      "component": "bar-compare",
+      "title": "O tamanho de cada parte",
+      "description": "Quatro barras com o tamanho exato de 1/2, 1/4, 1/10 e 1/100 da unidade. A barra menor é a de denominador maior.",
+      "config": {
+        "unit": "da unidade",
+        "question": "Qual fração unitária ocupa a menor parte da unidade?",
+        "bars": [
+          {
+            "id": "meio",
+            "label": "1/2",
+            "value": 0.5
+          },
+          {
+            "id": "quarto",
+            "label": "1/4",
+            "value": 0.25
+          },
+          {
+            "id": "decimo",
+            "label": "1/10",
+            "value": 0.1
+          },
+          {
+            "id": "centesimo",
+            "label": "1/100",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-meio",
+      "prompt": "Na reta de 0 a 1, onde fica 1/2?",
+      "choices": [
+        {
+          "id": "meio-caminho",
+          "text": "No meio, à mesma distância de 0 e de 1",
+          "explanation": "Duas partes iguais colocam a marca no centro."
+        },
+        {
+          "id": "perto-do-um",
+          "text": "Colado no 1, porque o 2 é pequeno",
+          "explanation": "O 2 não é uma posição. Ele diz em quantas partes a unidade foi cortada."
+        },
+        {
+          "id": "depois-do-um",
+          "text": "Depois do 1, porque é uma fração",
+          "explanation": "1/2 é menor do que 1. Fica entre 0 e 1."
+        }
+      ],
+      "correctChoiceId": "meio-caminho",
+      "feedbackCorrect": "1/2 é uma de duas partes iguais. Na reta, é o ponto médio.",
+      "feedbackIncorrect": "1/2 não passa do 1 e não fica colado nele. É o meio da unidade."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-lista",
+      "prompt": "Qual destas frações a habilidade EF04MA09 não pede como fração unitária usual?",
+      "choices": [
+        {
+          "id": "tres-quartos",
+          "text": "3/4",
+          "explanation": "3/4 tem numerador 3. Fração unitária, nesta aula, tem numerador 1."
+        },
+        {
+          "id": "um-terco",
+          "text": "1/3",
+          "explanation": "1/3 está na lista oficial: numerador 1 e três partes iguais."
+        },
+        {
+          "id": "um-quinto",
+          "text": "1/5",
+          "explanation": "1/5 está na lista oficial."
+        }
+      ],
+      "correctChoiceId": "tres-quartos",
+      "feedbackCorrect": "A lista da habilidade é 1/2, 1/3, 1/4, 1/5, 1/10 e 1/100. 3/4 fica para outra aula.",
+      "feedbackIncorrect": "1/3 e 1/5 estão na habilidade. 3/4 não é unitária."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-ordem",
+      "prompt": "Qual é a ordem do menor para o maior?",
+      "choices": [
+        {
+          "id": "ordem-certa",
+          "text": "1/100, 1/10, 1/4, 1/2",
+          "explanation": "Mais cortes deixam a parte menor. 100 cortes dão a menor destas partes."
+        },
+        {
+          "id": "ordem-inversa",
+          "text": "1/2, 1/4, 1/10, 1/100",
+          "explanation": "Essa ordem vai da maior parte para a menor."
+        },
+        {
+          "id": "pelo-numerador",
+          "text": "Todas iguais, porque o numerador é 1",
+          "explanation": "O numerador igual não torna as partes iguais. O denominador muda o corte."
+        }
+      ],
+      "correctChoiceId": "ordem-certa",
+      "feedbackCorrect": "1/100 é a menor e 1/2 é a maior. A reta e as barras mostram a mesma ordem.",
+      "feedbackIncorrect": "Compare as barras. A de 1/100 quase não sai do chão. A de 1/2 é a mais alta."
     },
     {
       "type": "summary",
@@ -123,12 +233,37 @@
       ],
       "reliabilityNote": "Localizador do dataset: página PDF 293.",
       "license": "Ato oficial."
+    },
+    {
+      "id": "video-fracoes-unitarias",
+      "title": "Matemática - Frações Unitárias mais Usuais - 4º ano - Anos Iniciais",
+      "authorOrInstitution": "Estúdio Conexão Escola, Secretaria Municipal de Educação de Goiânia",
+      "url": "https://www.youtube.com/watch?v=uByi5SIoJvM",
+      "identifier": "youtube:uByi5SIoJvM",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O vídeo mostra a unidade partida em partes iguais e a reta de 0 a 1, com 1/2 no meio."
+      ],
+      "reliabilityNote": "Título e canal conferidos em 29 out. 2026. Um trecho da narração troca um exemplo numérico. A aula permanece na lista da BNCC e não copia esse lapso.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "sme-fracoes",
+      "title": "Matemática: Frações Unitárias mais Usuais – 4º ano",
+      "authorOrInstitution": "Secretaria Municipal de Educação de Goiânia",
+      "url": "https://sme.goiania.go.gov.br/conexaoescola/biblioteca_virtual/matematica-fracoes-unitarias-mais-usuais-4o-ano-anos-iniciais/",
+      "sourceType": "government",
+      "relevantClaims": [
+        "A página da rede municipal usa dobradura e reta numérica para as frações unitárias usuais e nomeia o livro A conquista: matemática, 4º ano, de José Ruy Giovanni Júnior, FTD, 2021."
+      ],
+      "reliabilityNote": "A página foi aberta em 29 out. 2026. O livro citado por ela não foi aberto página a página.",
+      "accessedAt": "2026-10-29"
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:22:00+00:00",
-  "updatedAt": "2026-10-28T21:22:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A posição desta aula é uma proposta da NaEscola. Ela foi montada por um pacote de pesquisa e publicada só depois dos portões determinísticos. Nenhum modelo de linguagem foi chamado.",
   "uncertaintyNotes": [],
   "reviews": [
@@ -138,6 +273,13 @@
       "decision": "approve",
       "notes": "Pacote conferido contra EF04MA09. A publicação depende de o pipeline aceitar este registro. Não é uma revisão de um agente autônomo separado.",
       "createdAt": "2026-10-28T21:22:00+00:00"
+    },
+    {
+      "id": "review-fracoes-unitarias-na-reta-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Quatro perguntas comparam posição e tamanho. A segunda ferramenta desenha 1/2, 1/4, 1/10 e 1/100 com valores exatos. O vídeo da rede de Goiânia e a página da SME foram conferidos.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

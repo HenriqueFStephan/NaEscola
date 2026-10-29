@@ -10,17 +10,213 @@
   "learningObjectives": [
     "Reconhecer objetos do mundo real e/ou digital que podem ser representados através de registros que estabelecem uma organização na qual cada componente é identificado por um nome, fazendo manipulações sobre estas representações."
   ],
-  "bnccSkillCodes": ["EF04CO02"],
+  "bnccSkillCodes": [
+    "EF04CO02"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "callout", "tone": "uncertainty", "title": "Isto não é uma habilidade da BNCC de 2018", "text": "EF04CO02 pertence ao complemento de Computação do Parecer CNE/CEB nº 2/2022. A NaEscola o mostra separado das habilidades homologadas em 2017."},
-    {"type": "paragraph", "text": "Um livro da biblioteca da escola não é só uma pilha de palavras. Para achá-lo de novo, separamos o que cada parte significa: título, quem escreveu, ano e lugar. Cada parte tem um nome. O conjunto desses nomes e valores é um registro."},
-    {"type": "paragraph", "text": "Sem os nomes, a lista 2026, biblioteca, O rio da escola, turma do 4º ano pode ser lida de vários jeitos. O número 2026 poderia parecer um código da estante. Com nomes, o 2026 fica preso ao campo ano."},
-    {"type": "worked-example", "title": "Dois registros, o mesmo tipo", "prompt": "A turma guarda fichas de livros feitos na escola.", "steps": ["Toda ficha usa os mesmos nomes de campo: titulo, autores, ano, lugar.", "Os valores mudam de um livro para outro.", "Para achar os livros de 2026, olhamos só o campo ano.", "Não precisamos reler o título para decidir se o ano combina."], "conclusion": "Manipular o registro, aqui, é escolher um campo pelo nome e comparar o valor."},
-    {"type": "visualization", "component": "field-record", "title": "A ficha do livro", "description": "Uma ficha com quatro campos nomeados. A tarefa é escolher o campo que guarda o ano.", "config": {"prompt": "Qual campo guarda o ano do livro?", "targetFieldId": "ano", "fields": [{"id": "titulo", "label": "titulo", "value": "O rio da escola"}, {"id": "autores", "label": "autores", "value": "turma do 4º ano"}, {"id": "ano", "label": "ano", "value": "2026"}, {"id": "lugar", "label": "lugar", "value": "biblioteca"}], "feedbackCorrect": "O campo ano vale 2026. O nome do campo diz o que o valor significa.", "feedbackIncorrect": "Olhe o nome do campo, não só um número ou uma palavra familiar. O ano está no campo chamado ano."}},
-    {"type": "callout", "tone": "misconception", "title": "Ordem não substitui nome", "text": "Combinar que o ano é sempre o terceiro valor ajuda só enquanto ninguém muda a ordem. Um nome de campo continua válido mesmo se a ficha for reorganizada."},
-    {"type": "knowledge-check", "id": "check-campo", "prompt": "Uma ficha de planta tem os campos nome, agua e luz. O que permite saber que \"pouca\" se refere à água?", "choices": [{"id": "nome-do-campo", "text": "O valor \"pouca\" estar no campo agua"}, {"id": "tamanho", "text": "A palavra \"pouca\" ser mais curta que o nome da planta"}, {"id": "cor", "text": "A ficha estar escrita em verde"}], "correctChoiceId": "nome-do-campo", "feedbackCorrect": "O nome do campo agua diz como ler o valor. A cor da ficha não faz esse trabalho.", "feedbackIncorrect": "O tamanho da palavra não explica o significado. O campo se chama agua, e é esse nome que prende o valor."},
-    {"type": "summary", "points": ["Um registro junta valores que descrevem um mesmo objeto.", "Cada valor fica identificado por um nome de campo.", "Dá para procurar ou comparar usando o nome, sem reler o registro inteiro.", "Esta habilidade é do complemento de 2022, não do texto da BNCC de 2018."]}
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "Isto não é uma habilidade da BNCC de 2018",
+      "text": "EF04CO02 pertence ao complemento de Computação do Parecer CNE/CEB nº 2/2022. A NaEscola o mostra separado das habilidades homologadas em 2017."
+    },
+    {
+      "type": "paragraph",
+      "text": "Um livro da biblioteca da escola não é só uma pilha de palavras. Para achá-lo de novo, separamos o que cada parte significa: título, quem escreveu, ano e lugar. Cada parte tem um nome. O conjunto desses nomes e valores é um registro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sem os nomes, a lista 2026, biblioteca, O rio da escola, turma do 4º ano pode ser lida de vários jeitos. O número 2026 poderia parecer um código da estante. Com nomes, o 2026 fica preso ao campo ano."
+    },
+    {
+      "type": "worked-example",
+      "title": "Dois registros, o mesmo tipo",
+      "prompt": "A turma guarda fichas de livros feitos na escola.",
+      "steps": [
+        "Toda ficha usa os mesmos nomes de campo: titulo, autores, ano, lugar.",
+        "Os valores mudam de um livro para outro.",
+        "Para achar os livros de 2026, olhamos só o campo ano.",
+        "Não precisamos reler o título para decidir se o ano combina."
+      ],
+      "conclusion": "Manipular o registro, aqui, é escolher um campo pelo nome e comparar o valor."
+    },
+    {
+      "type": "visualization",
+      "component": "field-record",
+      "title": "A ficha do livro",
+      "description": "Uma ficha com quatro campos nomeados. A tarefa é escolher o campo que guarda o ano.",
+      "config": {
+        "prompt": "Qual campo guarda o ano do livro?",
+        "targetFieldId": "ano",
+        "fields": [
+          {
+            "id": "titulo",
+            "label": "titulo",
+            "value": "O rio da escola"
+          },
+          {
+            "id": "autores",
+            "label": "autores",
+            "value": "turma do 4º ano"
+          },
+          {
+            "id": "ano",
+            "label": "ano",
+            "value": "2026"
+          },
+          {
+            "id": "lugar",
+            "label": "lugar",
+            "value": "biblioteca"
+          }
+        ],
+        "feedbackCorrect": "O campo ano vale 2026. O nome do campo diz o que o valor significa.",
+        "feedbackIncorrect": "Olhe o nome do campo, não só um número ou uma palavra familiar. O ano está no campo chamado ano."
+      }
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Ordem não substitui nome",
+      "text": "Combinar que o ano é sempre o terceiro valor ajuda só enquanto ninguém muda a ordem. Um nome de campo continua válido mesmo se a ficha for reorganizada."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-campo",
+      "prompt": "Uma ficha de planta tem os campos nome, agua e luz. O que permite saber que \"pouca\" se refere à água?",
+      "choices": [
+        {
+          "id": "nome-do-campo",
+          "text": "O valor \"pouca\" estar no campo agua",
+          "explanation": "O nome agua diz como ler o valor. Sem esse nome, pouca poderia ser outra coisa."
+        },
+        {
+          "id": "tamanho",
+          "text": "A palavra \"pouca\" ser mais curta que o nome da planta",
+          "explanation": "O tamanho da palavra não diz a que ela se refere."
+        },
+        {
+          "id": "cor",
+          "text": "A ficha estar escrita em verde",
+          "explanation": "A cor da ficha não nomeia o campo."
+        }
+      ],
+      "correctChoiceId": "nome-do-campo",
+      "feedbackCorrect": "O nome do campo agua diz como ler o valor. A cor da ficha não faz esse trabalho.",
+      "feedbackIncorrect": "O tamanho da palavra não explica o significado. O campo se chama agua, e é esse nome que prende o valor."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Posição ou nome",
+      "description": "A coluna da esquerda guarda o ano porque ele está em terceiro lugar. A da direita guarda o ano porque o campo se chama ano.",
+      "config": {
+        "leftTitle": "Pela posição",
+        "rightTitle": "Pelo nome do campo",
+        "rows": [
+          {
+            "label": "Como achar o ano",
+            "left": "Contar até o terceiro valor.",
+            "right": "Ler o campo chamado ano."
+          },
+          {
+            "label": "Se a ficha mudar de ordem",
+            "left": "O terceiro valor pode deixar de ser o ano.",
+            "right": "O nome ano continua apontando para o ano."
+          },
+          {
+            "label": "O que o valor 2026 significa",
+            "left": "Depende de combinar a posição antes.",
+            "right": "O nome do campo diz que 2026 é um ano."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-ordem",
+      "prompt": "A ficha era titulo, autores, ano. Alguém passou a gravar ano, titulo, autores. O que ainda permite achar o ano?",
+      "choices": [
+        {
+          "id": "nome-ano",
+          "text": "O campo que se chama ano",
+          "explanation": "O nome não depende da posição."
+        },
+        {
+          "id": "terceiro",
+          "text": "O terceiro valor, como antes",
+          "explanation": "A ordem mudou. O terceiro valor agora é autores."
+        },
+        {
+          "id": "mais-curto",
+          "text": "O valor com menos letras",
+          "explanation": "O tamanho não identifica o campo."
+        }
+      ],
+      "correctChoiceId": "nome-ano",
+      "feedbackCorrect": "O nome do campo sobrevive à troca de ordem. A posição antiga, não.",
+      "feedbackIncorrect": "Depois da troca, o terceiro valor deixou de ser o ano. Procure o nome ano."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-mesmo-tipo",
+      "prompt": "Duas fichas de livro usam os campos titulo, autores, ano e lugar. O que elas têm em comum?",
+      "choices": [
+        {
+          "id": "os-nomes",
+          "text": "Os nomes dos campos",
+          "explanation": "O tipo do registro é o conjunto de nomes. Os valores mudam."
+        },
+        {
+          "id": "os-valores",
+          "text": "Os mesmos valores em todos os campos",
+          "explanation": "Se os valores fossem sempre iguais, seria um livro só."
+        },
+        {
+          "id": "a-cor",
+          "text": "A mesma cor de capa",
+          "explanation": "A cor não faz parte destes campos."
+        }
+      ],
+      "correctChoiceId": "os-nomes",
+      "feedbackCorrect": "Um registro deste tipo repete os nomes. Cada livro troca os valores.",
+      "feedbackIncorrect": "Os valores é que distinguem um livro do outro. Os nomes é que se repetem."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-vazio",
+      "prompt": "O campo lugar está vazio e o campo ano vale 2024. O que se pode afirmar?",
+      "choices": [
+        {
+          "id": "ano-conhecido",
+          "text": "O ano está registrado. O lugar, nesta ficha, não.",
+          "explanation": "Campo vazio não é um lugar inventado. É ausência de valor."
+        },
+        {
+          "id": "lugar-escola",
+          "text": "O lugar é a escola, porque o ano existe",
+          "explanation": "Um campo preenchido não completa outro."
+        },
+        {
+          "id": "sem-ano",
+          "text": "Não há ano, porque falta o lugar",
+          "explanation": "O ano está no campo ano. A falta do lugar não apaga esse valor."
+        }
+      ],
+      "correctChoiceId": "ano-conhecido",
+      "feedbackCorrect": "Cada campo vale por si. Vazio significa que aquele valor não foi registrado.",
+      "feedbackIncorrect": "Não complete um campo com o valor de outro. O ano continua 2024."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Um registro junta valores que descrevem um mesmo objeto.",
+        "Cada valor fica identificado por um nome de campo.",
+        "Dá para procurar ou comparar usando o nome, sem reler o registro inteiro.",
+        "Esta habilidade é do complemento de 2022, não do texto da BNCC de 2018."
+      ]
+    }
   ],
   "references": [
     {
@@ -32,17 +228,22 @@
       "publicationDate": "2022",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade pede registros em que cada componente é identificado por um nome."],
+      "relevantClaims": [
+        "A habilidade pede registros em que cada componente é identificado por um nome."
+      ],
       "reliabilityNote": "Cópia arquivada do anexo no commit do dataset bncc-dados. Localizador do dataset: página PDF 28.",
       "license": "Ato oficial."
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:12:00+00:00",
-  "updatedAt": "2026-10-28T21:12:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A ordem desta aula no 4º ano é uma proposta da NaEscola. O complemento de Computação não está sendo apresentado como se fosse uma habilidade da BNCC de 2018.",
-  "uncertaintyNotes": ["O exemplo do livro é inventado para a aula. Não descreve um acervo real."],
+  "uncertaintyNotes": [
+    "O exemplo do livro é inventado para a aula. Não descreve um acervo real.",
+    "Nesta revisão não foi citado um vídeo de registros, porque nenhum foi conferido até o canal e o título. A fonte permanece o anexo oficial de Computação."
+  ],
   "reviews": [
     {
       "id": "review-ef04co02",
@@ -50,6 +251,13 @@
       "decision": "approve",
       "notes": "O enunciado oficial do complemento foi mantido e o componente foi rotulado como complemento de 2022. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:12:00+00:00"
+    },
+    {
+      "id": "review-registros-com-nomes-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "A segunda ferramenta compara achar um valor pela posição e pelo nome. Não foi citado vídeo novo de computação: a referência continua o anexo do Parecer CNE/CEB nº 2/2022.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

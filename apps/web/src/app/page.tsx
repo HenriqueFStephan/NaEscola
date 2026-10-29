@@ -1,47 +1,98 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { FormEvent, Suspense, useState } from "react";
 import { Remote } from "@/components/Remote";
 
-type Stage = { id: string; label: string; summary: string; status: string; grades: Array<{ publishedLessonCount: number }> };
+type Stage = {
+  id: string;
+  label: string;
+  coveragePercent: number;
+  publishedLessonCount: number;
+  topicCount: number;
+};
 
-export default function HomePage() {
-  const router = useRouter();
-  const [query, setQuery] = useState("");
+type SearchHit = {
+  topics: Array<{ topicId: string; name: string; gradeId: string; gradeLabel: string; subjectId: string; subjectName: string; bnccSkillCodes: string[] }>;
+  lessons: Array<{ slug: string; title: string }>;
+};
+
+function formatPercent(value: number) {
+  return `${value.toLocaleString("pt-BR")}% dos tópicos`;
+}
+
+function HomeBody() {
+  const params = useSearchParams();
+  const initial = params.get("q") ?? "";
+  const [query, setQuery] = useState(initial);
+  const [submitted, setSubmitted] = useState(initial.trim());
+
   function submit(event: FormEvent) {
     event.preventDefault();
-    router.push(`/busca?q=${encodeURIComponent(query)}`);
+    const next = query.trim();
+    setSubmitted(next);
+    const url = next ? `/?q=${encodeURIComponent(next)}` : "/";
+    window.history.replaceState(null, "", url);
   }
+
   return (
     <>
-      <h1>Um caminho pelo conhecimento escolar</h1>
-      <p className="lede">A NaEscola organiza etapas, anos e componentes. Nesta versão, o currículo carregado é o dos 3º, 4º, 5º e 6º anos. O que ainda não foi pesquisado aparece como planejado, sem números inventados.</p>
-      <form className="search" onSubmit={submit}>
-        <label htmlFor="q">Buscar habilidade ou aula</label>
-        <input id="q" type="search" value={query} onChange={(event) => setQuery(event.target.value)} />
-        <button type="submit">Buscar</button>
-      </form>
+      <div className="home-search">
+        <h1>Buscar Conhecimento</h1>
+        <form className="search" onSubmit={submit}>
+          <label htmlFor="q">Buscar habilidade ou aula</label>
+          <input id="q" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Habilidade, código ou aula" />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+      {submitted.length >= 2 ? (
+        <Remote<SearchHit> path={`/api/search?q=${encodeURIComponent(submitted)}`}>
+          {(data) => (
+            <section className="search-results">
+              <h2>Tópicos</h2>
+              {data.topics.length === 0 ? <p>Nenhum tópico com esse termo.</p> : (
+                <ul>
+                  {data.topics.map((topic) => (
+                    <li key={topic.topicId}>
+                      <Link href={`/anos/${topic.gradeId}/${topic.subjectId}?topico=${topic.topicId}`}>{topic.bnccSkillCodes[0]} — {topic.name}</Link>
+                      {" "}({topic.gradeLabel}, {topic.subjectName})
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <h2>Aulas publicadas</h2>
+              {data.lessons.length === 0 ? <p>Nenhuma aula publicada com esse termo.</p> : (
+                <ul>{data.lessons.map((lesson) => <li key={lesson.slug}><Link href={`/aulas/${lesson.slug}`}>{lesson.title}</Link></li>)}</ul>
+              )}
+            </section>
+          )}
+        </Remote>
+      ) : submitted.length > 0 ? <p>Digite pelo menos duas letras.</p> : null}
       <Remote<{ stages: Stage[] }> path="/api/stages">
         {(data) => (
           <div className="grid stages">
-            {data.stages.map((stage) => {
-              const published = stage.grades.reduce((sum, grade) => sum + grade.publishedLessonCount, 0);
-              return (
-                <Link key={stage.id} className={`card stage-${stage.id}`} href={`/etapas/${stage.id}`}>
-                  <h2>{stage.label}</h2>
-                  <p>{stage.summary}</p>
-                  <div className="meta">
-                    <span className="pill">{stage.status === "not_researched" || stage.status === "planned_phase_2" ? "Planejada" : "Em construção"}</span>
-                    <span className="pill">{published} aulas publicadas</span>
-                  </div>
-                </Link>
-              );
-            })}
+            {data.stages.map((stage) => (
+              <Link key={stage.id} className={`card stage-${stage.id}`} href={`/etapas/${stage.id}`}>
+                <h2>{stage.label}</h2>
+                <div className="meta">
+                  <span className="pill">{formatPercent(stage.coveragePercent)}</span>
+                  <span className="pill">{stage.publishedLessonCount} aulas publicadas</span>
+                </div>
+                <div className="meter" aria-hidden="true"><span style={{ width: `${Math.min(stage.coveragePercent, 100)}%` }} /></div>
+              </Link>
+            ))}
           </div>
         )}
       </Remote>
     </>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <Suspense fallback={<p role="status">Carregando…</p>}>
+      <HomeBody />
+    </Suspense>
   );
 }

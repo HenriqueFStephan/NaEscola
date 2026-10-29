@@ -1,0 +1,264 @@
+{
+  "id": "lesson-ef06ci01",
+  "slug": "uma-fase-ou-mais",
+  "title": "Uma fase ou mais de uma",
+  "language": "pt-BR",
+  "gradeId": "ef-6",
+  "subjectId": "ef-6-ci",
+  "unitId": "ef-6-ci-ef-comp-ci-ut-materia-e-energia",
+  "topicId": "ef-6-ci-ef06ci01",
+  "learningObjectives": [
+    "Classificar como homogênea ou heterogênea a mistura de dois ou mais materiais (água e sal, água e óleo, água e areia etc.)."
+  ],
+  "bnccSkillCodes": [
+    "EF06CI01"
+  ],
+  "prerequisiteLessonIds": [],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Mistura, nesta aula, é um sistema com dois ou mais materiais. A fase é cada porção que se distingue a olho nu. Se aparece uma porção só, a mistura é homogênea. Se aparecem duas ou mais, é heterogênea."
+    },
+    {
+      "type": "paragraph",
+      "text": "Água com sal dissolvido é o exemplo homogêneo da habilidade: depois de mexer, não se vê onde termina a água e onde está o sal. Água com óleo é heterogênea: o óleo forma outra camada. Água com areia também: a areia se vê, no fundo ou em suspensão, e não deixa de ser outra porção."
+    },
+    {
+      "type": "worked-example",
+      "title": "Três copos",
+      "prompt": "Classifique água com sal, água com óleo e água com areia.",
+      "steps": [
+        "No primeiro copo o sal dissolve. Há uma fase só. Homogênea.",
+        "No segundo, óleo e água se separam. Duas fases. Heterogênea.",
+        "No terceiro, a areia continua visível. Mais de uma fase. Heterogênea."
+      ],
+      "conclusion": "O critério desta aula é visual: quantas porções se distinguem. Não é o perigo do material nem o gosto."
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Mexer não dissolve areia",
+      "text": "Agitar água com areia deixa o copo turvo por um momento. A areia continua visível e acaba no fundo. Turvar não transforma a mistura em homogênea."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Um critério, dois resultados",
+      "description": "A coluna da esquerda é a mistura homogênea. A da direita, a heterogênea. Os exemplos são os da habilidade.",
+      "config": {
+        "leftTitle": "Homogênea",
+        "rightTitle": "Heterogênea",
+        "rows": [
+          {
+            "label": "Fases",
+            "left": "Uma porção só.",
+            "right": "Duas ou mais porções."
+          },
+          {
+            "label": "Exemplo da habilidade",
+            "left": "Água e sal dissolvido.",
+            "right": "Água e óleo, ou água e areia."
+          },
+          {
+            "label": "O que não decide",
+            "left": "Não é o copo estar limpo.",
+            "right": "Não é o material ser perigoso."
+          }
+        ]
+      }
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Classificar um copo",
+      "description": "Três passos para classificar sem pular direto ao nome.",
+      "config": {
+        "steps": [
+          {
+            "id": "materiais",
+            "title": "Nomear os materiais",
+            "text": "Diga o que foi misturado. Um material sozinho não é a mistura da habilidade."
+          },
+          {
+            "id": "fases",
+            "title": "Contar as porções visíveis",
+            "text": "Uma porção: homogênea. Duas ou mais: heterogênea."
+          },
+          {
+            "id": "nome",
+            "title": "Escrever o nome",
+            "text": "Água e sal dissolvidos: homogênea. Água e óleo, ou água e areia: heterogênea."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-sal",
+      "prompt": "Sal dissolvido num copo de água. Como a aula classifica?",
+      "choices": [
+        {
+          "id": "homo",
+          "text": "Homogênea, uma fase",
+          "explanation": "Não se distingue o sal da água."
+        },
+        {
+          "id": "hetero",
+          "text": "Heterogênea, porque são dois materiais",
+          "explanation": "Dois materiais não bastam. A classificação olha as fases."
+        },
+        {
+          "id": "nao-e",
+          "text": "Não é mistura, porque o sal sumiu",
+          "explanation": "O sal continua na água. O que mudou é que não se vê uma segunda porção."
+        }
+      ],
+      "correctChoiceId": "homo",
+      "feedbackCorrect": "Dois materiais e uma fase só: homogênea. É o exemplo da habilidade.",
+      "feedbackIncorrect": "O sal não deixou de estar na água. A segunda porção é que não aparece."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-oleo",
+      "prompt": "Óleo de cozinha sobre a água, em duas camadas. Qual é a classificação?",
+      "choices": [
+        {
+          "id": "hetero-oleo",
+          "text": "Heterogênea, duas fases",
+          "explanation": "Cada camada é uma porção visível."
+        },
+        {
+          "id": "homo-oleo",
+          "text": "Homogênea, porque os dois são líquidos",
+          "explanation": "Ser líquido não une as fases."
+        },
+        {
+          "id": "tres",
+          "text": "Três fases, porque há copo, água e óleo",
+          "explanation": "O copo não é um dos materiais misturados."
+        }
+      ],
+      "correctChoiceId": "hetero-oleo",
+      "feedbackCorrect": "Água e óleo, no exemplo da habilidade, formam mistura heterogênea.",
+      "feedbackIncorrect": "Conte as porções da mistura, não as paredes do copo. Há duas camadas."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-areia",
+      "prompt": "Alguém mexe água com areia e o copo fica turvo. A areia ainda se vê. O que vale?",
+      "choices": [
+        {
+          "id": "continua-hetero",
+          "text": "Continua heterogênea",
+          "explanation": "A areia é outra porção, mesmo em suspensão."
+        },
+        {
+          "id": "virou-homo",
+          "text": "Virou homogênea enquanto está turva",
+          "explanation": "Turvo não é uma fase só. A areia permanece visível."
+        },
+        {
+          "id": "so-agua",
+          "text": "Virou só água",
+          "explanation": "Mexer não elimina a areia."
+        }
+      ],
+      "correctChoiceId": "continua-hetero",
+      "feedbackCorrect": "Areia na água é o exemplo heterogêneo da habilidade. Agitar não dissolve.",
+      "feedbackIncorrect": "Se a areia ainda se vê, há mais de uma fase."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-criterio",
+      "prompt": "Qual critério esta aula usa para classificar?",
+      "choices": [
+        {
+          "id": "fases-visiveis",
+          "text": "O número de porções que se distinguem",
+          "explanation": "Uma: homogênea. Duas ou mais: heterogênea."
+        },
+        {
+          "id": "gosto",
+          "text": "O gosto da mistura",
+          "explanation": "O gosto não é o critério."
+        },
+        {
+          "id": "perigo",
+          "text": "O risco do material",
+          "explanation": "Perigo não classifica a mistura."
+        }
+      ],
+      "correctChoiceId": "fases-visiveis",
+      "feedbackCorrect": "Fase, aqui, é porção visualmente distinguível. É o critério do vídeo da Khan Academy Brasil e da página da Brasil Escola usados como referência.",
+      "feedbackIncorrect": "Gosto e risco ficam de fora. Conte as porções."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Mistura reúne dois ou mais materiais.",
+        "Uma fase visível: homogênea. Água e sal dissolvido.",
+        "Duas ou mais fases: heterogênea. Água e óleo, água e areia.",
+        "Agitar a areia não a torna uma solução."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "bncc-ef06ci01",
+      "title": "Base Nacional Comum Curricular — Educação Infantil e Ensino Fundamental",
+      "authorOrInstitution": "Ministério da Educação (Brasil)",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "identifier": "EF06CI01",
+      "publicationDate": "2017-12-22",
+      "sourceType": "official-curriculum",
+      "relevantClaims": [
+        "A habilidade pede classificar misturas como homogêneas ou heterogêneas e cita água e sal, água e óleo, água e areia."
+      ],
+      "reliabilityNote": "Enunciado oficial da habilidade no PDF da BNCC.",
+      "license": "Ato oficial.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "khan-misturas",
+      "title": "Misturas homogêneas e heterogêneas",
+      "authorOrInstitution": "Khan Academy Brasil",
+      "url": "https://www.youtube.com/watch?v=nCnkQdwVClw",
+      "identifier": "youtube:nCnkQdwVClw",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "O vídeo define fase como porção distinguível, trata água com sal como uma fase e água com óleo e areia como várias fases."
+      ],
+      "reliabilityNote": "Título, canal e trecho da fala conferidos em 29 out. 2026. A aula não repete a lista de metais que o vídeo associa ao aço.",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "id": "brasil-escola-misturas",
+      "title": "Mistura homogênea e heterogênea",
+      "authorOrInstitution": "Brasil Escola",
+      "url": "https://educador.brasilescola.uol.com.br/estrategias-ensino/mistura-homogenea-heterogenea.htm",
+      "sourceType": "reference-work",
+      "relevantClaims": [
+        "A página propõe classificar pelo aspecto visual e usa sal na água como homogênea e óleo com água como heterogênea."
+      ],
+      "reliabilityNote": "Texto da página aberto em 29 out. 2026. É uma segunda maneira, experimental, de mostrar o mesmo critério do vídeo.",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-10-29T16:40:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
+  "sequenceNote": "A posição desta aula é uma proposta da NaEscola. Separação de misturas e transformação química são outras habilidades do mesmo objeto.",
+  "uncertaintyNotes": [
+    "A aula não copia a composição do aço mencionada no vídeo da Khan Academy. O critério fica nos exemplos da própria habilidade."
+  ],
+  "reviews": [
+    {
+      "id": "review-ef06ci01-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Vídeo da Khan Academy Brasil e página da Brasil Escola conferidos. Exemplos limitados aos da habilidade, mais o critério visual de fase.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
+    }
+  ]
+}

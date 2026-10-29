@@ -10,19 +10,206 @@
   "learningObjectives": [
     "Identificar as características das lutas do contexto comunitário e regional e lutas de matriz indígena e africana, reconhecendo as diferenças entre lutas e brigas e entre lutas e as demais práticas corporais."
   ],
-  "bnccSkillCodes": ["EF35EF15"],
+  "bnccSkillCodes": [
+    "EF35EF15"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "callout", "tone": "objective", "title": "Habilidade oficial", "text": "EF35EF15 vale para o 3º, o 4º e o 5º anos. A aula distingue luta, briga e outras práticas corporais. Ela não ensina um golpe e não descreve um povo indígena no lugar de todos."},
-    {"type": "paragraph", "text": "Uma luta, como prática corporal, combina um jeito de usar o corpo com um acordo. Há um começo, um modo de participar e um modo de parar. As pessoas sabem, antes, que estão numa prática com regras. Uma briga não tem esse acordo. Nela, alguém tenta impor a força sem a regra compartilhada, muitas vezes para humilhar ou machucar."},
-    {"type": "paragraph", "text": "Luta também não é o mesmo que dança ou jogo. Na dança, o corpo organiza ritmo e gesto, sem um oponente a ser controlado. No jogo, pode haver disputa, mas o centro não é o enfrentamento corporal combinado da luta. Uma prática pode misturar partes desses mundos. O nome ajuda a perceber o que está em primeiro plano."},
-    {"type": "heading", "level": 2, "text": "Um exemplo documentado de matriz africana"},
-    {"type": "paragraph", "text": "A roda de capoeira foi reconhecida pelo Iphan, em 15 de julho de 2008, como Patrimônio Cultural do Brasil. No registro, a roda é o lugar em que o jogo, a ginga, os golpes, o canto, os instrumentos e os rituais do grupo acontecem juntos. Mestres e mestras ensinam pela participação, pela observação e pela oralidade. É uma prática afro-brasileira com acordo e com um espaço próprio. Não é uma briga de rua."},
-    {"type": "callout", "tone": "uncertainty", "title": "O que não está nesta aula", "text": "Há lutas e jogos de muitos povos indígenas. Esta aula não escolhe um povo para representar os outros e não descreve regras que não foram pesquisadas com uma fonte daquela comunidade. Conhecer uma luta indígena pede a voz e a fonte desse povo, não um resumo genérico."},
-    {"type": "paragraph", "text": "No lugar onde você mora, uma luta do contexto comunitário pode ser uma prática de academia, uma roda ou um jogo tradicional da região. O primeiro passo é observar se existem regras ditas em voz alta, um cumprimento, um limite de espaço e uma forma de interromper. Se isso não existe e a cena é para ferir, o nome mais honesto é briga, não luta."},
-    {"type": "visualization", "component": "comparison", "title": "Três cenas", "description": "Uma comparação entre briga, luta combinada e dança. O critério é o acordo, não a força do movimento.", "config": {"leftTitle": "Briga", "rightTitle": "Luta combinada", "rows": [{"label": "Acordo", "left": "Não há regra aceita pelos dois lados.", "right": "Há regra, espaço e um jeito de começar e de parar."}, {"label": "Objetivo", "left": "Impor força, muitas vezes para machucar ou humilhar.", "right": "Praticar um enfrentamento dentro do acordo."}, {"label": "Outra prática", "left": "Dança: o corpo organiza ritmo e gesto, sem oponente a controlar.", "right": "A luta pode ter música, como na capoeira, e ainda assim ter um jogo combinado."}]}},
-    {"type": "knowledge-check", "id": "check-luta", "prompt": "Duas crianças empurram uma à outra no pátio, sem regra e para humilhar. Como a aula nomeia essa cena?", "choices": [{"id": "briga", "text": "Briga, porque não há acordo nem modo combinado de parar"}, {"id": "luta", "text": "Luta, porque os corpos se encostam"}, {"id": "danca", "text": "Dança, porque há movimento"}], "correctChoiceId": "briga", "feedbackCorrect": "O contato do corpo não basta. Sem acordo e com intenção de humilhar, a cena é uma briga.", "feedbackIncorrect": "Movimento e contato também existem na dança e na luta. O que falta aqui é o acordo da prática corporal."},
-    {"type": "summary", "points": ["Luta corporal tem acordo, espaço e um modo de parar.", "Briga não tem esse acordo.", "Dança e jogo são outras práticas, mesmo quando o corpo se move com força.", "A roda de capoeira é um exemplo afro-brasileiro documentado pelo Iphan em 2008.", "Lutas indígenas não são resumidas aqui sem uma fonte do povo em questão."]}
+    {
+      "type": "callout",
+      "tone": "objective",
+      "title": "Habilidade oficial",
+      "text": "EF35EF15 vale para o 3º, o 4º e o 5º anos. A aula distingue luta, briga e outras práticas corporais. Ela não ensina um golpe e não descreve um povo indígena no lugar de todos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma luta, como prática corporal, combina um jeito de usar o corpo com um acordo. Há um começo, um modo de participar e um modo de parar. As pessoas sabem, antes, que estão numa prática com regras. Uma briga não tem esse acordo. Nela, alguém tenta impor a força sem a regra compartilhada, muitas vezes para humilhar ou machucar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Luta também não é o mesmo que dança ou jogo. Na dança, o corpo organiza ritmo e gesto, sem um oponente a ser controlado. No jogo, pode haver disputa, mas o centro não é o enfrentamento corporal combinado da luta. Uma prática pode misturar partes desses mundos. O nome ajuda a perceber o que está em primeiro plano."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Um exemplo documentado de matriz africana"
+    },
+    {
+      "type": "paragraph",
+      "text": "A roda de capoeira foi reconhecida pelo Iphan, em 15 de julho de 2008, como Patrimônio Cultural do Brasil. No registro, a roda é o lugar em que o jogo, a ginga, os golpes, o canto, os instrumentos e os rituais do grupo acontecem juntos. Mestres e mestras ensinam pela participação, pela observação e pela oralidade. É uma prática afro-brasileira com acordo e com um espaço próprio. Não é uma briga de rua."
+    },
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "O que não está nesta aula",
+      "text": "Há lutas e jogos de muitos povos indígenas. Esta aula não escolhe um povo para representar os outros e não descreve regras que não foram pesquisadas com uma fonte daquela comunidade. Conhecer uma luta indígena pede a voz e a fonte desse povo, não um resumo genérico."
+    },
+    {
+      "type": "paragraph",
+      "text": "No lugar onde você mora, uma luta do contexto comunitário pode ser uma prática de academia, uma roda ou um jogo tradicional da região. O primeiro passo é observar se existem regras ditas em voz alta, um cumprimento, um limite de espaço e uma forma de interromper. Se isso não existe e a cena é para ferir, o nome mais honesto é briga, não luta."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Três cenas",
+      "description": "Uma comparação entre briga, luta combinada e dança. O critério é o acordo, não a força do movimento.",
+      "config": {
+        "leftTitle": "Briga",
+        "rightTitle": "Luta combinada",
+        "rows": [
+          {
+            "label": "Acordo",
+            "left": "Não há regra aceita pelos dois lados.",
+            "right": "Há regra, espaço e um jeito de começar e de parar."
+          },
+          {
+            "label": "Objetivo",
+            "left": "Impor força, muitas vezes para machucar ou humilhar.",
+            "right": "Praticar um enfrentamento dentro do acordo."
+          },
+          {
+            "label": "Outra prática",
+            "left": "Dança: o corpo organiza ritmo e gesto, sem oponente a controlar.",
+            "right": "A luta pode ter música, como na capoeira, e ainda assim ter um jogo combinado."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-luta",
+      "prompt": "Duas crianças empurram uma à outra no pátio, sem regra e para humilhar. Como a aula nomeia essa cena?",
+      "choices": [
+        {
+          "id": "briga",
+          "text": "Briga, porque não há acordo nem modo combinado de parar",
+          "explanation": "Não há regra aceita nem um jeito combinado de parar, e a cena humilha. Isso é briga."
+        },
+        {
+          "id": "luta",
+          "text": "Luta, porque os corpos se encostam",
+          "explanation": "Corpos que se encostam não bastam. Sem acordo, não é a luta da aula."
+        },
+        {
+          "id": "danca",
+          "text": "Dança, porque há movimento",
+          "explanation": "Há movimento, mas o objetivo descrito é humilhar, não organizar um gesto."
+        }
+      ],
+      "correctChoiceId": "briga",
+      "feedbackCorrect": "O contato do corpo não basta. Sem acordo e com intenção de humilhar, a cena é uma briga.",
+      "feedbackIncorrect": "Movimento e contato também existem na dança e na luta. O que falta aqui é o acordo da prática corporal."
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "O que a luta combinada precisa ter",
+      "description": "Três condições, uma de cada vez. A ferramenta não mostra golpe.",
+      "config": {
+        "steps": [
+          {
+            "id": "acordo",
+            "title": "Acordo",
+            "text": "As duas pessoas sabem que vão praticar e aceitam a regra."
+          },
+          {
+            "id": "espaco",
+            "title": "Espaço e começo",
+            "text": "Há um lugar combinado e um jeito claro de começar."
+          },
+          {
+            "id": "parar",
+            "title": "Parar",
+            "text": "Há um sinal para interromper. Sem isso, o enfrentamento deixa de ser a prática da aula."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-capoeira",
+      "prompt": "A aula cita a roda de capoeira. O que a fonte do Iphan sustenta aqui?",
+      "choices": [
+        {
+          "id": "patrimonio",
+          "text": "A roda de capoeira foi registrada como patrimônio cultural do Brasil",
+          "explanation": "O registro é o fato citado. A aula não ensina um golpe."
+        },
+        {
+          "id": "golpe",
+          "text": "Um golpe específico que toda criança deve repetir",
+          "explanation": "A aula não descreve golpe."
+        },
+        {
+          "id": "povo-unico",
+          "text": "Que uma luta indígena vale para todos os povos indígenas",
+          "explanation": "A aula recusa esse atalho."
+        }
+      ],
+      "correctChoiceId": "patrimonio",
+      "feedbackCorrect": "O Iphan registra a roda de capoeira como patrimônio. Isso mostra uma prática combinada, com música e jogo.",
+      "feedbackIncorrect": "A fonte não autoriza ensinar um golpe nem resumir povos indígenas numa luta só."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-parar",
+      "prompt": "Duas pessoas combinaram uma prática e não há como pedir para parar. Como a aula trata essa cena?",
+      "choices": [
+        {
+          "id": "incompleta",
+          "text": "Ainda não é a luta combinada da aula, porque falta o modo de parar",
+          "explanation": "Acordo inclui começar e parar."
+        },
+        {
+          "id": "sempre-luta",
+          "text": "Já é luta, porque houve um combinado no início",
+          "explanation": "O combinado incompleto não fecha a prática."
+        },
+        {
+          "id": "danca-certa",
+          "text": "É dança, porque não houve vencedor",
+          "explanation": "A falta de um vencedor não define dança."
+        }
+      ],
+      "correctChoiceId": "incompleta",
+      "feedbackCorrect": "Sem um jeito de parar, a cena não cumpre o acordo que a aula exige.",
+      "feedbackIncorrect": "Começar combinado não basta. Dança também não se define pela ausência de vencedor."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-indigena",
+      "prompt": "O que a aula faz com lutas de matriz indígena?",
+      "choices": [
+        {
+          "id": "nao-resume",
+          "text": "Não escolhe um povo para representar os outros e não descreve regra sem fonte daquela comunidade",
+          "explanation": "Conhecer a prática pede a fonte do povo."
+        },
+        {
+          "id": "regra-geral",
+          "text": "Descreve uma regra única que serviria para todos os povos",
+          "explanation": "Essa regra não foi pesquisada e não entra na aula."
+        },
+        {
+          "id": "brincadeira",
+          "text": "Trata qualquer contato no pátio como luta indígena",
+          "explanation": "Contato sem acordo é outra cena. Não nomeia um povo."
+        }
+      ],
+      "correctChoiceId": "nao-resume",
+      "feedbackCorrect": "A habilidade inclui essas lutas. A aula não inventa o conteúdo delas.",
+      "feedbackIncorrect": "Sem a fonte da comunidade, a aula não escreve a regra nem usa o pátio como exemplo indígena."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Luta corporal tem acordo, espaço e um modo de parar.",
+        "Briga não tem esse acordo.",
+        "Dança e jogo são outras práticas, mesmo quando o corpo se move com força.",
+        "A roda de capoeira é um exemplo afro-brasileiro documentado pelo Iphan em 2008.",
+        "Lutas indígenas não são resumidas aqui sem uma fonte do povo em questão."
+      ]
+    }
   ],
   "references": [
     {
@@ -34,7 +221,9 @@
       "publicationDate": "2017-12-22",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade pede distinguir lutas do contexto comunitário e regional, lutas de matriz indígena e africana, brigas e outras práticas corporais."],
+      "relevantClaims": [
+        "A habilidade pede distinguir lutas do contexto comunitário e regional, lutas de matriz indígena e africana, brigas e outras práticas corporais."
+      ],
       "reliabilityNote": "Localizador do dataset: página PDF 231. Anos oficiais: 3, 4 e 5.",
       "license": "Ato oficial."
     },
@@ -47,17 +236,24 @@
       "publicationDate": "2008-07-15",
       "accessedAt": "2026-10-28",
       "sourceType": "government",
-      "relevantClaims": ["A Roda de Capoeira foi reconhecida como Patrimônio Cultural do Brasil em 15 de julho de 2008.", "A roda reúne jogo, ginga, golpes, canto, instrumentos e rituais, com ensino por participação e oralidade."],
+      "relevantClaims": [
+        "A Roda de Capoeira foi reconhecida como Patrimônio Cultural do Brasil em 15 de julho de 2008.",
+        "A roda reúne jogo, ginga, golpes, canto, instrumentos e rituais, com ensino por participação e oralidade."
+      ],
       "reliabilityNote": "Página do Iphan consultada em 2026-10-28, resposta HTTP 200.",
       "license": "Página institucional."
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:18:00+00:00",
-  "updatedAt": "2026-10-28T21:18:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A NaEscola oferece esta aula no 3º ano. O código oficial continua no 4º e no 5º. A ordem não é uma determinação da BNCC.",
-  "uncertaintyNotes": ["A aula não inventaria lutas indígenas específicas.", "Capoeira é um exemplo documentado, não um sinônimo de todas as práticas de matriz africana."],
+  "uncertaintyNotes": [
+    "A aula não inventaria lutas indígenas específicas.",
+    "Capoeira é um exemplo documentado, não um sinônimo de todas as práticas de matriz africana.",
+    "Nesta revisão não foi citado um vídeo de lutas. A fonte da roda de capoeira continua a página do Iphan."
+  ],
   "reviews": [
     {
       "id": "review-ef35ef15",
@@ -65,6 +261,13 @@
       "decision": "approve",
       "notes": "A afirmação sobre a capoeira está limitada ao registro do Iphan consultado. Nenhuma regra de luta indígena foi inventada. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:18:00+00:00"
+    },
+    {
+      "id": "review-lutas-nao-sao-brigas-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "Os passos do acordo ficaram numa ferramenta, sem golpe. As perguntas novas cobrem a fonte do Iphan e o limite sobre povos indígenas. Não foi citado vídeo novo.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

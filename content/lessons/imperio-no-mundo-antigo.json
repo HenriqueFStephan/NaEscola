@@ -10,20 +10,261 @@
   "learningObjectives": [
     "Conceituar “império” no mundo antigo, com vistas à análise das diferentes formas de equilíbrio e desequilíbrio entre as partes envolvidas."
   ],
-  "bnccSkillCodes": ["EF06HI13"],
+  "bnccSkillCodes": [
+    "EF06HI13"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "paragraph", "text": "No mundo antigo, um império é uma forma de poder em que uma autoridade reivindica controle sobre povos e territórios diferentes. As partes não estão em igualdade. Algumas negociam, pagam tributo, lutam ou são submetidas. Equilíbrio, aqui, não quer dizer justiça: quer dizer um arranjo que se sustenta por um tempo. Desequilíbrio é quando esse arranjo se rompe."},
-    {"type": "paragraph", "text": "Uma linha desenhada no mapa não era, na maior parte da Antiguidade, uma fronteira medida como a de um país atual. O controle podia ser uma zona de estradas, cidades, acordos e exércitos. Por isso o mapa desta aula não finge precisão."},
-    {"type": "callout", "tone": "uncertainty", "title": "Como ler o mapa", "text": "Os polígonos vêm do conjunto historical-basemaps, commit da7a4b7. Em todos os recortes usados, o campo BORDERPRECISION vale 1, que o projeto de origem trata como aproximado. Há seis anos documentados: 323 AEC, 200 AEC, 100 AEC, 100 EC, 200 EC e 400 EC. Não há desenho dos anos que ficam no meio. Uma mudança suave na tela é só a passagem de um recorte pronto para o outro. A janela mostra o Mediterrâneo; um povo pode existir e ficar de fora porque o polígono não entrou nessa janela. Os nomes sem tradução ficam na língua do conjunto de dados."},
-    {"type": "visualization", "component": "territory-map", "title": "Seis recortes do Mediterrâneo", "description": "Mapa de reconstruções territoriais aproximadas. Um controle escolhe o ano entre seis datas documentadas. As linhas são tracejadas porque as fronteiras não são precisas. O texto ao lado explica o que aquele recorte permite dizer.", "config": {"datasetId": "mediterranean-reconstructions-v1", "stateIds": ["bc323", "bc200", "bc100", "ce100", "ce200", "ce400"], "focusNames": ["Rome", "Roman Republic", "Roman Empire", "Western Roman Empire", "Eastern Roman Empire", "Empire of Alexander", "Carthage", "Carthaginian Empire", "Seleucid Kingdom", "Ptolemaic Kingdom", "Macedon and Hellenic League"], "narratives": [{"stateId": "bc323", "title": "323 AEC", "text": "O recorte mostra um território amplo chamado Império de Alexandre e uma Roma pequena. Alexandre morreu em 323 AEC, sem deixar um sucessor que sustentasse o conjunto. O poder que ele tinha reunido foi dividido entre generais. A linha não é a fronteira medida no dia da morte."}, {"stateId": "bc200", "title": "200 AEC", "text": "Neste recorte aparecem, entre outros nomes, Roma, Cartago e reinos helenísticos: Ptolemaico, Selêucida e Macedônia com a Liga Helênica. São rótulos do conjunto de dados. A lista não é o catálogo completo dos povos do Mediterrâneo."}, {"stateId": "bc100", "title": "100 AEC", "text": "O poder romano está nomeado como República Romana. Isso cabe no período anterior a 27 AEC, quando Augusto se tornou o primeiro imperador. O desenho não prova cada conquista. Ele mostra uma reconstrução com esse nome."}, {"stateId": "ce100", "title": "100 EC", "text": "O nome passa a Império Romano. Augusto já era imperador desde 27 AEC. Este recorte é do ano 100, não do ponto de maior extensão por volta de 117. Não leia a mancha colorida como a fronteira máxima."}, {"stateId": "ce200", "title": "200 EC", "text": "O nome Império Romano continua. Poucos vizinhos entraram na janela. Isso não significa que o restante do mundo político sumiu. A regra da janela deixa de fora polígonos com poucos pontos dentro do Mediterrâneo."}, {"stateId": "ce400", "title": "400 EC", "text": "Há dois nomes romanos: Império Romano do Ocidente e Império Romano do Oriente. No fim do século III, Diocleciano dividiu a administração porque o império era grande demais para um só centro. A linha deste recorte não é o ato de 285 nem uma medição de 395. No Ocidente, o poder imperial termina em 476, com a deposição de Rômulo Augústulo. O mapa não desenha 476."}]}},
-    {"type": "heading", "level": 2, "text": "O que os recortes ajudam a pensar"},
-    {"type": "paragraph", "text": "Em 323 AEC, o desenho grande não é Roma. É o conjunto associado a Alexandre, e ele não sobrevive à morte do rei como uma única autoridade. Isso é um desequilíbrio: várias partes passam a disputar o que antes aparecia reunido."},
-    {"type": "paragraph", "text": "Roma, nos recortes de 323 e de 200 AEC, ainda não é o nome que cobre o Mediterrâneo. Em 100 AEC o conjunto a chama de república. Em 100 e em 200 EC, de império. A mudança de nome acompanha uma mudança de forma de poder, mas o polígono não mostra o dia dessa mudança."},
-    {"type": "paragraph", "text": "No recorte de 400 EC, o próprio nome romano se parte em Ocidente e Oriente. As partes de um império podem deixar de caber num único centro. O fim do poder imperial no Ocidente, em 476, não é um quadro deste mapa. Está no texto para não parecer que o desenho de 400 é o último dia de Roma."},
-    {"type": "callout", "tone": "misconception", "title": "Um império não é um país pintado por inteiro", "text": "Pintar uma área com uma cor só esconde cidades que resistiram, povos aliados e zonas onde o controle era fraco. A cor mostra a reconstrução de um nome político, não o consentimento de quem vivia ali."},
-    {"type": "knowledge-check", "id": "check-recorte", "prompt": "No recorte do ano 100 EC, como o conjunto de dados nomeia o poder romano central?", "choices": [{"id": "um", "text": "Com um nome: Império Romano"}, {"id": "dois", "text": "Com dois nomes: Ocidente e Oriente"}, {"id": "nenhum", "text": "Não há nome romano nesse recorte"}], "correctChoiceId": "um", "feedbackCorrect": "Em 100 EC o rótulo é Império Romano. Os dois nomes, Ocidente e Oriente, aparecem no recorte de 400 EC, e mesmo assim a linha é aproximada.", "feedbackIncorrect": "Abra o ano 100 EC de novo. O nome único é Império Romano. Ocidente e Oriente são o recorte de 400 EC."},
-    {"type": "summary", "points": ["Império antigo: uma autoridade reivindica povos e territórios diferentes, em relações desiguais.", "As linhas do mapa são reconstruções aproximadas, não fronteiras medidas.", "Só existem seis recortes. Anos intermediários não foram desenhados.", "Alexandre morre em 323 AEC e o conjunto que levara seu nome se divide.", "Augusto torna-se imperador em 27 AEC. Diocleciano divide a administração no fim do século III. O poder imperial no Ocidente cai em 476.", "Essas datas explicam o contexto. Elas não estão desenhadas como bordas extras."]}
+    {
+      "type": "paragraph",
+      "text": "No mundo antigo, um império é uma forma de poder em que uma autoridade reivindica controle sobre povos e territórios diferentes. As partes não estão em igualdade. Algumas negociam, pagam tributo, lutam ou são submetidas. Equilíbrio, aqui, não quer dizer justiça: quer dizer um arranjo que se sustenta por um tempo. Desequilíbrio é quando esse arranjo se rompe."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma linha desenhada no mapa não era, na maior parte da Antiguidade, uma fronteira medida como a de um país atual. O controle podia ser uma zona de estradas, cidades, acordos e exércitos. Por isso o mapa desta aula não finge precisão."
+    },
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "Como ler o mapa",
+      "text": "Os polígonos vêm do conjunto historical-basemaps, commit da7a4b7. Em todos os recortes usados, o campo BORDERPRECISION vale 1, que o projeto de origem trata como aproximado. Há seis anos documentados: 323 AEC, 200 AEC, 100 AEC, 100 EC, 200 EC e 400 EC. Não há desenho dos anos que ficam no meio. Uma mudança suave na tela é só a passagem de um recorte pronto para o outro. A janela mostra o Mediterrâneo; um povo pode existir e ficar de fora porque o polígono não entrou nessa janela. Os nomes sem tradução ficam na língua do conjunto de dados."
+    },
+    {
+      "type": "visualization",
+      "component": "territory-map",
+      "title": "Seis recortes do Mediterrâneo",
+      "description": "Mapa de reconstruções territoriais aproximadas. Um controle escolhe o ano entre seis datas documentadas. As linhas são tracejadas porque as fronteiras não são precisas. O texto ao lado explica o que aquele recorte permite dizer.",
+      "config": {
+        "datasetId": "mediterranean-reconstructions-v1",
+        "stateIds": [
+          "bc323",
+          "bc200",
+          "bc100",
+          "ce100",
+          "ce200",
+          "ce400"
+        ],
+        "focusNames": [
+          "Rome",
+          "Roman Republic",
+          "Roman Empire",
+          "Western Roman Empire",
+          "Eastern Roman Empire",
+          "Empire of Alexander",
+          "Carthage",
+          "Carthaginian Empire",
+          "Seleucid Kingdom",
+          "Ptolemaic Kingdom",
+          "Macedon and Hellenic League"
+        ],
+        "narratives": [
+          {
+            "stateId": "bc323",
+            "title": "323 AEC",
+            "text": "O recorte mostra um território amplo chamado Império de Alexandre e uma Roma pequena. Alexandre morreu em 323 AEC, sem deixar um sucessor que sustentasse o conjunto. O poder que ele tinha reunido foi dividido entre generais. A linha não é a fronteira medida no dia da morte."
+          },
+          {
+            "stateId": "bc200",
+            "title": "200 AEC",
+            "text": "Neste recorte aparecem, entre outros nomes, Roma, Cartago e reinos helenísticos: Ptolemaico, Selêucida e Macedônia com a Liga Helênica. São rótulos do conjunto de dados. A lista não é o catálogo completo dos povos do Mediterrâneo."
+          },
+          {
+            "stateId": "bc100",
+            "title": "100 AEC",
+            "text": "O poder romano está nomeado como República Romana. Isso cabe no período anterior a 27 AEC, quando Augusto se tornou o primeiro imperador. O desenho não prova cada conquista. Ele mostra uma reconstrução com esse nome."
+          },
+          {
+            "stateId": "ce100",
+            "title": "100 EC",
+            "text": "O nome passa a Império Romano. Augusto já era imperador desde 27 AEC. Este recorte é do ano 100, não do ponto de maior extensão por volta de 117. Não leia a mancha colorida como a fronteira máxima."
+          },
+          {
+            "stateId": "ce200",
+            "title": "200 EC",
+            "text": "O nome Império Romano continua. Poucos vizinhos entraram na janela. Isso não significa que o restante do mundo político sumiu. A regra da janela deixa de fora polígonos com poucos pontos dentro do Mediterrâneo."
+          },
+          {
+            "stateId": "ce400",
+            "title": "400 EC",
+            "text": "Há dois nomes romanos: Império Romano do Ocidente e Império Romano do Oriente. No fim do século III, Diocleciano dividiu a administração porque o império era grande demais para um só centro. A linha deste recorte não é o ato de 285 nem uma medição de 395. No Ocidente, o poder imperial termina em 476, com a deposição de Rômulo Augústulo. O mapa não desenha 476."
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "O que os recortes ajudam a pensar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 323 AEC, o desenho grande não é Roma. É o conjunto associado a Alexandre, e ele não sobrevive à morte do rei como uma única autoridade. Isso é um desequilíbrio: várias partes passam a disputar o que antes aparecia reunido."
+    },
+    {
+      "type": "paragraph",
+      "text": "Roma, nos recortes de 323 e de 200 AEC, ainda não é o nome que cobre o Mediterrâneo. Em 100 AEC o conjunto a chama de república. Em 100 e em 200 EC, de império. A mudança de nome acompanha uma mudança de forma de poder, mas o polígono não mostra o dia dessa mudança."
+    },
+    {
+      "type": "paragraph",
+      "text": "No recorte de 400 EC, o próprio nome romano se parte em Ocidente e Oriente. As partes de um império podem deixar de caber num único centro. O fim do poder imperial no Ocidente, em 476, não é um quadro deste mapa. Está no texto para não parecer que o desenho de 400 é o último dia de Roma."
+    },
+    {
+      "type": "callout",
+      "tone": "misconception",
+      "title": "Um império não é um país pintado por inteiro",
+      "text": "Pintar uma área com uma cor só esconde cidades que resistiram, povos aliados e zonas onde o controle era fraco. A cor mostra a reconstrução de um nome político, não o consentimento de quem vivia ali."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-recorte",
+      "prompt": "No recorte do ano 100 EC, como o conjunto de dados nomeia o poder romano central?",
+      "choices": [
+        {
+          "id": "um",
+          "text": "Com um nome: Império Romano",
+          "explanation": "No recorte de 100 EC o conjunto usa um nome: Império Romano."
+        },
+        {
+          "id": "dois",
+          "text": "Com dois nomes: Ocidente e Oriente",
+          "explanation": "Ocidente e Oriente são o recorte de 400 EC, não o de 100 EC."
+        },
+        {
+          "id": "nenhum",
+          "text": "Não há nome romano nesse recorte",
+          "explanation": "O recorte de 100 EC tem nome romano. O que ele não tem é uma fronteira medida."
+        }
+      ],
+      "correctChoiceId": "um",
+      "feedbackCorrect": "Em 100 EC o rótulo é Império Romano. Os dois nomes, Ocidente e Oriente, aparecem no recorte de 400 EC, e mesmo assim a linha é aproximada.",
+      "feedbackIncorrect": "Abra o ano 100 EC de novo. O nome único é Império Romano. Ocidente e Oriente são o recorte de 400 EC."
+    },
+    {
+      "type": "visualization",
+      "component": "event-timeline",
+      "title": "Os seis recortes, um por vez",
+      "description": "Seis textos, cada um preso a um ano que existe no conjunto de dados. Não há ano intermediário.",
+      "config": {
+        "events": [
+          {
+            "id": "bc323",
+            "label": "323 AEC",
+            "text": "O recorte mostra um território amplo chamado Império de Alexandre e uma Roma pequena. Alexandre morreu em 323 AEC, sem deixar um sucessor que sustentasse o conjunto. O poder que ele tinha reunido foi dividido entre generais. A linha não é a fronteira medida no dia da morte."
+          },
+          {
+            "id": "bc200",
+            "label": "200 AEC",
+            "text": "Neste recorte aparecem, entre outros nomes, Roma, Cartago e reinos helenísticos: Ptolemaico, Selêucida e Macedônia com a Liga Helênica. São rótulos do conjunto de dados. A lista não é o catálogo completo dos povos do Mediterrâneo."
+          },
+          {
+            "id": "bc100",
+            "label": "100 AEC",
+            "text": "O poder romano está nomeado como República Romana. Isso cabe no período anterior a 27 AEC, quando Augusto se tornou o primeiro imperador. O desenho não prova cada conquista. Ele mostra uma reconstrução com esse nome."
+          },
+          {
+            "id": "ce100",
+            "label": "100 EC",
+            "text": "O nome passa a Império Romano. Augusto já era imperador desde 27 AEC. Este recorte é do ano 100, não do ponto de maior extensão por volta de 117. Não leia a mancha colorida como a fronteira máxima."
+          },
+          {
+            "id": "ce200",
+            "label": "200 EC",
+            "text": "O nome Império Romano continua. Poucos vizinhos entraram na janela. Isso não significa que o restante do mundo político sumiu. A regra da janela deixa de fora polígonos com poucos pontos dentro do Mediterrâneo."
+          },
+          {
+            "id": "ce400",
+            "label": "400 EC",
+            "text": "Há dois nomes romanos: Império Romano do Ocidente e Império Romano do Oriente. No fim do século III, Diocleciano dividiu a administração porque o império era grande demais para um só centro. A linha deste recorte não é o ato de 285 nem uma medição de 395. No Ocidente, o poder imperial termina em 476, com a deposição de Rômulo Augústulo. O mapa não desenha 476."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-meio",
+      "prompt": "Dá para parar o mapa em 50 EC?",
+      "choices": [
+        {
+          "id": "nao-para",
+          "text": "Não. 50 EC não é um dos seis recortes documentados.",
+          "explanation": "Os anos do meio não foram desenhados."
+        },
+        {
+          "id": "para-sim",
+          "text": "Sim. O controle desenha qualquer ano entre 100 AEC e 100 EC.",
+          "explanation": "O controle não interpola fronteira."
+        },
+        {
+          "id": "so-roma",
+          "text": "Sim, mas só a fronteira de Roma, que é exata",
+          "explanation": "A linha do conjunto é aproximada em todos os recortes usados."
+        }
+      ],
+      "correctChoiceId": "nao-para",
+      "feedbackCorrect": "Há seis arquivos. 50 EC não é um deles. A tela troca um recorte pronto por outro.",
+      "feedbackIncorrect": "Não existe desenho de 50 EC nesta aula. A fronteira também não é apresentada como exata."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-tracejado",
+      "prompt": "Por que a fronteira aparece tracejada?",
+      "choices": [
+        {
+          "id": "aproximada",
+          "text": "Porque o conjunto marca a linha como aproximada",
+          "explanation": "BORDERPRECISION 1, no material de origem, é aproximação. A aula não corrige o traço."
+        },
+        {
+          "id": "exata",
+          "text": "Porque a linha foi medida no terreno naquele ano",
+          "explanation": "Não há, nesta aula, um levantamento de campo."
+        },
+        {
+          "id": "inventada",
+          "text": "Porque a NaEscola desenhou uma fronteira nova entre dois anos",
+          "explanation": "A aula não cria polígono. Usa os recortes prontos."
+        }
+      ],
+      "correctChoiceId": "aproximada",
+      "feedbackCorrect": "O tracejado avisa a imprecisão do conjunto. Não é um mapa cadastral.",
+      "feedbackIncorrect": "A linha não é medição de campo nem desenho novo da NaEscola."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-cor",
+      "prompt": "Uma área pintada com uma cor só permite concluir o quê?",
+      "choices": [
+        {
+          "id": "nome-politico",
+          "text": "Que o conjunto de dados associou aquela área aproximada a um nome político",
+          "explanation": "A cor não mede consentimento."
+        },
+        {
+          "id": "todos-concordam",
+          "text": "Que todas as pessoas dali concordavam com esse poder",
+          "explanation": "A aula recusa essa leitura."
+        },
+        {
+          "id": "fronteira-atual",
+          "text": "Que a fronteira de hoje já era essa",
+          "explanation": "Os recortes não são o mapa político atual."
+        }
+      ],
+      "correctChoiceId": "nome-politico",
+      "feedbackCorrect": "A cor é o nome político reconstruído, com linha aproximada. Cidades, aliados e controle fraco podem ficar escondidos.",
+      "feedbackIncorrect": "Concordância das pessoas e fronteira de hoje não estão no polígono."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Império antigo: uma autoridade reivindica povos e territórios diferentes, em relações desiguais.",
+        "As linhas do mapa são reconstruções aproximadas, não fronteiras medidas.",
+        "Só existem seis recortes. Anos intermediários não foram desenhados.",
+        "Alexandre morre em 323 AEC e o conjunto que levara seu nome se divide.",
+        "Augusto torna-se imperador em 27 AEC. Diocleciano divide a administração no fim do século III. O poder imperial no Ocidente cai em 476.",
+        "Essas datas explicam o contexto. Elas não estão desenhadas como bordas extras."
+      ]
+    }
   ],
   "references": [
     {
@@ -35,7 +276,9 @@
       "publicationDate": "2017-12-22",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade pede conceituar império no mundo antigo e analisar equilíbrio e desequilíbrio entre as partes."],
+      "relevantClaims": [
+        "A habilidade pede conceituar império no mundo antigo e analisar equilíbrio e desequilíbrio entre as partes."
+      ],
       "reliabilityNote": "Localizador do dataset: página PDF 423.",
       "license": "Ato oficial."
     },
@@ -48,7 +291,10 @@
       "publicationDate": null,
       "accessedAt": "2026-10-28",
       "sourceType": "reference-work",
-      "relevantClaims": ["Alexandre viveu até 323 AEC.", "Morreu sem um sucessor que mantivesse o império unido, e o território foi dividido entre os generais."],
+      "relevantClaims": [
+        "Alexandre viveu até 323 AEC.",
+        "Morreu sem um sucessor que mantivesse o império unido, e o território foi dividido entre os generais."
+      ],
       "reliabilityNote": "Página consultada em 2026-10-28, resposta HTTP 200. Não usamos o mapa ilustrativo desse artigo."
     },
     {
@@ -60,7 +306,11 @@
       "publicationDate": null,
       "accessedAt": "2026-10-28",
       "sourceType": "reference-work",
-      "relevantClaims": ["Augusto foi o primeiro imperador, de 27 AEC a 14 EC.", "Diocleciano dividiu o império em Ocidente e Oriente diante do tamanho do território.", "O poder imperial no Ocidente termina em 476, com a deposição de Rômulo Augústulo."],
+      "relevantClaims": [
+        "Augusto foi o primeiro imperador, de 27 AEC a 14 EC.",
+        "Diocleciano dividiu o império em Ocidente e Oriente diante do tamanho do território.",
+        "O poder imperial no Ocidente termina em 476, com a deposição de Rômulo Augústulo."
+      ],
       "reliabilityNote": "Página consultada em 2026-10-28, resposta HTTP 200. O artigo menciona um mapa de Simeon Netchev sob licença CC BY-NC-ND; esse desenho não foi copiado."
     },
     {
@@ -72,17 +322,24 @@
       "publicationDate": "2026-09-15",
       "accessedAt": "2026-10-28",
       "sourceType": "dataset",
-      "relevantClaims": ["Nomes e polígonos dos seis recortes.", "BORDERPRECISION 1 em todos os polígonos mantidos."],
+      "relevantClaims": [
+        "Nomes e polígonos dos seis recortes.",
+        "BORDERPRECISION 1 em todos os polígonos mantidos."
+      ],
       "reliabilityNote": "Subconjunto filtrado para a janela do Mediterrâneo. Coordenadas arredondadas a três casas decimais. Nenhuma borda intermediária foi criada.",
       "license": "GPL-3.0"
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:20:00+00:00",
-  "updatedAt": "2026-10-28T21:20:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A NaEscola sugere estudar a formação da pólis grega e de Roma antes deste conceito de império. Essa sugestão não é uma ordem oficial da BNCC. A cronologia dos acontecimentos também não é a mesma coisa que a ordem das aulas.",
-  "uncertaintyNotes": ["Todas as bordas exibidas são aproximadas.", "A janela do mapa omite polígonos que não têm vértices suficientes dentro do Mediterrâneo.", "Datas históricas citadas no texto não foram transformadas em polígonos novos."],
+  "uncertaintyNotes": [
+    "Todas as bordas exibidas são aproximadas.",
+    "A janela do mapa omite polígonos que não têm vértices suficientes dentro do Mediterrâneo.",
+    "Datas históricas citadas no texto não foram transformadas em polígonos novos."
+  ],
   "reviews": [
     {
       "id": "review-ef06hi13",
@@ -90,6 +347,13 @@
       "decision": "approve",
       "notes": "Afirmações datadas foram limitadas às duas páginas da World History Encyclopedia consultadas. Os polígonos não foram alterados além do filtro e do arredondamento documentados. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:20:00+00:00"
+    },
+    {
+      "id": "review-imperio-no-mundo-antigo-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "A linha do tempo repete os seis textos já ligados aos arquivos do mapa. Nenhuma fronteira nova foi desenhada. O componente do mapa passou a trocar recortes inteiros, sem ano intermediário.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

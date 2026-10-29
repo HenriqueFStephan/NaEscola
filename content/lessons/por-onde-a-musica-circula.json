@@ -10,17 +10,201 @@
   "learningObjectives": [
     "Explorar e analisar, criticamente, diferentes meios e equipamentos culturais de circulação da música e do conhecimento musical."
   ],
-  "bnccSkillCodes": ["EF69AR17"],
+  "bnccSkillCodes": [
+    "EF69AR17"
+  ],
   "prerequisiteLessonIds": [],
   "blocks": [
-    {"type": "callout", "tone": "objective", "title": "Recorte oficial e recorte desta aula", "text": "EF69AR17 vale, no documento, para o 6º, o 7º, o 8º e o 9º anos. Esta aula é uma entrada no 6º ano. Ela não esgota o código."},
-    {"type": "paragraph", "text": "Uma música não fica só na cabeça de quem a fez. Ela circula: alguém canta ao vivo, uma rádio toca uma gravação, um arquivo digital é copiado, uma festa de bairro repete um repertório. O meio muda o que o ouvinte pode fazer com a música."},
-    {"type": "paragraph", "text": "Analisar o meio, nesta aula, é responder a quatro perguntas sem transformar a resposta em ranking. Quem escolheu o que será ouvido? Dá para ouvir de novo do mesmo jeito? Alguém paga, e para quem? Quem está no mesmo lugar de quem toca?"},
-    {"type": "visualization", "component": "state-steps", "title": "Quatro meios, quatro perguntas", "description": "Quatro cartões sobre circulação da música. Cada cartão descreve um meio e o que muda para quem ouve. Não há números de audiência.", "config": {"steps": [{"id": "ao-vivo", "title": "Apresentação ao vivo", "text": "Quem canta e quem ouve dividem o mesmo tempo. Um erro ou um improviso acontece uma vez. O equipamento pode ser a voz e um instrumento, ou também microfone e caixa de som."}, {"id": "radio", "title": "Rádio", "text": "A escolha do que toca passa por quem programa a estação. Quem ouve pode estar longe e não vê os músicos. Ouvir de novo depende de a emissora repetir ou de a pessoa ter gravado."}, {"id": "arquivo", "title": "Arquivo gravado", "text": "A gravação pode ser repetida. O ouvinte escolhe o momento, mas não o instante em que a música foi tocada. O equipamento é o que guarda e o que reproduz o arquivo."}, {"id": "festa", "title": "Festa da comunidade", "text": "O repertório costuma ser conhecido do grupo. A circulação acontece no encontro, não só num aparelho. Quem conduz a música pode ser alguém da própria comunidade."}]}},
-    {"type": "paragraph", "text": "Nenhum desses meios é, por si, mais musical. Um arquivo deixa repetir um detalhe para estudar. Uma roda ao vivo deixa responder na hora. A crítica começa quando percebemos quem decide e o que fica de fora."},
-    {"type": "callout", "tone": "uncertainty", "title": "O que esta aula não mede", "text": "Não há aqui quantas pessoas ouvem rádio ou usam um aplicativo. Esses números mudam e pediriam uma pesquisa citada. A aula compara possibilidades, não audiências."},
-    {"type": "knowledge-check", "id": "check-meio", "prompt": "O que uma gravação permite e uma apresentação ao vivo, do mesmo jeito, não garante?", "choices": [{"id": "repetir", "text": "Ouvir de novo exatamente aquela execução, em outro momento"}, {"id": "gente", "text": "Ter sempre mais ouvintes do que o show"}, {"id": "melhor", "text": "Ser automaticamente uma música melhor"}], "correctChoiceId": "repetir", "feedbackCorrect": "A gravação fixa uma execução e pode ser reproduzida. O ao vivo acontece naquele tempo.", "feedbackIncorrect": "Quantidade de público e qualidade musical não saem do tipo de meio. A diferença segura, aqui, é poder repetir aquela execução."},
-    {"type": "summary", "points": ["Música circula por pessoas, aparelhos e encontros.", "O meio muda a escolha, a repetição e a distância entre quem toca e quem ouve.", "Analisar não é eleger um meio vencedor.", "O código EF69AR17 continua oficialmente até o 9º ano."]}
+    {
+      "type": "callout",
+      "tone": "objective",
+      "title": "Recorte oficial e recorte desta aula",
+      "text": "EF69AR17 vale, no documento, para o 6º, o 7º, o 8º e o 9º anos. Esta aula é uma entrada no 6º ano. Ela não esgota o código."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma música não fica só na cabeça de quem a fez. Ela circula: alguém canta ao vivo, uma rádio toca uma gravação, um arquivo digital é copiado, uma festa de bairro repete um repertório. O meio muda o que o ouvinte pode fazer com a música."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analisar o meio, nesta aula, é responder a quatro perguntas sem transformar a resposta em ranking. Quem escolheu o que será ouvido? Dá para ouvir de novo do mesmo jeito? Alguém paga, e para quem? Quem está no mesmo lugar de quem toca?"
+    },
+    {
+      "type": "visualization",
+      "component": "state-steps",
+      "title": "Quatro meios, quatro perguntas",
+      "description": "Quatro cartões sobre circulação da música. Cada cartão descreve um meio e o que muda para quem ouve. Não há números de audiência.",
+      "config": {
+        "steps": [
+          {
+            "id": "ao-vivo",
+            "title": "Apresentação ao vivo",
+            "text": "Quem canta e quem ouve dividem o mesmo tempo. Um erro ou um improviso acontece uma vez. O equipamento pode ser a voz e um instrumento, ou também microfone e caixa de som."
+          },
+          {
+            "id": "radio",
+            "title": "Rádio",
+            "text": "A escolha do que toca passa por quem programa a estação. Quem ouve pode estar longe e não vê os músicos. Ouvir de novo depende de a emissora repetir ou de a pessoa ter gravado."
+          },
+          {
+            "id": "arquivo",
+            "title": "Arquivo gravado",
+            "text": "A gravação pode ser repetida. O ouvinte escolhe o momento, mas não o instante em que a música foi tocada. O equipamento é o que guarda e o que reproduz o arquivo."
+          },
+          {
+            "id": "festa",
+            "title": "Festa da comunidade",
+            "text": "O repertório costuma ser conhecido do grupo. A circulação acontece no encontro, não só num aparelho. Quem conduz a música pode ser alguém da própria comunidade."
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Nenhum desses meios é, por si, mais musical. Um arquivo deixa repetir um detalhe para estudar. Uma roda ao vivo deixa responder na hora. A crítica começa quando percebemos quem decide e o que fica de fora."
+    },
+    {
+      "type": "callout",
+      "tone": "uncertainty",
+      "title": "O que esta aula não mede",
+      "text": "Não há aqui quantas pessoas ouvem rádio ou usam um aplicativo. Esses números mudam e pediriam uma pesquisa citada. A aula compara possibilidades, não audiências."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-meio",
+      "prompt": "O que uma gravação permite e uma apresentação ao vivo, do mesmo jeito, não garante?",
+      "choices": [
+        {
+          "id": "repetir",
+          "text": "Ouvir de novo exatamente aquela execução, em outro momento",
+          "explanation": "A gravação guarda uma execução e permite ouvi-la de novo. O ao vivo acontece naquele tempo."
+        },
+        {
+          "id": "gente",
+          "text": "Ter sempre mais ouvintes do que o show",
+          "explanation": "O meio não informa o tamanho do público."
+        },
+        {
+          "id": "melhor",
+          "text": "Ser automaticamente uma música melhor",
+          "explanation": "Gravar não torna a música melhor. Muda o que se pode repetir."
+        }
+      ],
+      "correctChoiceId": "repetir",
+      "feedbackCorrect": "A gravação fixa uma execução e pode ser reproduzida. O ao vivo acontece naquele tempo.",
+      "feedbackIncorrect": "Quantidade de público e qualidade musical não saem do tipo de meio. A diferença segura, aqui, é poder repetir aquela execução."
+    },
+    {
+      "type": "visualization",
+      "component": "comparison",
+      "title": "Ao vivo e gravação",
+      "description": "Duas colunas comparam o que muda para quem ouve. Não há número de audiência.",
+      "config": {
+        "leftTitle": "Apresentação ao vivo",
+        "rightTitle": "Arquivo gravado",
+        "rows": [
+          {
+            "label": "Tempo",
+            "left": "Acontece uma vez, com quem está ali.",
+            "right": "Pode ser ouvido em outro momento."
+          },
+          {
+            "label": "Repetir a mesma execução",
+            "left": "Não fica garantido.",
+            "right": "A execução gravada pode recomeçar."
+          },
+          {
+            "label": "O que isto não diz",
+            "left": "Não diz se a música é melhor.",
+            "right": "Não diz quantas pessoas ouvem."
+          }
+        ]
+      }
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-radio",
+      "prompt": "Na aula, o que a rádio muda em relação ao ao vivo?",
+      "choices": [
+        {
+          "id": "longe",
+          "text": "Quem ouve pode estar longe e não vê os músicos",
+          "explanation": "A escolha do que toca também passa por quem programa a estação."
+        },
+        {
+          "id": "melhor-sempre",
+          "text": "A música fica sempre melhor do que no palco",
+          "explanation": "O meio não decide qualidade."
+        },
+        {
+          "id": "sem-equipamento",
+          "text": "A rádio não usa equipamento nenhum",
+          "explanation": "Microfone, transmissão e o aparelho de quem ouve são equipamentos."
+        }
+      ],
+      "correctChoiceId": "longe",
+      "feedbackCorrect": "A distância e a mediação de quem programa são o ponto seguro. Qualidade e audiência não saem do meio.",
+      "feedbackIncorrect": "Não conclua qualidade nem ausência de equipamento. O que a aula afirma é a distância e a programação."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-festa",
+      "prompt": "Uma festa da comunidade pode ter música ao vivo. O que a aula pede para observar?",
+      "choices": [
+        {
+          "id": "pratica",
+          "text": "Quem toca, quem ouve e que equipamento entra",
+          "explanation": "O meio inclui as pessoas e os objetos, não só um aplicativo."
+        },
+        {
+          "id": "ranking",
+          "text": "Em que lugar a música está num ranking",
+          "explanation": "A aula não traz ranking."
+        },
+        {
+          "id": "preco",
+          "text": "Quanto custou o ingresso, mesmo sem essa informação",
+          "explanation": "Sem uma fonte, a aula não inventa preço."
+        }
+      ],
+      "correctChoiceId": "pratica",
+      "feedbackCorrect": "A habilidade fala de contextos e práticas. A festa é um contexto, não uma tabela de números.",
+      "feedbackIncorrect": "Ranking e preço não estão nesta aula. Observe a prática: gente, tempo e equipamento."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "check-codigo",
+      "prompt": "EF69AR17 nesta aula cobre o quê?",
+      "choices": [
+        {
+          "id": "entrada",
+          "text": "Uma entrada no 6º ano. O código também vale para o 7º, o 8º e o 9º.",
+          "explanation": "O documento é amplo. A aula não esgota o código."
+        },
+        {
+          "id": "so-sexto",
+          "text": "Somente o 6º ano, porque a aula foi escrita para ele",
+          "explanation": "O código oficial alcança os quatro anos. A aula é um recorte."
+        },
+        {
+          "id": "partitura",
+          "text": "A escrita de uma partitura completa",
+          "explanation": "A aula não ensina notação musical."
+        }
+      ],
+      "correctChoiceId": "entrada",
+      "feedbackCorrect": "A aula é uma entrada. O código oficial continua valendo para os quatro anos.",
+      "feedbackIncorrect": "Não reduza o código oficial ao recorte desta aula, nem troque o tema por partitura."
+    },
+    {
+      "type": "summary",
+      "points": [
+        "Música circula por pessoas, aparelhos e encontros.",
+        "O meio muda a escolha, a repetição e a distância entre quem toca e quem ouve.",
+        "Analisar não é eleger um meio vencedor.",
+        "O código EF69AR17 continua oficialmente até o 9º ano."
+      ]
+    }
   ],
   "references": [
     {
@@ -32,17 +216,22 @@
       "publicationDate": "2017-12-22",
       "accessedAt": "2026-10-28",
       "sourceType": "official-curriculum",
-      "relevantClaims": ["A habilidade pede análise de meios e equipamentos de circulação da música e vale para os anos 6 a 9."],
+      "relevantClaims": [
+        "A habilidade pede análise de meios e equipamentos de circulação da música e vale para os anos 6 a 9."
+      ],
       "reliabilityNote": "Localizador do dataset: página PDF 211.",
       "license": "Ato oficial."
     }
   ],
   "status": "published",
-  "version": 1,
+  "version": 2,
   "createdAt": "2026-10-28T21:16:00+00:00",
-  "updatedAt": "2026-10-28T21:16:00+00:00",
+  "updatedAt": "2026-10-29T16:40:00+00:00",
   "sequenceNote": "A NaEscola coloca esta aula no 6º ano porque o código oficial inclui esse ano. Isso não cria uma ordem obrigatória dentro de Arte.",
-  "uncertaintyNotes": ["Os quatro meios são categorias de trabalho da aula, não uma classificação oficial da BNCC."],
+  "uncertaintyNotes": [
+    "Os quatro meios são categorias de trabalho da aula, não uma classificação oficial da BNCC.",
+    "Nesta revisão não foi citado um vídeo sobre circulação da música, porque nenhum foi conferido até o canal e o título."
+  ],
   "reviews": [
     {
       "id": "review-ef69ar17",
@@ -50,6 +239,13 @@
       "decision": "approve",
       "notes": "Nenhuma estatística de audiência foi inventada. O enunciado oficial foi preservado. Não houve revisão por um segundo agente autônomo.",
       "createdAt": "2026-10-28T21:16:00+00:00"
+    },
+    {
+      "id": "review-por-onde-a-musica-circula-qualidade",
+      "method": "editorial-review-of-portuguese-checks-visual-modes-and-cited-sources",
+      "decision": "approve",
+      "notes": "A comparação ao vivo/gravação ficou numa ferramenta própria, ao lado dos quatro cartões. Não foi citado vídeo novo: nenhum foi conferido para circulação da música nesta revisão.",
+      "createdAt": "2026-10-29T16:40:00+00:00"
     }
   ]
 }

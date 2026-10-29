@@ -4,7 +4,15 @@ import json
 
 from fastapi import APIRouter, Header, HTTPException, Request
 
-from app.services.reading import STAGES, grade_summary, published_by_topic, search, subject_stats, topic_payload
+from app.services.reading import (
+    STAGES,
+    aggregate_coverage,
+    grade_summary,
+    published_by_topic,
+    search,
+    subject_stats,
+    topic_payload,
+)
 
 router = APIRouter(prefix="/api")
 
@@ -41,11 +49,12 @@ def stages(request: Request) -> dict:
                         "id": summary["id"],
                         "label": summary["label"],
                         "status": summary["status"],
+                        "topicCount": summary["topicCount"],
                         "publishedLessonCount": summary["publishedLessonCount"],
                         "coveragePercent": summary["coveragePercent"],
                     }
                 )
-        payload.append({**stage, "grades": grade_cards})
+        payload.append({**stage, **aggregate_coverage(grade_cards), "grades": grade_cards})
     return {"stages": payload}
 
 
@@ -57,7 +66,8 @@ def stage_detail(stage_id: str, request: Request) -> dict:
         if stage["id"] != stage_id:
             continue
         grades = [grade_summary(catalog, lessons, grade_id) for grade_id in stage["gradeIds"]]
-        return {**stage, "grades": grades}
+        grades = [grade for grade in grades if grade is not None]
+        return {**stage, **aggregate_coverage(grades), "grades": grades}
     raise HTTPException(status_code=404, detail="Etapa não encontrada.")
 
 

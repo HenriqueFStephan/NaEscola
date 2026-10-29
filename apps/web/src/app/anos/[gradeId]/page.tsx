@@ -14,8 +14,7 @@ export default function GradePage() {
       {(grade) => (
         <>
           <h1>{grade.label}</h1>
-          <p>{grade.description}</p>
-          <p>{grade.publishedLessonCount} aulas publicadas. Cobertura dos tópicos carregados: {grade.coveragePercent}%.</p>
+          <p>{grade.publishedLessonCount} aulas publicadas. Cobertura dos tópicos carregados: {grade.coveragePercent.toLocaleString("pt-BR")}%.</p>
           {grade.status !== "curriculum_loaded" ? <p>Este ano está na estrutura da educação básica, mas o currículo ainda não foi montado.</p> : null}
           {grade.omissions.map((item) => <p key={item.component}><strong>{item.component}.</strong> {item.reason}</p>)}
           <div className="grid cards">
@@ -27,7 +26,7 @@ export default function GradePage() {
                   <span className="pill">{subject.officialStatus === "bncc-2018" ? "BNCC 2018" : "Complemento 2022"}</span>
                   <span className="pill">{subject.topicCount} habilidades</span>
                   <span className="pill">{subject.publishedLessonCount} aulas</span>
-                  <span className="pill">{subject.coveragePercent}%</span>
+                  <span className="pill">{subject.coveragePercent.toLocaleString("pt-BR")}% dos tópicos</span>
                 </div>
                 <div className="meter" aria-hidden="true"><span style={{ width: `${subject.coveragePercent}%` }} /></div>
               </Link>
